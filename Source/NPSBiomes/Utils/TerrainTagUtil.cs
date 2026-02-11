@@ -69,7 +69,7 @@ public static class TerrainTagUtil
                     }
                     else {
                         Log.Error(
-                            $"NPS: Terrain {terrain} has an extension indacting {weatherExtension.freezeTerrain} is a freeze terrain. But it is not temporary. ");
+                            $"NPSBiomes: Terrain {terrain} has an extension indacting {weatherExtension.freezeTerrain} is a freeze terrain. But it is not temporary. ");
                     }
                 }
 

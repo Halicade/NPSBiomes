@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
     <!-- @formatter:off -->
-    <NPS_WeatherEffects>NPS: Weather Effects</NPS_WeatherEffects>
+    <NPS_WeatherEffects>NPSBiomes: Weather Effects</NPS_WeatherEffects>
 
     <!--General text-->
     <TKKN_NPS_LavaHasEruptedNearby>Lava Eruption!</TKKN_NPS_LavaHasEruptedNearby>

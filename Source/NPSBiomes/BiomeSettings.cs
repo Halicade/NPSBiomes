@@ -34,7 +34,7 @@ public class BiomeSettings : ModSettings
             case  "LavaReplace":
                 return lavaReplace;
             default:
-                Log.Error($"NPS: Error trying to perform operation. Could not find setting named {settingName}");
+                Log.Error($"NPSBiomes: Error trying to perform operation. Could not find setting named {settingName}");
                 return false;
         }
     }

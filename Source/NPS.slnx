@@ -1,4 +1,4 @@
 <Solution>
   <Folder Name="/.github/" />
-  <Project Path="NPS/NPS.csproj" />
+  <Project Path="NPSBiomes/NPSBiomes.csproj" />
 </Solution>

@@ -87,7 +87,7 @@ public class BiomeSeasonalSettings : DefModExtension
                     case Quadrum.Undefined:
                     default:
                         Log.ErrorOnce(
-                            $"NPS: Could not find an appropriate weather settings for biome: {map.Biome} from mod: {map.Biome.modContentPack?.Name} Season: {season} Quadrum: {quadrum}",
+                            $"NPSBiomes: Could not find an appropriate weather settings for biome: {map.Biome} from mod: {map.Biome.modContentPack?.Name} Season: {season} Quadrum: {quadrum}",
                             map.Biome.GetHashCode());
                         return;
                 }
@@ -167,7 +167,7 @@ public class BiomeSeasonalSettings : DefModExtension
                     case Quadrum.Undefined:
                     default:
                         Log.ErrorOnce(
-                            $"NPS: Could not find an appropriate weather settings for biome: {map.Biome} from mod: {map.Biome.modContentPack?.Name} Season: {season} Quadrum: {quadrum}",
+                            $"NPSBiomes: Could not find an appropriate weather settings for biome: {map.Biome} from mod: {map.Biome.modContentPack?.Name} Season: {season} Quadrum: {quadrum}",
                             map.Biome.GetHashCode());
                         return;
                 }
@@ -229,7 +229,7 @@ public class BiomeSeasonalSettings : DefModExtension
                     case Quadrum.Undefined:
                     default:
                         Log.ErrorOnce(
-                            $"NPS: Could not find an appropriate weather settings for biome: {map.Biome} from mod: {map.Biome.modContentPack?.Name} Season: {season} Quadrum: {quadrum}",
+                            $"NPSBiomes: Could not find an appropriate weather settings for biome: {map.Biome} from mod: {map.Biome.modContentPack?.Name} Season: {season} Quadrum: {quadrum}",
                             map.Biome.GetHashCode());
                         return;
                 }

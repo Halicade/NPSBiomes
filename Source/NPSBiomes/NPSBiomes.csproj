@@ -8,6 +8,8 @@
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
     <FileVersion>1.6.6</FileVersion>
+    <AssemblyName>NPSBiomes</AssemblyName>
+    <RootNamespace>NPSBIomes</RootNamespace>
   </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
         <DebugType>embedded</DebugType>
