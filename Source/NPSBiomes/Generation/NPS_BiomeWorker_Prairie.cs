@@ -1,7 +1,7 @@
 ﻿using RimWorld;
 using RimWorld.Planet;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 public class NPS_BiomeWorker_Prairie : BiomeWorker
 {

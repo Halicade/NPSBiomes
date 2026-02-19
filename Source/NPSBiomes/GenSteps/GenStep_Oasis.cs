@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Verse;
 
-namespace TKKN_NPS.GenSteps;
+namespace NPSBiomes.GenSteps;
 
 public class GenStep_Oasis : GenStep
 {

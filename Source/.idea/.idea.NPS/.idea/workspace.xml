@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79a7814d-edb2-414d-bab1-3ce4f9494fe6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.NPS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Assemblies/NPS.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/DLC/Biotech/Patches/ImmunityGenes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/DLC/Odyssey/Patches/BiomeExtensions/GlacialPlainExtension.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/DLC/Odyssey/Patches/BiomeExtensions/GlowforestExtension.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/DLC/Odyssey/Patches/BiomeExtensions/GrasslandsExtension.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/DLC/Odyssey/Patches/BiomeExtensions/LavaFieldExtension.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/DLC/Odyssey/Patches/BiomeExtensions/ScarlandsExtension.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/DLC/Odyssey/Patches/OdysseyDiseasePatches.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/DLC/Odyssey/Patches/OdysseyTerrainPatches.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_Grasslands.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_Grasslands.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_Oasis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_Oasis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_Redwood.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_Redwood.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_SaltDesert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_SaltDesert.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_Savanna.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_Savanna.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_VolcanicFlow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Biomes/Biomes_VolcanicFlow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Biomes/Unimplemented.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Biomes/Unimplemented.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/DesignatorDropdownGroupDef.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Filth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/GameConditions_Seasonal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Hediffs/Hediffs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Hediffs/Hediffs_Disease.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Hediffs/Hediffs_RelaxInSprings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Incidents/Incedents_Map_Disease.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Incidents/Incedents_Map_Seasonal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Incidents/Incidents_Map_Threats.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/MapGen/GenSteps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/MapGen/GenSteps.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/MapGen/TileMutators.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Mote_Visual.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Pawns/Bodies_Animals.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Pawns/Bodies_Animals.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Pawns/Races_Animals.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Pawns/Races_Animals.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/RecipeDefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/RecipeDefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Recreation/Jobs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Recreation/JoyGivers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Tales_Job_Seasonal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Terrains.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Terrains.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/ThingSetMakerDefs/TidalLoot.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Things/Buildings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Things/Buildings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Things/Crystals.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Things/Crystals.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Things/Plants_Arid_Biome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Things/Plants_Arid_Biome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Things/Plants_Grassland_Biomes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Things/Plants_Grassland_Biomes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Things/Plants_Misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Things/Plants_Misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Things/Plants_Redwood_Biome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Things/Plants_Redwood_Biome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Things/ThingDefs_Resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Defs/Things/ThingDefs_Resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/Thoughts_Seasonal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Defs/WeatherDef/Weathers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Mods/LandmarksExpanded/Patches/VELM_SaltTerrain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Mods/LandmarksExpanded/Patches/VELM_SaltTerrain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/BaseGameAnimalPatches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Patches/BaseGameAnimalPatches.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/BaseGameBiomePatches.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/BaseGamePlants.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/CaravanIncidents.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Patches/CaravanIncidents.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/CustomPatches/DandelionsPatches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Patches/CustomPatches/DandelionsPatches.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/CustomPatches/GrassTextures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/CustomPatches/VegetablePatches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Patches/CustomPatches/VegetablePatches.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/DiseasePatches.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/PenoxycylinePatch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/biome-patches-mod-extension.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/biome-patches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Patches/biome-patches.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/incident-patches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Patches/incident-patches.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/mods-vegetable-garden.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.6/Patches/mods-vegetable-garden.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/plant-patches.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/terrain-patches.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6/Patches/terrain-water-patches.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../About/About.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../About/About.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../About/ModsMayRequired.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../About/ModsMayRequired.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Languages/English/Keyed/WeatherEffectKeys.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPS.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes.slnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/BiomeSeasonalSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/BiomeSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/BiomeSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/BiomesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/BiomesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/CustomPatchOps/Toggleables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/CustomPatchOps/Toggleables.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/DefOfs/BiomeDefOf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/DefOfs/BiomeDefOf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/DefOfs/HediffDefOf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/DefOfs/PawnDefOf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/DefOfs/TerrainDefOf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/DefOfs/TerrainDefOf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/DefOfs/ThingDefOf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/DefOfs/ThingDefOf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/DefOfs/ThingSetMakerDefOf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/DefOfs/TileMutatorDefOf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/EffectSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Elements/Building_SteamVent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Elements/Building_SteamVent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Elements/DustDevil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Elements/PlaceWorker_OnSteamVent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Elements/PlaceWorker_OnSteamVent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/FloodType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/FloodType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Frost/FrostCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Frost/FrostGrid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Frost/FrostUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Frost/MatBases.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Frost/SectionLayer_Frost.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GameCondition_Drought.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GameCondition_Superbloom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GameCondition_TKKNBlooms.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GameCondition_WildFlowerBloom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GenSteps/GenStep_LavaPathing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/GenSteps/GenStep_LavaPathing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GenSteps/GenStep_Oasis.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/GenSteps/GenStep_Oasis.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GenSteps/GenStep_PostLava.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/GenSteps/GenStep_PostLava.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GenSteps/GenStep_PostOasis.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/GenSteps/GenStep_PostOasis.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GenSteps/GenStep_PostSpring.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GenSteps/GenStep_SpringTerrain.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/GenSteps/ValidOasisSoils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Desert.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Desert.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_LavaFields.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_LavaFields.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Oasis.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Oasis.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Prairie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Prairie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Redwoods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Redwoods.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Savanna.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Savanna.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Sequioa.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Generation/NPS_BiomeWorker_Sequioa.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Generation/SectionLayerGeometryMaker_Solid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/BiomeDef_CommonalityOfDisease.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/BiomeWorker_AridShrubland_GetScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/BiomeWorker_AridShrubland_GetScore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/BiomeWorker_TemperateForest_GetScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/BiomeWorker_TemperateForest_GetScore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/CanEverPlantAt_PlantUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/CellFinder_TryRandomClosewalkCellNear.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/GenSpawn_Spawn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/GenTemperature_ComfortableTemperatureRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/Graphic_Shadow_DrawWorker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/HarmonyWeatherEffects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/JobGiver_SeekSafeTemperature_TryGiveJob.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/MouseoverReadout_MouseoverReadoutOnGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/PawnRenderNodeWorker_Body_CanDrawNow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/Pawn_PathFollower_StartPath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/Pawn_SpawnSetup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/PlantProperties_PostLoadSpecial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/Plant_Graphic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/Reachability_CanReach.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/Thing_AmbientTemperature.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/HarmonyPatches/WeatherDecider_CurrentWeatherCommonality.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Hediffs/Hediff_Drowning.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Hediffs/Hediff_Wetness.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/IncidentWorker/IncidentWorker_Bloom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/IncidentWorker/IncidentWorker_Drought.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/IncidentWorker/IncidentWorker_Dustdevil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/IncidentWorker/IncidentWorker_LavaFlow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/IncidentWorker/IncidentWorker_Superbloom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/IncidentWorker/IncidentWorker_TKKN_Weather.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/IncidentWorker/IncidentWorker_WildFlowerBloom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/IncidentWorker/TKKN_IncidentCommonalityRecord.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/IncidentWorker/TKKN_SpecialHerdMigration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/JobGivers/JobDriver_RelaxInSpring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/JobGivers/JobDriver_RelaxInSpring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/JobGivers/JobGiver_Dryoff.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/JobGivers/JobGiver_GoSwimming.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/JoyGivers/JoyGiver_RelaxInSpring.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/CompDeadlySalt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/CompDeadlySalt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/CompProperties_DeadlySalt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/CompProperties_DeadlySalt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/CompProperties_GraphicRotator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/CompProperties_GraphicRotatorCon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/CompProperties_Heater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/CompProperties_Heater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/CompProperties_HeaterCon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/CompProperties_HeaterCon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/Comp_GraphicRotator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/Comp_Heater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Pawn Stuff/Comp_Heater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Save Classes/cellData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Save Classes/springData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/TerrainType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/TerrainType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/TerrainWeatherReactions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/ThingWeatherReaction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Utils/BiomeUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Utils/PlantReactionUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Utils/TerrainTagUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPSBiomes/Utils/TerrainTagUtil.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Utils/ThingUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/Watcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/WeatherEffectsController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/WeatherOverlay_DustStorm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/WeatherOverlay_DustStormHeavy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/WeatherOverlay_LavaSmoke.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/WeatherOverlay_ThickFog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPSBiomes/pawnChecks.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original_mod.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Halicade&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Halicade/NPSBiomes.git&quot;,
+    &quot;accountId&quot;: &quot;9754abc8-7194-41c4-bdad-ed43d9fc23fa&quot;
+  }
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="39XfANuxrt29594f5EVWvHtrdhp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79a7814d-edb2-414d-bab1-3ce4f9494fe6" name="Changes" comment="" />
+      <created>1770847192434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770847192434</updated>
+      <workItem from="1770847195568" duration="9149000" />
+      <workItem from="1771456795372" duration="185000" />
+      <workItem from="1771457057494" duration="2610000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial upload test">
+      <option name="closed" value="true" />
+      <created>1770848078597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770848078597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../../../workshop/content" />
+    </ignored-roots>
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial upload test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial upload test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

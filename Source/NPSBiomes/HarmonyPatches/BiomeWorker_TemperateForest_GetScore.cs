@@ -2,7 +2,7 @@
 using RimWorld;
 using RimWorld.Planet;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 //[HarmonyPatch(typeof(BiomeWorker_TemperateForest), nameof(BiomeWorker_TemperateForest.GetScore))]
 public static class BiomeWorker_TemperateForest_GetScore

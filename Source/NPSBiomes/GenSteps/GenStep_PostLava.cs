@@ -1,6 +1,6 @@
 ﻿using Verse;
 
-namespace TKKN_NPS.GenSteps;
+namespace NPSBiomes.GenSteps;
 
 public class GenStep_PostLava : GenStep
 {

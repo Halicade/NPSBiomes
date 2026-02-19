@@ -6,9 +6,10 @@
     <GenStepDef>
         <defName>NPS_Oasis</defName>
         <order>355</order>
-        <genStep Class="TKKN_NPS.GenSteps.GenStep_Oasis">
-            <deepWaterTerrain>TKKN_ColdSpringsWaterDeep</deepWaterTerrain>
-            <waterTerrain>TKKN_ColdSpringsWater</waterTerrain>
+        <genStep Class="NPSBiomes.GenSteps.GenStep_Oasis">
+            <!--These get changed if NPS Wether effects is active-->
+            <deepWaterTerrain>WaterShallow</deepWaterTerrain>
+            <waterTerrain>WaterShallow</waterTerrain>
             <soilTerrain>Riverbank</soilTerrain>
         </genStep>
     </GenStepDef>
@@ -17,43 +18,16 @@
     <GenStepDef>
         <defName>NPS_PostOasisPlants</defName>
         <order>907</order>
-        <genStep Class="TKKN_NPS.GenSteps.GenStep_PostOasis">
+        <genStep Class="NPSBiomes.GenSteps.GenStep_PostOasis">
             <soilTerrain>Riverbank</soilTerrain>
         </genStep>
     </GenStepDef>
-
-
-    <GenStepDef>
-        <defName>NPS_HotSpring</defName>
-        <order>224</order>
-        <genStep Class="TKKN_NPS.GenSteps.GenStep_SpringTerrain">
-            <waterTerrain>TKKN_HotSpringsWater</waterTerrain>
-            <soilTerrain>Riverbank</soilTerrain>
-        </genStep>
-    </GenStepDef>
-
-    <GenStepDef>
-        <defName>NPS_ColdSpring</defName>
-        <order>224</order>
-        <genStep Class="TKKN_NPS.GenSteps.GenStep_SpringTerrain">
-            <waterTerrain>TKKN_ColdSpringsWater</waterTerrain>
-            <soilTerrain>Riverbank</soilTerrain>
-        </genStep>
-    </GenStepDef>
-
-
-    <GenStepDef>
-        <defName>NPS_PostSpringPlants</defName>
-        <order>906</order>
-        <genStep Class="TKKN_NPS.GenSteps.GenStep_PostSpringPlants" />
-    </GenStepDef>
-
 
     <!--Needs to run after FindPlayerStartSpot-->
     <GenStepDef>
         <defName>NPS_LavaLanding</defName>
         <order>851</order>
-        <genStep Class="TKKN_NPS.GenSteps.GenStep_PostLava">
+        <genStep Class="NPSBiomes.GenSteps.GenStep_PostLava">
             <terrainOverwrite>TKKN_LavaRock_RoughHewn</terrainOverwrite>
         </genStep>
     </GenStepDef>
@@ -62,7 +36,7 @@
     <GenStepDef>
         <defName>NPS_LavaPathing</defName>
         <order>224</order>
-        <genStep Class="TKKN_NPS.GenSteps.GenStep_LavaPathing">
+        <genStep Class="NPSBiomes.GenSteps.GenStep_LavaPathing">
         </genStep>
     </GenStepDef>
 

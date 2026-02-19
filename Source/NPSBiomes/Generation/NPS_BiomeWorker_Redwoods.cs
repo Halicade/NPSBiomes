@@ -2,7 +2,7 @@
 using RimWorld.Planet;
 using Verse;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 public class NPS_BiomeWorker_Redwoods : BiomeWorker
 {

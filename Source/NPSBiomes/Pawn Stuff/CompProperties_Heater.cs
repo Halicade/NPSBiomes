@@ -1,4 +1,4 @@
-﻿namespace TKKN_NPS;
+﻿namespace NPSBiomes;
 
 public class CompProperties_Heater : CompProperties_HeaterCon
 {

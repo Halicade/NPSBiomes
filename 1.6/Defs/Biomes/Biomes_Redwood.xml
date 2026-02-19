@@ -5,7 +5,7 @@
         <defName>TKKN_RedwoodForest</defName>
         <label>redwood forest</label>
         <description>Forests of large, slow growing redwood trees and old growth oaks. Very rainy and overcast. Many species of animals move around in the trees and on the plains. Travel becomes difficult.</description>
-        <workerClass>TKKN_NPS.NPS_BiomeWorker_Redwoods</workerClass>
+        <workerClass>NPSBiomes.NPS_BiomeWorker_Redwoods</workerClass>
         <animalDensity>2.8</animalDensity>
         <plantDensity>0.55</plantDensity>
         <implemented>true</implemented>
@@ -50,22 +50,6 @@
             <li>
                 <diseaseInc>Disease_MuscleParasites</diseaseInc>
                 <commonality>50</commonality>
-            </li>
-            <li>
-                <diseaseInc>TKKN_Disease_Common_Cold</diseaseInc>
-                <commonality>80</commonality>
-            </li>
-            <li>
-                <diseaseInc>TKKN_Disease_Animal_Common_Cold</diseaseInc>
-                <commonality>80</commonality>
-            </li>
-            <li>
-                <diseaseInc>TKKN_Disease_Allergies</diseaseInc>
-                <commonality>60</commonality>
-            </li>
-            <li>
-                <diseaseInc>TKKN_Disease_Animal_Allergies</diseaseInc>
-                <commonality>60</commonality>
             </li>
         </diseases>
         <terrainsByFertility>
@@ -139,7 +123,6 @@
             <FoggyRain>1</FoggyRain>
             <SnowGentle>4</SnowGentle>
             <SnowHard>4</SnowHard>
-            <TKKN_ThickFog>3</TKKN_ThickFog>
             <GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
         </baseWeatherCommonalities>
         <wildPlants>
@@ -156,7 +139,7 @@
             <Plant_HealrootWild>0.05</Plant_HealrootWild>
             <Plant_Iris MayRequire="mlie.flowers">0.2</Plant_Iris>
             <Plant_Lily MayRequire="mlie.flowers">0.2</Plant_Lily>
-           
+
 
             <!-- Pollution plants -->
             <Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">3</Plant_GrayGrass>
@@ -268,7 +251,7 @@
             <ZTT_PaintedSnapvine MayRequire="zylle.turtles">0.2</ZTT_PaintedSnapvine>
             <ZTT_Plasturtle MayRequire="zylle.turtles">0.05</ZTT_Plasturtle>
             <ZTT_Toughback MayRequire="zylle.turtles">0.05</ZTT_Toughback>
-            <ZTT_Steelshell MayRequire="zylle.turtles">0.03</ZTT_Steelshell>
+            <Meowl_Kind MayRequire="tolgrim.meowl.race">0.1</Meowl_Kind>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>

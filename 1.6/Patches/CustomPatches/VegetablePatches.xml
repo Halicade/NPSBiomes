@@ -2,7 +2,7 @@
 
 <Patch>
 
-    <Operation Class="TKKN_NPS.Toggleables">
+    <Operation Class="NPSBiomes.Toggleables">
         <setting>WildVegetables</setting>
         <patchOp Class="PatchOperationAdd">
             <xpath>Defs/ThingDef[defName = "TKKN_PlantWildRice"]/plant/wildBiomes</xpath>
@@ -19,7 +19,7 @@
         </patchOp>
     </Operation>
 
-    <Operation Class="TKKN_NPS.Toggleables">
+    <Operation Class="NPSBiomes.Toggleables">
         <setting>WildVegetables</setting>
         <patchOp Class="PatchOperationAdd">
             <xpath>Defs/ThingDef[defName = "TKKN_PlantWildCorn"]/plant/wildBiomes</xpath>

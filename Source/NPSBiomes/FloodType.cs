@@ -1,4 +1,4 @@
-﻿namespace TKKN_NPS;
+﻿namespace NPSBiomes;
 
 public enum FloodType : byte
 {

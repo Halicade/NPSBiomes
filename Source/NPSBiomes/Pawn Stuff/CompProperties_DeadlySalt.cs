@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Verse;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 public class CompProperties_DeadlySalt : CompProperties
 {

@@ -5,7 +5,7 @@
         <defName>TKKN_VolcanicFlow</defName>
         <label>volcanic fields</label>
         <description>Fresh lava means there is a lot of danger - and a lot of rich soil and geothermal vents. Constant molten lava means winter is mild.</description>
-        <workerClass>TKKN_NPS.NPS_BiomeWorker_LavaFields</workerClass>
+        <workerClass>NPSBiomes.NPS_BiomeWorker_LavaFields</workerClass>
         <animalDensity>0.25</animalDensity>
         <plantDensity>0.1</plantDensity>
         <implemented>true</implemented>
@@ -51,22 +51,6 @@
             <li>
                 <diseaseInc>Disease_MuscleParasites</diseaseInc>
                 <commonality>50</commonality>
-            </li>
-            <li>
-                <diseaseInc>TKKN_Disease_Common_Cold</diseaseInc>
-                <commonality>60</commonality>
-            </li>
-            <li>
-                <diseaseInc>TKKN_Disease_Animal_Common_Cold</diseaseInc>
-                <commonality>60</commonality>
-            </li>
-            <li>
-                <diseaseInc>TKKN_Disease_Allergies</diseaseInc>
-                <commonality>80</commonality>
-            </li>
-            <li>
-                <diseaseInc>TKKN_Disease_Animal_Allergies</diseaseInc>
-                <commonality>80</commonality>
             </li>
         </diseases>
         <terrainsByFertility>
@@ -129,7 +113,6 @@
         </fishTypes>
         <baseWeatherCommonalities>
             <Clear>2</Clear>
-            <TKKN_LavaSmoke>20</TKKN_LavaSmoke>
             <Rain>1</Rain>
             <DryThunderstorm>1</DryThunderstorm>
             <RainyThunderstorm>1</RainyThunderstorm>

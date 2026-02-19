@@ -1,7 +1,7 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 public class Comp_Heater : ThingComp
 {

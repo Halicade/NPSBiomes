@@ -1,7 +1,7 @@
 ﻿using System.Xml;
 using Verse;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 public class Toggleables : PatchOperation
 {

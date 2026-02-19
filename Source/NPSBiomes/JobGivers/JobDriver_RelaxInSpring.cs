@@ -3,7 +3,7 @@ using RimWorld;
 using Verse;
 using Verse.AI;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 public class JobDriver_RelaxInSpring : JobDriver
 {

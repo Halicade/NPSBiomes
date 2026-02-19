@@ -1,13 +1,12 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 public class CompDeadlySalt : ThingComp
 {
-
-    public override void CompTick() {
-        if (!parent.IsHashIntervalTick(120) || !parent.Spawned) {
+    public override void CompTickInterval(int delta) {
+        if (!parent.IsHashIntervalTick(120, delta) || !parent.Spawned) {
             return;
         }
 
@@ -16,11 +15,11 @@ public class CompDeadlySalt : ThingComp
         }
 
         if (TerrainTagUtil.SaltTerrains.Contains(pawn.Position.GetTerrain(pawn.MapHeld))) {
-            burnSnails(pawn);
+            BurnSnails(pawn);
         }
     }
 
-    private static void burnSnails(Pawn pawn) {
+    private static void BurnSnails(Pawn pawn) {
         var battleLogEntryDamageTaken = new BattleLogEntry_DamageTaken(pawn, RulePackDefOf.DamageEvent_Fire);
         Find.BattleLog.Add(battleLogEntryDamageTaken);
         var damageInfo = new DamageInfo(DamageDefOf.Flame, 100, -1f, 0, null, null, null,

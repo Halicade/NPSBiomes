@@ -22,6 +22,7 @@ Erin's Azaphrae - Biotech Ver. erin.azaphraebiotech https://steamcommunity.com/s
 Erin's Fluffy Fauna erin.fluffyfauna https://steamcommunity.com/sharedfiles/filedetails/?id=3521909777
 Erin's Fox Squirrel erin.foxsquirrel https://steamcommunity.com/sharedfiles/filedetails/?id=2092951979
 Erin's Shisune erin.shisune https://steamcommunity.com/sharedfiles/filedetails/?id=2974138931
+Extinct Fauna Pack - Cenozoic sneezingseal.extinctfaunapack.cenozoic https://steamcommunity.com/sharedfiles/filedetails/?id=3663622769
 FEB's Biopunk Livestock feb.biopunklivestock https://steamcommunity.com/sharedfiles/filedetails/?id=3556058978
 Fabled Cervidae scurvyez.fabledcervidae https://steamcommunity.com/sharedfiles/filedetails/?id=3400548142
 Ferocious Bear frcs.bear https://steamcommunity.com/sharedfiles/filedetails/?id=3567431133
@@ -40,6 +41,7 @@ Little Critters tyrannidae.littlecritters https://steamcommunity.com/sharedfiles
 Mamuffalo dismarzero.vgp.mamuffalo https://steamcommunity.com/sharedfiles/filedetails/?id=2053120429
 Medieval Overhaul dankpyon.medieval.overhaul https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926
 Megafauna spino.megafauna https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938
+Meowl (喵枭) [EN/ES/ZH/JA/KO/FR/RU] tolgrim.meowl.race https://steamcommunity.com/sharedfiles/filedetails/?id=3663445759
 Monster Mash (Continued) zal.monstermash https://steamcommunity.com/sharedfiles/filedetails/?id=3175345611
 More Birds - Conures 11bullets.conures https://steamcommunity.com/sharedfiles/filedetails/?id=3552132388
 More Birds - Doves 11bullets.dovesandpigeons https://steamcommunity.com/sharedfiles/filedetails/?id=3557967460
@@ -63,6 +65,7 @@ Star Wars Animal Collection (Continued) mlie.starwarsanimalcollection https://st
 Sweepwoboe Bugs Expansion eltwofour.sweepwoboebugs https://steamcommunity.com/sharedfiles/filedetails/?id=3373031797
 Synthetic Animals (Continued) zal.syntheticanimals https://steamcommunity.com/sharedfiles/filedetails/?id=3171141566
 Terror Avis (Continued) zal.terroravis https://steamcommunity.com/sharedfiles/filedetails/?id=3627086683
+The Basilisk zal.basilisk https://steamcommunity.com/sharedfiles/filedetails/?id=2609355756
 The Profaned botchjob.profaned https://steamcommunity.com/sharedfiles/filedetails/?id=3202008037
 Turtles zylle.turtles https://steamcommunity.com/sharedfiles/filedetails/?id=2832804475
 Unique Antelopes (Continued) zal.antelopes https://steamcommunity.com/sharedfiles/filedetails/?id=2826313713

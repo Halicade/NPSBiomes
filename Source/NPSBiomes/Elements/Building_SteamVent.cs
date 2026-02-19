@@ -2,7 +2,7 @@
 using Verse;
 using Verse.Sound;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 internal class Building_SteamVent : Building
 {
@@ -54,10 +54,11 @@ internal class Building_SteamVent : Building
             spraySustainer = null;
         }
 
-
+        /*
         if (Rand.Value < .000001f)
         {
             DeSpawn();
         }
+        */
     }
 }

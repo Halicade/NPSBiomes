@@ -1,16 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <!-- Needs to occur after inheritance because they inherit from Sand -->
-    
-    <Operation Class="PostInheritanceOperation.Patch">
-        <operation Class="PatchOperationreplace">
-            <xpath>Defs/TerrainDef[defName="VEE_Salt" or defName="VEE_SaltySand"]/modExtensions/li[@Class="TKKN_NPS.TerrainWeatherReactions"]</xpath>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/TerrainDef[defName="VEE_Salt"]/tags</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="VEE_Salt"]</xpath>
             <value>
-                <li Class="TKKN_NPS.TerrainWeatherReactions">
-                    <isSalty>True</isSalty>
-                </li>
+                <tags />
             </value>
-        </operation>
+        </nomatch>
     </Operation>
+
+    <!-- add pyromaniac caravan handler comp to Caravan WorldObjectDef -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="VEE_Salt"]/tags</xpath>
+        <value>
+            <li>Salt</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/TerrainDef[defName="VEE_SaltySand"]/tags</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="VEE_SaltySand"]</xpath>
+            <value>
+                <tags />
+            </value>
+        </nomatch>
+    </Operation>
+
+    <!-- add pyromaniac caravan handler comp to Caravan WorldObjectDef -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="VEE_SaltySand"]/tags</xpath>
+        <value>
+            <li>Salt</li>
+        </value>
+    </Operation>
+
 </Patch>

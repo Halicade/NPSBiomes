@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-    <name>Nature's Pretty Sweet (Rework)</name>
-    <packageId>Hali.NaturesPrettySweet</packageId>
+    <name>Nature's Pretty Sweet: Biomes</name>
+    <packageId>Hali.NPSBiomes</packageId>
     <author>tkkntkkn, mlie, halicade</author>
     <url>https://github.com/emipa606/NaturesPrettySweet</url>
     <supportedVersions>
@@ -18,7 +18,6 @@
     </modDependencies>
     <loadAfter>
         <li>brrainz.harmony</li>
-        <li>Jaxe.SmartMinify</li>
         <li>regrowth.botr.core</li>
     </loadAfter>
     <description>

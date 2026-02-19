@@ -1,6 +1,6 @@
 ﻿using RimWorld;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 [DefOf]
 public class BiomeDefOf

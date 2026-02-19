@@ -2,7 +2,7 @@
 using RimWorld.Planet;
 using Verse;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 /*
  //Biome was never implemented
 public class NPS_BiomeWorker_Sequioa : BiomeWorker

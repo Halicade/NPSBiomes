@@ -7,7 +7,7 @@
     <defName>TKKN_SequoiaForest</defName>
     <label>sequoia forest</label>
     <description>Forests of large, slow growing Sequoia trees interspersed with fertile clearings. Many species of animals move around in the trees and on the plains. Because of snow, it is slow to travel in winter.</description>
-    <workerClass>TKKN_NPS.NPS_BiomeWorker_Sequioa</workerClass>
+    <workerClass>NPSBiomes.NPS_BiomeWorker_Sequioa</workerClass>
     <animalDensity>2.8</animalDensity>
     <plantDensity>0.55</plantDensity>
     <settlementSelectionWeight>1</settlementSelectionWeight>

@@ -3,7 +3,7 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 public class BiomesController : Mod
 {

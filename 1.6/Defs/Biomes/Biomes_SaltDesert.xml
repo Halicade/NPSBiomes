@@ -5,7 +5,7 @@
         <defName>TKKN_Desert</defName>
         <label>desert and salt fields</label>
         <description>A very dry area which supports little life. Salt fields are here. Deserts can be hot, or quite cold.</description>
-        <workerClass>TKKN_NPS.NPS_BiomeWorker_Desert</workerClass>
+        <workerClass>NPSBiomes.NPS_BiomeWorker_Desert</workerClass>
         <animalDensity>0.25</animalDensity>
         <plantDensity>0.05</plantDensity>
         <settlementSelectionWeight>0.55</settlementSelectionWeight>
@@ -60,8 +60,6 @@
         <baseWeatherCommonalities>
             <Clear>18</Clear>
             <Rain>2</Rain>
-            <TKKN_DryDustStorm>2</TKKN_DryDustStorm>
-            <TKKN_DustStorm>2</TKKN_DustStorm>
             <Sandstorm MayRequire="Ludeon.Rimworld.Odyssey">2</Sandstorm>
             <SnowGentle>1</SnowGentle>
             <SnowHard>3</SnowHard>
@@ -127,6 +125,7 @@
             <ZEle_Kallana MayRequire="zylle.elephants">0.01</ZEle_Kallana>
             <ZEle_Appo MayRequire="zylle.elephants">0.08</ZEle_Appo>
             <ZTT_SandshellTurtle MayRequire="zylle.turtles">0.2</ZTT_SandshellTurtle>
+            <Basilisk MayRequire="zal.basilisk">0.04</Basilisk>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>

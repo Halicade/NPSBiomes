@@ -2,7 +2,7 @@
 using RimWorld;
 using RimWorld.Planet;
 
-namespace TKKN_NPS;
+namespace NPSBiomes;
 
 //[HarmonyPatch(typeof(BiomeWorker_AridShrubland), nameof(BiomeWorker_AridShrubland.GetScore))]
 public static class BiomeWorker_AridShrubland_GetScore
