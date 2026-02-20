@@ -19,6 +19,8 @@
     <loadAfter>
         <li>brrainz.harmony</li>
         <li>regrowth.botr.core</li>
+        <li>ludeon.Rimworld.Royalty</li>
+        <li>ludeon.Rimworld.Ideology</li>
     </loadAfter>
     <description>
         [img]https://i.postimg.cc/1X4HT06h/Info.png[/img]
