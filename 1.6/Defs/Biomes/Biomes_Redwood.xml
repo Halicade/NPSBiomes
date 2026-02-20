@@ -262,10 +262,12 @@
             <VAEWaste_Toxbear MayRequire="vanillaexpanded.vaewaste">0.03</VAEWaste_Toxbear>
             <VAEWaste_Wastedeer MayRequire="vanillaexpanded.vaewaste">0.4</VAEWaste_Wastedeer>
         </pollutionWildAnimals>
+        <coastalWildAnimals>
+            <Otter MayRequire="Ludeon.RimWorld.Odyssey">0.2</Otter>
+        </coastalWildAnimals>
         <allowedPackAnimals>
             <li>Muffalo</li>
             <li>Alpaca</li>
-
         </allowedPackAnimals>
 
         <modExtensions>
