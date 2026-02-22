@@ -8,6 +8,7 @@
         <statBases>
             <MaxHitPoints>35</MaxHitPoints>
             <Nutrition>0.25</Nutrition>
+            <BeautyOutdoors>3</BeautyOutdoors>
         </statBases>
         <pathCost>18</pathCost>
         <graphicData>

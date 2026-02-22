@@ -35,7 +35,7 @@
             <completelyIgnoreFertility>true</completelyIgnoreFertility>
             <showInFrozenWater>false</showInFrozenWater>
             <wildTerrainTags>
-                <li>salt</li>
+                <li>Salt</li>
             </wildTerrainTags>
         </plant>
     </ThingDef>
