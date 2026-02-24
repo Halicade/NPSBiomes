@@ -40,27 +40,61 @@
         </plant>
     </ThingDef>
 
-    <ThingDef ParentName="OrganicProductBase">
+    <ThingDef ParentName="DrugBase">
         <defName>TKKN_Salt</defName>
         <label>salt</label>
-        <description>Crystal that aids in preserving meat and repelling slugs. Not very nutritious on its own.</description>
+        <description>Crystal that aids in repelling slugs. Can be applied to wounds like cuts and stabs to stop bleeding.</description>
         <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
             <texPath>TKKN_NPS/Things/Salt</texPath>
         </graphicData>
-        <socialPropernessMatters>true</socialPropernessMatters>
+        <socialPropernessMatters>false</socialPropernessMatters>
         <statBases>
             <MarketValue>8.0</MarketValue>
             <Mass>0.025</Mass>
         </statBases>
         <ingestible>
-            <foodType>AnimalProduct</foodType>
-            <preferability>NeverForNutrition</preferability>
+            <foodType>Processed</foodType>
+            <nurseable>true</nurseable>
+            <drugCategory>Medical</drugCategory>
+            <ingestHoldOffsetStanding>
+                <northDefault>
+                    <offset>(0.18,0,0)</offset>
+                </northDefault>
+            </ingestHoldOffsetStanding>
+            <ingestHoldUsesTable>false</ingestHoldUsesTable>
+            <ingestCommandString>Apply {0} on self</ingestCommandString>
+            <ingestReportString>Applying {0}.</ingestReportString>
+
+            <outcomeDoers>
+                <li Class="NPSBiomes.IngestionOutcomeDoer_saltWounds"/>
+            </outcomeDoers>
         </ingestible>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <listOrder>1000</listOrder>
+            </li>
+            <li Class="CompProperties_Targetable">
+                <compClass>CompTargetable_SinglePawn</compClass>
+            </li>
+
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Apply {0_label} on someone</useLabel>
+                <useDuration>1</useDuration>
+                <warmupMote>Mote_ResurrectAbility</warmupMote>
+                <showUseGizmo>true</showUseGizmo>
+            </li>
+            <li Class="NPSBiomes.CompProperties_SaltWounds"/>
+        </comps>
         <thingCategories>
             <li>AnimalProductRaw</li>
         </thingCategories>
+
+
     </ThingDef>
 
+    <!--
     <ThingDef ParentName="OrganicProductBase">
         <defName>TKKN_PreservedMeat</defName>
         <label>preservedmeat</label>
@@ -96,4 +130,5 @@
             <li Class="CompProperties_FoodPoisonable" />
         </comps>
     </ThingDef>
+    -->
 </Defs>
