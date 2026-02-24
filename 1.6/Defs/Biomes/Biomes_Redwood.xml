@@ -252,6 +252,7 @@
             <ZTT_Plasturtle MayRequire="zylle.turtles">0.05</ZTT_Plasturtle>
             <ZTT_Toughback MayRequire="zylle.turtles">0.05</ZTT_Toughback>
             <Meowl_Kind MayRequire="tolgrim.meowl.race">0.1</Meowl_Kind>
+            <ssEFP_Megaloceros MayRequire="sneezingseal.extinctfaunapack.cenozoic">0.12</ssEFP_Megaloceros>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>
