@@ -60,6 +60,10 @@
             <SnowGentle>3</SnowGentle>
             <SnowHard>3</SnowHard>
             <GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
+            <TKKN_DryDustStorm MayRequire="hali.npsweathereffects">2</TKKN_DryDustStorm>
+            <TKKN_DustStorm MayRequire="hali.npsweathereffects">3</TKKN_DustStorm>
+            <TKKN_WindStorm MayRequire="hali.npsweathereffects">1</TKKN_WindStorm>
+            <TKKN_Windy MayRequire="hali.npsweathereffects">2</TKKN_Windy>
         </baseWeatherCommonalities>
         <maxFishPopulation>320</maxFishPopulation>
         <fishTypes>

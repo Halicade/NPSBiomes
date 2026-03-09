@@ -114,10 +114,15 @@
         <baseWeatherCommonalities>
             <Clear>2</Clear>
             <Rain>1</Rain>
+            <Fog>4</Fog>
             <DryThunderstorm>1</DryThunderstorm>
             <RainyThunderstorm>1</RainyThunderstorm>
-            <FoggyRain>1</FoggyRain>
+            <FoggyRain>2</FoggyRain>
             <GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
+            <SnowGentle>1</SnowGentle>
+            <SnowHard>1</SnowHard>
+            <TKKN_Overcast MayRequire="Hali.NPSWeatherEffects">3</TKKN_Overcast>
+            <TKKN_LavaSmoke MayRequire="Hali.NPSWeatherEffects">7</TKKN_LavaSmoke>
         </baseWeatherCommonalities>
         <wildPlants>
             <Plant_TallGrass>2.0</Plant_TallGrass>

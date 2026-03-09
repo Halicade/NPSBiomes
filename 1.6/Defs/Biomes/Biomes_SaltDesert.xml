@@ -63,7 +63,13 @@
             <Sandstorm MayRequire="Ludeon.Rimworld.Odyssey">2</Sandstorm>
             <SnowGentle>1</SnowGentle>
             <SnowHard>3</SnowHard>
+            <DryThunderstorm>1</DryThunderstorm>
+            <RainyThunderstorm>1</RainyThunderstorm>
             <GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
+            <TKKN_DryDustStorm MayRequire="Hali.NPSWeatherEffects">2</TKKN_DryDustStorm>
+            <TKKN_DustStorm MayRequire="Hali.NPSWeatherEffects">2</TKKN_DustStorm>
+            <TKKN_WindStorm MayRequire="Hali.NPSWeatherEffects">1</TKKN_WindStorm>
+            <TKKN_Windy MayRequire="Hali.NPSWeatherEffects">2</TKKN_Windy>
         </baseWeatherCommonalities>
         <maxFishPopulation>0</maxFishPopulation>
         <wildPlants>

@@ -124,6 +124,10 @@
             <SnowGentle>4</SnowGentle>
             <SnowHard>4</SnowHard>
             <GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
+            <TKKN_ThickFog MayRequire="hali.npsweathereffects">5</TKKN_ThickFog>
+            <TKKN_Overcast MayRequire="hali.npsweathereffects">3</TKKN_Overcast>
+            <TKKN_Windy MayRequire="hali.npsweathereffects">2</TKKN_Windy>
+            <TKKN_WindStorm MayRequire="hali.npsweathereffects">1</TKKN_WindStorm>
         </baseWeatherCommonalities>
         <wildPlants>
             <Plant_Grass>1.0</Plant_Grass>

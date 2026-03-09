@@ -71,6 +71,8 @@
             <SnowGentle>4</SnowGentle>
             <SnowHard>4</SnowHard>
             <GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
+            <TKKN_WindStorm MayRequire="Hali.NPSWeatherEffects">1</TKKN_WindStorm>
+            <TKKN_Windy MayRequire="Hali.NPSWeatherEffects">1</TKKN_Windy>
         </baseWeatherCommonalities>
         <maxFishPopulation>450</maxFishPopulation>
         <fishTypes>
