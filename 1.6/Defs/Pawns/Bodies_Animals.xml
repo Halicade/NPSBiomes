@@ -23,6 +23,7 @@
             <li>EatingPathway</li>
             <li>TalkingPathway</li>
         </tags>
+        <executionPartPriority>500</executionPartPriority>
     </BodyPartDef>
     <BodyPartDef>
         <defName>NPS_Carapace</defName>
