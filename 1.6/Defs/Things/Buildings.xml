@@ -3,37 +3,6 @@
 <Defs>
 
     <ThingDef ParentName="BuildingBase">
-        <defName>TKKN_Sculpture_Shell</defName>
-        <label>sea shell</label>
-        <description>The beautiful, hard, protective shell of long dead sea animals.</description>
-        <graphicData>
-            <graphicClass>Graphic_Random</graphicClass>
-            <texPath>TKKN_NPS/Things/Sculptures/Shells</texPath>
-            <drawRotated>false</drawRotated>
-        </graphicData>
-        <fillPercent>0.15</fillPercent>
-        <altitudeLayer>Building</altitudeLayer>
-        <hasInteractionCell>false</hasInteractionCell>
-        <passability>PassThroughOnly</passability>
-        <pathCost>50</pathCost>
-        <minifiedDef>MinifiedThing</minifiedDef>
-        <tradeTags>
-            <li>Art</li>
-        </tradeTags>
-        <thingCategories>
-            <li>BuildingsArt</li>
-        </thingCategories>
-        <socialPropernessMatters>true</socialPropernessMatters>
-        <statBases>
-            <MaxHitPoints>75</MaxHitPoints>
-            <Flammability>1.0</Flammability>
-            <MarketValue>200</MarketValue>
-            <Mass>7.5</Mass>
-            <Beauty>40</Beauty>
-        </statBases>
-    </ThingDef>
-
-    <ThingDef ParentName="BuildingBase">
         <defName>TKKN_RedwoodDead</defName>
         <label>fallen redwood</label>
         <description>A huge, dead tree. Its roots are shallow, and when it gets too large, it topples over. \n\n Yields red wood, which is valuable and rare.</description>
