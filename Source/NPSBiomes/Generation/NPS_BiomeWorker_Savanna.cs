@@ -23,6 +23,6 @@ public class NPS_BiomeWorker_Savanna : BiomeWorker
             return 0f;
         }
 
-        return 22.5f + (tile.temperature - 7f) + 30 + ((tile.rainfall - 0f) / 180f);
+        return 22.5f + (tile.temperature - 7f) + 30 + tile.rainfall / 180f;
     }
 }
