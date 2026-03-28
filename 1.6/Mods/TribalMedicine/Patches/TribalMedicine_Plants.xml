@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_VolcanicFlow"]/wildPlants</xpath>
+        <value>
+            <TM_Bush_DarkBerries>0.08</TM_Bush_DarkBerries>
+            <TM_Plant_RedPetals>0.1</TM_Plant_RedPetals>
+            <TM_Plant_Broots>0.01</TM_Plant_Broots>
+            <TM_Plant_Shrooms>0.03</TM_Plant_Shrooms>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_RedwoodForest"]/wildPlants</xpath>
+        <value>
+            <TM_Bush_DarkBerries>0.1</TM_Bush_DarkBerries>
+            <TM_Plant_RedPetals>0.03</TM_Plant_RedPetals>
+            <TM_Plant_Broots>0.07</TM_Plant_Broots>
+            <TM_Plant_Shrooms>0.01</TM_Plant_Shrooms>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_Grasslands"]/wildPlants</xpath>
+        <value>
+            <TM_Bush_DarkBerries>0.04</TM_Bush_DarkBerries>
+            <TM_Plant_RedPetals>0.07</TM_Plant_RedPetals>
+            <TM_Plant_Broots>0.01</TM_Plant_Broots>
+            <TM_Plant_Shrooms>0.02</TM_Plant_Shrooms>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_Savanna"]/wildPlants</xpath>
+        <value>
+            <TM_Bush_DarkBerries>0.02</TM_Bush_DarkBerries>
+            <TM_Plant_RedPetals>0.05</TM_Plant_RedPetals>
+            <TM_Plant_Broots>0.01</TM_Plant_Broots>
+            <TM_Plant_Shrooms>0.01</TM_Plant_Shrooms>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_Oasis"]/wildPlants</xpath>
+        <value>
+            <TM_Bush_DarkBerries>0.005</TM_Bush_DarkBerries>
+            <TM_Plant_RedPetals>0.008</TM_Plant_RedPetals>
+            <TM_Plant_Shrooms>0.002</TM_Plant_Shrooms>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_Desert"]/wildPlants</xpath>
+        <value>
+            <TM_Bush_DarkBerries>0.005</TM_Bush_DarkBerries>
+            <TM_Plant_RedPetals>0.008</TM_Plant_RedPetals>
+            <TM_Plant_Shrooms>0.002</TM_Plant_Shrooms>
+        </value>
+    </Operation>
+
+    
+    
+    
+    
+</Patch>

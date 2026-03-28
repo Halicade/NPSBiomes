@@ -136,30 +136,43 @@
             <Plant_TreeBamboo>0.3</Plant_TreeBamboo>
             <Plant_Clivia>0.07</Plant_Clivia>
             <Plant_Rafflesia>0.0008</Plant_Rafflesia>
+
+            <Plant_Reeds MayRequire="Ludeon.Rimworld.Odyssey">0.6</Plant_Reeds>
+            
             <PlantAnthurium MayRequire="dismarzero.vgp.xtratreesandflowers">0.1</PlantAnthurium>
             <PlantPlumeria MayRequire="dismarzero.vgp.xtratreesandflowers">0.15</PlantPlumeria>
 
             <!-- Pollution plants -->
             <Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">4</Plant_GrayGrass>
             <Plant_RatPalm MayRequire="Ludeon.RimWorld.Biotech">0.3</Plant_RatPalm>
+            <KIT_AcaiBerryTree MayRequire="zal.braziliancrops">0.01</KIT_AcaiBerryTree>
+            <KIT_BrazilNutTree MayRequire="zal.braziliancrops">0.01</KIT_BrazilNutTree>
+            <KIT_JaboticabaTree MayRequire="zal.braziliancrops">0.01</KIT_JaboticabaTree>
+            <KIT_CashewTree MayRequire="zal.braziliancrops">0.01</KIT_CashewTree>
 
         </wildPlants>
         <wildAnimals>
-            <Rat>0.8</Rat>
-            <Tortoise>0.4</Tortoise>
-            <Ibex>0.3</Ibex>
-            <Boomrat>0.25</Boomrat>
-            <Muffalo>0.2</Muffalo>
-            <Boomalope>0.2</Boomalope>
             <Alpaca>0.1</Alpaca>
-            <Wolf_Timber>0.04</Wolf_Timber>
-            <Fox_Red>0.04</Fox_Red>
             <Bear_Grizzly>0.022</Bear_Grizzly>
-            <Warg>0.012</Warg>
+            <Boomalope>0.2</Boomalope>
+            <Boomrat>0.25</Boomrat>
             <Cougar>0.012</Cougar>
+            <Fox_Red>0.04</Fox_Red>
+            <GuineaPig>0.1</GuineaPig>
+            <Horse>0.08</Horse>
+            <Ibex>0.3</Ibex>
+            <Lynx>0.008</Lynx>
+            <Muffalo>0.2</Muffalo>
+            <Rat>0.8</Rat>
             <TKKN_petlavarock>0.2</TKKN_petlavarock>
             <TKKN_salamander>0.2</TKKN_salamander>
-            <Lynx>0.008</Lynx>
+            <Tortoise>0.4</Tortoise>
+            <Warg>0.012</Warg>
+            <Wolf_Timber>0.04</Wolf_Timber>
+            
+            <LavaSnail MayRequire="Ludeon.Rimworld.Odyssey">0.2</LavaSnail>
+            <Vulture MayRequire="Ludeon.Rimworld.Odyssey">0.45</Vulture>
+            
             <WoW_Animal_Direwolf MayRequireAnyOf="zal.rimcraftanimals,rimcraftreborn.betatest">0.03</WoW_Animal_Direwolf>
             <WoW_Animal_Horse MayRequireAnyOf="zal.rimcraftanimals,rimcraftreborn.betatest">0.06</WoW_Animal_Horse>
             <WoW_Animal_Unicorn MayRequireAnyOf="zal.rimcraftanimals,rimcraftreborn.betatest">0.01</WoW_Animal_Unicorn>

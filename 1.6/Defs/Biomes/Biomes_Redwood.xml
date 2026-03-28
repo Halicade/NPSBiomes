@@ -130,21 +130,23 @@
             <TKKN_WindStorm MayRequire="hali.npsweathereffects">1</TKKN_WindStorm>
         </baseWeatherCommonalities>
         <wildPlants>
-            <Plant_Grass>1.0</Plant_Grass>
-            <Plant_TallGrass>1.0</Plant_TallGrass>
-            <TKKN_PlantFern>0.5</TKKN_PlantFern>
-            <Plant_Bush>0.5</Plant_Bush>
-            <Plant_TreeOak>0.4</Plant_TreeOak>
-            <TKKN_PlantTreeHazelnut>0.4</TKKN_PlantTreeHazelnut>
-            <TKKN_OldGrowth_PlantTreeOak>0.05</TKKN_OldGrowth_PlantTreeOak>
-            <TKKN_OldGrowth_PlantTreeHazelnut>0.05</TKKN_OldGrowth_PlantTreeHazelnut>
-            <TKKN_PlantTreeRedwood>0.02</TKKN_PlantTreeRedwood>
             <Plant_Berry>0.1</Plant_Berry>
+            <Plant_Bush>0.5</Plant_Bush>
+            <Plant_Grass>1.0</Plant_Grass>
             <Plant_HealrootWild>0.05</Plant_HealrootWild>
+            <Plant_TallGrass>1.0</Plant_TallGrass>
+            <Plant_TreeOak>0.4</Plant_TreeOak>
+            <TKKN_OldGrowth_PlantTreeHazelnut>0.05</TKKN_OldGrowth_PlantTreeHazelnut>
+            <TKKN_OldGrowth_PlantTreeOak>0.05</TKKN_OldGrowth_PlantTreeOak>
+            <TKKN_PlantFern>0.5</TKKN_PlantFern>
+            <TKKN_PlantTreeHazelnut>0.4</TKKN_PlantTreeHazelnut>
+            <TKKN_PlantTreeRedwood>0.02</TKKN_PlantTreeRedwood>
+
+            <Plant_Reeds MayRequire="Ludeon.Rimworld.Odyssey">0.6</Plant_Reeds>
+            
             <Plant_Iris MayRequire="mlie.flowers">0.2</Plant_Iris>
             <Plant_Lily MayRequire="mlie.flowers">0.2</Plant_Lily>
-
-
+            
             <!-- Pollution plants -->
             <Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">3</Plant_GrayGrass>
             <Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">3</Plant_Ripthorn>
@@ -158,6 +160,7 @@
             <Elk>0.3</Elk>
             <Fox_Red>0.04</Fox_Red>
             <Hare>1.00</Hare>
+            <Horse>0.12</Horse>
             <Ibex>0.3</Ibex>
             <Lynx>0.01</Lynx>
             <Megasloth>0.04</Megasloth>
@@ -171,6 +174,16 @@
             <Warg>0.012</Warg>
             <WildBoar>0.5</WildBoar>
             <Wolf_Timber>0.04</Wolf_Timber>
+            <Yak>0.12</Yak>
+
+            <Bluebird MayRequire="Ludeon.RimWorld.Odyssey">0.35</Bluebird>
+            <Moose MayRequire="Ludeon.RimWorld.Odyssey">0.1</Moose>
+            <Muskox MayRequire="Ludeon.RimWorld.Odyssey">0.7</Muskox>
+            <Sparrow MayRequire="Ludeon.RimWorld.Odyssey">0.6</Sparrow>
+            <Wolf_Great MayRequire="Ludeon.RimWorld.Odyssey">0.06</Wolf_Great>
+            <Wolverine MayRequire="Ludeon.RimWorld.Odyssey">0.06</Wolverine>
+            
+            
             <WoW_Animal_Direwolf MayRequireAnyOf="zal.rimcraftanimals,rimcraftreborn.betatest">0.03</WoW_Animal_Direwolf>
             <ZHY_Doguin MayRequire="zylle.hybridanimals">0.2</ZHY_Doguin>
             <ZHY_Chorse MayRequire="zylle.hybridanimals">0.5</ZHY_Chorse>
@@ -278,7 +291,7 @@
         <modExtensions>
             <li Class="FirefliesTwoO.NightlySpawningExtension" MayRequire="scurvyez.firefliestwo">
                 <biomeEmissionRate>0.4</biomeEmissionRate>
-                <biomeAllowedTempRange>-100~100</biomeAllowedTempRange>
+                <biomeAllowedTempRange>15~100</biomeAllowedTempRange>
                 <biomeAllowInWinter>false</biomeAllowInWinter>
             </li>
             <li Class="BiomesKit.BiomesKitControls" MayRequireAnyOf="zal.wmbp,regrowth.botr.core">

@@ -84,24 +84,27 @@
             <rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Hot</rareCatchesSetMaker>
         </fishTypes>
         <wildPlants>
-            <Plant_Grass>3</Plant_Grass>
-            <TKKN_PlantTreeBaobab>.5</TKKN_PlantTreeBaobab>
-            <TKKN_PlantTreeGum>.5</TKKN_PlantTreeGum>
-            <TKKN_PlantCactusPricklyPear>.3</TKKN_PlantCactusPricklyPear>
-            <TKKN_PlantCactusSanPedro>.5</TKKN_PlantCactusSanPedro>
-            <TKKN_PlantCactusBarrel>.5</TKKN_PlantCactusBarrel>
-            <TKKN_PlantDesertShrubA>1</TKKN_PlantDesertShrubA>
-            <TKKN_PlantDesertShrubB>1</TKKN_PlantDesertShrubB>
-            <TKKN_PlantSucculants>.5</TKKN_PlantSucculants>
-            <TKKN_TreeOcotillo>.3</TKKN_TreeOcotillo>
-            <TKKN_PlantCatTails>.6</TKKN_PlantCatTails>
-            <TKKN_PlantLilypad>.5</TKKN_PlantLilypad>
-            <Plant_PincushionCactus>.5</Plant_PincushionCactus>
-            <Plant_Dandelion>0.2</Plant_Dandelion>
-            <Plant_TreePalm>0.3</Plant_TreePalm>
-            <Plant_TreeBamboo>0.3</Plant_TreeBamboo>
             <Plant_Agave>0.3</Plant_Agave>
             <Plant_Bush>0.25</Plant_Bush>
+            <Plant_Dandelion>0.2</Plant_Dandelion>
+            <Plant_Grass>3</Plant_Grass>
+            <Plant_PincushionCactus>.5</Plant_PincushionCactus>
+            <Plant_TreeBamboo>0.3</Plant_TreeBamboo>
+            <Plant_TreePalm>0.3</Plant_TreePalm>
+            <TKKN_PlantCactusBarrel>.5</TKKN_PlantCactusBarrel>
+            <TKKN_PlantCactusPricklyPear>.3</TKKN_PlantCactusPricklyPear>
+            <TKKN_PlantCactusSanPedro>.5</TKKN_PlantCactusSanPedro>
+            <TKKN_PlantCatTails>.6</TKKN_PlantCatTails>
+            <TKKN_PlantDesertShrubA>1</TKKN_PlantDesertShrubA>
+            <TKKN_PlantDesertShrubB>1</TKKN_PlantDesertShrubB>
+            <TKKN_PlantLilypad>.5</TKKN_PlantLilypad>
+            <TKKN_PlantSucculants>.5</TKKN_PlantSucculants>
+            <TKKN_PlantTreeBaobab>.5</TKKN_PlantTreeBaobab>
+            <TKKN_PlantTreeGum>.5</TKKN_PlantTreeGum>
+            <TKKN_TreeOcotillo>.3</TKKN_TreeOcotillo>
+
+            <Plant_Reeds MayRequire="Ludeon.Rimworld.Odyssey">0.4</Plant_Reeds>
+            
             <Plant_Daisy MayRequire="mlie.flowers">0.1</Plant_Daisy>
             <Plant_Chrysanthemum MayRequire="mlie.flowers">0.1</Plant_Chrysanthemum>
 
@@ -111,18 +114,24 @@
 
         </wildPlants>
         <wildAnimals>
-            <Gazelle>1</Gazelle>
-            <Emu>0.2</Emu>
-            <Megascarab>1</Megascarab>
-            <Iguana>0.7</Iguana>
-            <Dromedary>0.5</Dromedary>
             <Boomalope>0.2</Boomalope>
+            <Cougar>0.4</Cougar>
+            <Dromedary>0.5</Dromedary>
+            <Emu>0.2</Emu>
+            <Fox_Fennec>0.02</Fox_Fennec>
+            <Gazelle>1</Gazelle>
+            <GuineaPig>0.01</GuineaPig>
+            <Iguana>0.7</Iguana>
+            <Megascarab>1</Megascarab>
             <Ostrich>0.2</Ostrich>
             <Rat>0.30</Rat>
-            <Cougar>0.4</Cougar>
             <Rhinoceros>0.02</Rhinoceros>
-            <Fox_Fennec>0.02</Fox_Fennec>
+            
+            <Armadillo MayRequire="Ludeon.RimWorld.Odyssey">0.15</Armadillo>
             <Hippo MayRequire="Ludeon.Rimworld.Odyssey">0.08</Hippo>
+            <MonitorLizard MayRequire="Ludeon.RimWorld.Odyssey">0.5</MonitorLizard>
+            <Vulture MayRequire="Ludeon.RimWorld.Odyssey">0.4</Vulture>
+            
             <ZHY_Birdoa MayRequire="zylle.hybridanimals">0.4</ZHY_Birdoa>
             <TYR_KangarooRat MayRequire="tyrannidae.littlecritters">0.25</TYR_KangarooRat>
             <BU_PeregrineFalcon MayRequire="dizzy.birdup.allinone">0.3</BU_PeregrineFalcon>

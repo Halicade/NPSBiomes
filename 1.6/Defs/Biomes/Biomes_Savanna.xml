@@ -92,27 +92,29 @@
             <rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Hot</rareCatchesSetMaker>
         </fishTypes>
         <wildPlants>
-            <TKKN_PlantTallGrasses>7.0</TKKN_PlantTallGrasses>
-            <Plant_Grass>10.0</Plant_Grass>
-            <Plant_TallGrass>15.0</Plant_TallGrass>
-            <Plant_Dandelion>0.8</Plant_Dandelion>
-            <Plant_Bush>0.7</Plant_Bush>
-            <Plant_PincushionCactus>0.6</Plant_PincushionCactus>
             <Plant_Agave>0.3</Plant_Agave>
-            <TKKN_PlantTreeAcacia>0.11</TKKN_PlantTreeAcacia>
-            <TKKN_PlantTreeGum>0.11</TKKN_PlantTreeGum>
-            <TKKN_PlantTreeBaobab>0.11</TKKN_PlantTreeBaobab>
-            <Plant_TreeDrago>0.11</Plant_TreeDrago>
             <Plant_Berry>0.1</Plant_Berry>
+            <Plant_Bush>0.7</Plant_Bush>
+            <Plant_Dandelion>0.8</Plant_Dandelion>
+            <Plant_Grass>10.0</Plant_Grass>
+            <Plant_PincushionCactus>0.6</Plant_PincushionCactus>
+            <Plant_TallGrass>15.0</Plant_TallGrass>
+            <Plant_TreeDrago>0.11</Plant_TreeDrago>
             <TKKN_PlantCatTails>2.3</TKKN_PlantCatTails>
             <TKKN_PlantLilypad>2.2</TKKN_PlantLilypad>
+            <TKKN_PlantTallGrasses>7.0</TKKN_PlantTallGrasses>
+            <TKKN_PlantTreeAcacia>0.11</TKKN_PlantTreeAcacia>
+            <TKKN_PlantTreeBaobab>0.11</TKKN_PlantTreeBaobab>
+            <TKKN_PlantTreeGum>0.11</TKKN_PlantTreeGum>
 
+            <Plant_Reeds MayRequire="Ludeon.Rimworld.Odyssey">0.6</Plant_Reeds>
 
             <!-- Pollution plants -->
             <Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">9</Plant_GrayGrass>
 
         </wildPlants>
         <wildAnimals>
+            <Bison>0.1</Bison>
             <Boomalope>0.6</Boomalope>
             <Boomrat>1</Boomrat>
             <Cougar>0.3</Cougar>
@@ -120,6 +122,8 @@
             <Emu>0.6</Emu>
             <Fox_Fennec>0.2</Fox_Fennec>
             <Gazelle>1.0</Gazelle>
+            <GuineaPig>0.25</GuineaPig>
+            <Horse>0.09</Horse>
             <Ibex>1.0</Ibex>
             <Iguana>0.5</Iguana>
             <Megasloth>0.4</Megasloth>
@@ -129,7 +133,9 @@
             <Rhinoceros>0.3</Rhinoceros>
             <Squirrel>1</Squirrel>
             <WildBoar>0.6</WildBoar>
+
             <PrairieDog MayRequire="Ludeon.Rimworld.Odyssey">0.3</PrairieDog>
+            
             <ERN_Ferret MayRequire="erin.fluffyfauna">0.3</ERN_Ferret>
             <ERN_Hedgehog MayRequire="erin.fluffyfauna">0.3</ERN_Hedgehog>
             <HC_Pangolin MayRequire="hc.animal.continued">0.6</HC_Pangolin>

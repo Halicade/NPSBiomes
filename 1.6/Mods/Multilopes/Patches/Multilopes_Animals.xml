@@ -22,27 +22,6 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
-        <value>
-
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
-        <value>
-
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
-        <value>
-
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
         <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
         <value>
             <dtf_Ambrolope>0.1</dtf_Ambrolope>

@@ -100,6 +100,9 @@
             <Megascarab>1</Megascarab>
             <Ostrich>0.2</Ostrich>
             <Rat>0.30</Rat>
+
+            <Vulture MayRequire="Ludeon.RimWorld.Odyssey">1</Vulture>
+            
             <ZHY_Birdoa MayRequire="zylle.hybridanimals">0.3</ZHY_Birdoa>
             <TYR_KangarooRat MayRequire="tyrannidae.littlecritters">0.25</TYR_KangarooRat>
             <BU_Vulture MayRequire="dizzy.birdup.allinone">0.8</BU_Vulture>

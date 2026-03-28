@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
+        <value>
+            <Mouse>0.3</Mouse>
+            <Harvest_Mouse>0.05</Harvest_Mouse>
+            <Striped_Mouse>0.06</Striped_Mouse>
+            <Woolly_Mouse>0.01</Woolly_Mouse>
+            <Maned_Rat>0.03</Maned_Rat>
+            <Hamster>0.2</Hamster>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
+        <value>
+            <Mouse>0.1</Mouse>
+            <Woolly_Mouse>0.2</Woolly_Mouse>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
+        <value>
+            <Striped_Mouse>0.02</Striped_Mouse>
+            <Mole_Rat>0.3</Mole_Rat>
+            <Jerboa>0.3</Jerboa>
+            <Kangaroo_Rat>0.03</Kangaroo_Rat>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
+        <value>
+            <Mole_Rat>0.1</Mole_Rat>
+            <Jerboa>0.1</Jerboa>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
+        <value>
+            <Mouse>0.1</Mouse>
+            <Harvest_Mouse>0.04</Harvest_Mouse>
+            <Striped_Mouse>0.06</Striped_Mouse>
+            <Maned_Rat>0.03</Maned_Rat>
+            <Mole_Rat>0.15</Mole_Rat>
+            <Jerboa>0.1</Jerboa>
+            <Kangaroo_Rat>0.05</Kangaroo_Rat>
+            <Hamster>0.05</Hamster>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
+        <value>
+            <Mouse>0.1</Mouse>
+            <Cloud_Rat>0.35</Cloud_Rat>
+        </value>
+    </Operation>
+</Patch>
