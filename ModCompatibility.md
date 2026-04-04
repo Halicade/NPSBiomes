@@ -107,12 +107,12 @@
 
 ### Other mods patching this one:
 
-- [Vanilla Fishing Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1914064942) Biomes are patched to receive fish.
+- [Vanilla Fishing Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1914064942) Biomes are patched to receive fish when Odyssey is not active.
 
 ### Mods outside of my control:
 
 - [Combat Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=2890901044) Animals are not patched for Combat extended. Using [Nuff's Auto-Patcher for Combat Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=2972167798) I had no issues.
-- [Clean Textures](https://steamcommunity.com/sharedfiles/filedetails/?id=2865361569) Mod has terrain textures using the old file directory location. I'm unable to reach them through steam ocmments to let them know.
+- [Clean Textures](https://steamcommunity.com/sharedfiles/filedetails/?id=2865361569) Mod has terrain textures using the old file directory location. I'm unable to reach them through steam comments to let them know.
 - [Greenworld](https://steamcommunity.com/sharedfiles/filedetails/?id=1268832971) and [Greenworld Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=1542284250) Mods have terrain textures using the old file directory location. Left a comment on their page.
 - [Greenworld - ReGrowth](https://steamcommunity.com/sharedfiles/filedetails/?id=2882040405) Mod has terrain textures using the old file directory location. Left a comment on their page.
 
