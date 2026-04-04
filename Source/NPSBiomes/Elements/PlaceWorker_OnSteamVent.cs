@@ -1,4 +1,6 @@
-﻿using Verse;
+﻿using System.Collections.Generic;
+using RimWorld;
+using Verse;
 
 namespace NPSBiomes;
 
@@ -20,4 +22,15 @@ public class PlaceWorker_OnSteamVent : PlaceWorker
     {
         return otherDef == ThingDefOf.TKKN_SteamVent;
     }
+    
+    
+    public override void DrawMouseAttachments(BuildableDef def)
+    {
+        List<Thing> list = Find.CurrentMap.listerThings.ThingsOfDef(ThingDefOf.TKKN_SteamVent);
+        for (int i = 0; i < list.Count; i++)
+        {
+            TargetHighlighter.Highlight(list[i]);
+        }
+    }
+    
 }

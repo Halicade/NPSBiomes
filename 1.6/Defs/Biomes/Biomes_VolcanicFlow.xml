@@ -11,7 +11,7 @@
         <implemented>true</implemented>
         <forageability>.25</forageability>
         <foragedFood>RawBerries</foragedFood>
-        <geyserCountFactor>1.5</geyserCountFactor>
+        <geyserCountFactor>0.5</geyserCountFactor>
         <settlementSelectionWeight>.6</settlementSelectionWeight>
         <texture>TKKN_NPS/World/Biomes/Lavatropical</texture>
         <riverbankSizeRange>6~9</riverbankSizeRange>
@@ -21,6 +21,7 @@
         <extraGenSteps>
             <li>NPS_LavaLanding</li>
             <li>NPS_LavaPathing</li>
+            <li>NPS_SpawnSteamVents</li>
         </extraGenSteps>
         <diseaseMtbDays>35</diseaseMtbDays>
         <diseases>

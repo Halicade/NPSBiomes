@@ -1,13 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections.Frozen;
+using System.Collections.Generic;
 using Verse;
 
 namespace NPSBiomes;
 
 public static class TerrainTagUtil
 {
-
-    public static readonly HashSet<TerrainDef> Lava = [];
-    public static readonly HashSet<TerrainDef> SaltTerrains = [];
+    
+    private static readonly HashSet<TerrainDef> HashLava = [];
+    private static readonly HashSet<TerrainDef> HashSalt = [];
+    
+    public static FrozenSet<TerrainDef> Lava = [];
+    public static FrozenSet<TerrainDef> SaltTerrains = [];
 
 
     public static void IntializeTerrainTags() {
@@ -16,13 +20,19 @@ public static class TerrainTagUtil
         foreach (var terrain in allTerrains) {
             
             if (terrain.HasTag("Lava") || terrain.HasTag("TKKN_Lava")) {
-                Lava.Add(terrain);
+                HashLava.Add(terrain);
             }
 
             if (terrain.HasTag("Salt")) {
-                SaltTerrains.Add(terrain);
+                HashSalt.Add(terrain);
             }
             
         }
+        
+        Lava = HashLava.ToFrozenSet();
+        SaltTerrains = HashSalt.ToFrozenSet();
+        // Don't need the original dicts
+        HashLava.Clear();
+        HashSalt.Clear();
     }
 }

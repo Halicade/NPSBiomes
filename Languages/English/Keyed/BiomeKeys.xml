@@ -21,6 +21,9 @@
     <NPS_LavaReplace_Title>Replace lava with Odyssey Variant</NPS_LavaReplace_Title>
     <NPS_LavaReplace_Text>Replace the lava that spawns on the Volcanic fields biome with its Odyssey counterpart</NPS_LavaReplace_Text>
 
+    <!--NPS Weather Effects Only-->
+    <NPS_SteamVentsDespawn_Title>Steam vents can despawn</NPS_SteamVentsDespawn_Title>
+    <NPS_SteamVentsDespawn_Text>Steam vents can despawn. These will occasionally respawn as well</NPS_SteamVentsDespawn_Text>
 
     <!-- @formatter:on -->
 </LanguageData>

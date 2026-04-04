@@ -15,20 +15,22 @@ public class BiomeSettings : ModSettings
     public static bool modifyAridShrubland = true;
     public static bool modifyTemperateForest = true;
     public static bool lavaReplace = false;
-    
+    public static bool steamVentsDespawn = true;
+
     //Plant changes
     private static bool dandelionChanges = true;
     private static bool wildVegetables = true;
-    
+
     public static bool MedievalOverhaulActive;
-    
+    public static bool NPSWeatherActive;
+
     public static bool GetActiveSettings(string settingName) {
         switch (settingName) {
             case "Dandelions":
                 return dandelionChanges;
             case "WildVegetables":
                 return wildVegetables;
-            case  "LavaReplace":
+            case "LavaReplace":
                 return lavaReplace;
             default:
                 Log.Error($"NPSBiomes: Error trying to perform operation. Could not find setting named {settingName}");
@@ -73,10 +75,12 @@ public class BiomeSettings : ModSettings
             "NPS_Dandelions_Title".Translate(),
             ref dandelionChanges,
             "NPS_Dandelions_Text".Translate());
+        
         list.CheckboxLabeled(
             "NPS_WildVegetables_Title".Translate(),
             ref wildVegetables,
             "NPS_WildVegetables_Text".Translate());
+
         if (ModsConfig.OdysseyActive) {
             list.CheckboxLabeled(
                 "NPS_LavaReplace_Title".Translate(),
@@ -84,12 +88,19 @@ public class BiomeSettings : ModSettings
                 "NPS_LavaReplace_Text".Translate());
         }
 
+        if (NPSWeatherActive) {
+            list.CheckboxLabeled(
+                "NPS_SteamVentsDespawn_Title".Translate(),
+                ref steamVentsDespawn,
+                "NPS_SteamVentsDespawn_Text".Translate());
+        }
+
         list.End();
     }
 
     public override void ExposeData() {
         base.ExposeData();
-        
+
         Scribe_Values.Look(ref allowDesertSaltFlats, "allowDesertSaltFlats", true);
         Scribe_Values.Look(ref allowDesertOasis, "allowDesertOasis", true);
         Scribe_Values.Look(ref allowRedwood, "allowRedwood", true);
@@ -101,5 +112,6 @@ public class BiomeSettings : ModSettings
         Scribe_Values.Look(ref dandelionChanges, "dandelionChanges", true);
         Scribe_Values.Look(ref wildVegetables, "wildVegetables", true);
         Scribe_Values.Look(ref lavaReplace, "lavaReplace");
+        Scribe_Values.Look(ref steamVentsDespawn, "steamVentsDespawn", true);
     }
 }
