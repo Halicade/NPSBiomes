@@ -29,6 +29,7 @@
     <li IfModActive="nexomon.x">1.6/Mods/Nexomon</li>
     <li IfModActive="regrowth.botr.core">1.6/Mods/Regrowth</li>
     <li IfModActive="mlie.rc2.core">1.6/Mods/Rimcuisine</li>
+    <li IfModActive="tobyguilmon.pikmin">1.6/Mods/Rimpikmin</li>
     <li IfModActive="mlie.starwarsanimalcollection">1.6/Mods/StarWarsAnimals</li>
     <li IfModActive="zal.syntheticanimals">1.6/Mods/SyntheticAnimals</li>
     <li IfModActive="argon.tribalmedicineremake">1.6/Mods/TribalMedicine</li>
