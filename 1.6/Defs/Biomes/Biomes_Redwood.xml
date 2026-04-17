@@ -4,7 +4,7 @@
     <BiomeDef>
         <defName>TKKN_RedwoodForest</defName>
         <label>redwood forest</label>
-        <description>Forests of large, slow growing redwood trees and old growth oaks. Very rainy and overcast. Many species of animals move around in the trees and on the plains. Travel becomes difficult.</description>
+        <description>Forests of large, slow growing redwood trees and old growth oaks. Very rainy and overcast. Many species of animals move around in the trees and on the plains. Travel is more difficult than other areas.</description>
         <workerClass>NPSBiomes.NPS_BiomeWorker_Redwoods</workerClass>
         <animalDensity>2.8</animalDensity>
         <plantDensity>0.55</plantDensity>
@@ -270,6 +270,7 @@
             <ZTT_Toughback MayRequire="zylle.turtles">0.05</ZTT_Toughback>
             <Meowl_Kind MayRequire="tolgrim.meowl.race">0.1</Meowl_Kind>
             <ssEFP_Megaloceros MayRequire="sneezingseal.extinctfaunapack.cenozoic">0.12</ssEFP_Megaloceros>
+            <Rimmessian_fox MayRequire="hubertdragon.rimmessianfox">0.04</Rimmessian_fox>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>

@@ -62,6 +62,7 @@
 | [Rim of Evil: Northern Frontier](https://steamcommunity.com/sharedfiles/filedetails/?id=3657594516)                 | jtc.nordberg                                   |
 | [RimBeast (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2114991205)                           | mlie.rimbeast                                  |
 | [Rimcraft Reborn Beta](https://steamcommunity.com/sharedfiles/filedetails/?id=3599879749)                           | rimcraftreborn.betatest                        |
+| [Rimmessian Fox](https://steamcommunity.com/sharedfiles/filedetails/?id=3708558259)                                 | hubertdragon.rimmessianfox                     |
 | [Rimtroid: Universal](https://steamcommunity.com/sharedfiles/filedetails/?id=3618242371)                            | rt.universal                                   |
 | [Rodents of Unusual Size](https://steamcommunity.com/sharedfiles/filedetails/?id=1682676087)                        | mal.rodentsofunusualsize                       |
 | [Slimes](https://steamcommunity.com/sharedfiles/filedetails/?id=2639634490)                                         | zylle.slimes                                   |

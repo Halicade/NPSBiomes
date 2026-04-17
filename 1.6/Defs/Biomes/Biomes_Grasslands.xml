@@ -231,6 +231,7 @@
             <ZTT_Steelshell MayRequire="zylle.turtles">0.03</ZTT_Steelshell>
             <ssEFP_DwarfElephant MayRequire="sneezingseal.extinctfaunapack.cenozoic">0.1</ssEFP_DwarfElephant>
             <Basilisk MayRequire="zal.basilisk">0.02</Basilisk>
+            <Rimmessian_fox MayRequire="hubertdragon.rimmessianfox">0.025</Rimmessian_fox>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.4</Boomalope>
