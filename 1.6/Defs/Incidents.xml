@@ -14,7 +14,7 @@
         <pointsScaleable>true</pointsScaleable>
         <allowedBiomes>
             <li>TKKN_VolcanicFlow</li>
-            <li>LavaField</li>
+            <li MayRequire="Ludeon.Rimworld.Odyssey">LavaField</li>
         </allowedBiomes>
     </IncidentDef>
     -->
