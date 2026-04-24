@@ -88,20 +88,20 @@
             <Plant_Bush>0.25</Plant_Bush>
             <Plant_Dandelion>0.2</Plant_Dandelion>
             <Plant_Grass>3</Plant_Grass>
-            <Plant_PincushionCactus>.5</Plant_PincushionCactus>
+            <Plant_PincushionCactus>0.5</Plant_PincushionCactus>
             <Plant_TreeBamboo>0.3</Plant_TreeBamboo>
             <Plant_TreePalm>0.3</Plant_TreePalm>
-            <TKKN_PlantCactusBarrel>.5</TKKN_PlantCactusBarrel>
-            <TKKN_PlantCactusPricklyPear>.3</TKKN_PlantCactusPricklyPear>
-            <TKKN_PlantCactusSanPedro>.5</TKKN_PlantCactusSanPedro>
-            <TKKN_PlantCatTails>.6</TKKN_PlantCatTails>
+            <TKKN_PlantCactusBarrel>0.5</TKKN_PlantCactusBarrel>
+            <TKKN_PlantCactusPricklyPear>0.3</TKKN_PlantCactusPricklyPear>
+            <TKKN_PlantCactusSanPedro>0.5</TKKN_PlantCactusSanPedro>
+            <TKKN_PlantCatTails>0.6</TKKN_PlantCatTails>
             <TKKN_PlantDesertShrubA>1</TKKN_PlantDesertShrubA>
             <TKKN_PlantDesertShrubB>1</TKKN_PlantDesertShrubB>
-            <TKKN_PlantLilypad>.5</TKKN_PlantLilypad>
-            <TKKN_PlantSucculants>.5</TKKN_PlantSucculants>
-            <TKKN_PlantTreeBaobab>.5</TKKN_PlantTreeBaobab>
-            <TKKN_PlantTreeGum>.5</TKKN_PlantTreeGum>
-            <TKKN_TreeOcotillo>.3</TKKN_TreeOcotillo>
+            <TKKN_PlantLilypad>0.5</TKKN_PlantLilypad>
+            <TKKN_PlantSucculants>0.5</TKKN_PlantSucculants>
+            <TKKN_PlantTreeBaobab>0.5</TKKN_PlantTreeBaobab>
+            <TKKN_PlantTreeGum>0.5</TKKN_PlantTreeGum>
+            <TKKN_TreeOcotillo>0.3</TKKN_TreeOcotillo>
 
             <Plant_Reeds MayRequire="Ludeon.Rimworld.Odyssey">0.4</Plant_Reeds>
             

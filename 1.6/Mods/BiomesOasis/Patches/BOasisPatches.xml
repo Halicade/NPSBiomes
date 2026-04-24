@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildPlants</xpath>
+        <value>
+            <BMT_AquamelonPlant>0.06</BMT_AquamelonPlant>
+            <BMT_DuneDelightPlant>0.2</BMT_DuneDelightPlant>
+            <BMT_FloweringCactus>0.1</BMT_FloweringCactus>
+            <BMT_Caladium>0.05</BMT_Caladium>
+            <BMT_Lilypad>0.3</BMT_Lilypad>
+            <BMT_Anemone>1</BMT_Anemone>
+            <BMT_Papyrus>1</BMT_Papyrus>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
+        <value>
+            <BMT_DuneStrider>0.03</BMT_DuneStrider>
+            <BMT_GemScorpion>0.04</BMT_GemScorpion>
+            <BMT_Heron>0.1</BMT_Heron>
+            <BMT_OrchidOkapi>0.3</BMT_OrchidOkapi>
+            <BMT_PalmWarbler>0.3</BMT_PalmWarbler>
+            <BMT_Sandstalker>0.01</BMT_Sandstalker>
+            <BMT_Sunsnake>0.03</BMT_Sunsnake>
+            <BMT_Tamarin>0.3</BMT_Tamarin>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
+        <value>
+            <BMT_DuneStrider>0.01</BMT_DuneStrider>
+            <BMT_GemScorpion>0.02</BMT_GemScorpion>
+            <BMT_OrchidOkapi>0.1</BMT_OrchidOkapi>
+            <BMT_Sandstalker>0.02</BMT_Sandstalker>
+            <BMT_Tamarin>0.1</BMT_Tamarin>
+        </value>
+    </Operation>
+
+
+</Patch>

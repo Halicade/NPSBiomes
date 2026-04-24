@@ -17,6 +17,7 @@
         <li IfModActive="acpteam.acpvanillastyle" IfModNotActive="Ludeon.Rimworld.Odyssey">1.6/Mods/AnimalCollabProjectNoOdyssey</li>
         <li IfModActive="BiomesTeam.BiomesPollutedLands">1.6/Mods/BiomesPollutedLands</li>
         <li IfModActive="biomesteam.biomesprehistoric">1.6/Mods/BiomesPrehistoric</li>
+        <li IfModActive="biomesteam.oasis">1.6/Mods/BiomesOasis</li>
         <li IfModActive="zal.borderlands">1.6/Mods/Borderlands</li>
         <li IfModActive="onyxae.dragonsdescent">1.6/Mods/DragonsDescent</li>
         <li IfModActive="tigerblut.flommel">1.6/Mods/Flommel</li>

@@ -12,6 +12,7 @@
 | [BIRD UP!+](https://steamcommunity.com/sharedfiles/filedetails/?id=3529981601)                                      | tyrannidae.birdupplus                          |
 | [Biomes! Polluted Lands](https://steamcommunity.com/sharedfiles/filedetails/?id=3390196656)                         | biomesteam.biomespollutedlands                 |
 | [Biomes! Prehistoric](https://steamcommunity.com/sharedfiles/filedetails/?id=2860715703)                            | biomesteam.biomesprehistoric                   |
+| [Biomes! Oasis](https://steamcommunity.com/sharedfiles/filedetails/?id=2538518381)                                  | biomesteam.oasis                               |
 | [Birds Beyond (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3263608515)                       | mlie.birdsbeyond                               |
 | [Birds of the World!](https://steamcommunity.com/sharedfiles/filedetails/?id=3245417989)                            | tyrannidae.birdsoftheworld                     |
 | [Borderlands: The Rim (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3337102401)               | zal.borderlands                                |
@@ -87,6 +88,7 @@
 |--------------------------------------------------------------------------------------------------------|------------------------------------|
 | [Biomes! Polluted Lands](https://steamcommunity.com/sharedfiles/filedetails/?id=3390196656)            | biomesteam.biomespollutedlands     |
 | [Biomes! Prehistoric](https://steamcommunity.com/sharedfiles/filedetails/?id=2860715703)               | biomesteam.biomesprehistoric       |
+| [Biomes! Oasis](https://steamcommunity.com/sharedfiles/filedetails/?id=2538518381)                     | biomesteam.oasis                   |
 | [Flowers (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2025555200)               | mlie.flowers                       |
 | [RimCuisine 2 Core (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366)     | mlie.rc2.core                      |
 | [Kit's Brazilian Crops (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401) | zal.braziliancrops                 |
