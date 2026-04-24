@@ -20,8 +20,8 @@ public class BiomeSettings : ModSettings
     public static bool basaltLockedToBiome = true;
     
     //Plant changes
-    private static bool dandelionChanges = true;
-    private static bool wildVegetables = true;
+    public static bool dandelionChanges = true;
+    public static bool wildVegetables = true;
 
     public static bool MedievalOverhaulActive;
     
@@ -43,77 +43,6 @@ public class BiomeSettings : ModSettings
                 Log.Error($"NPSBiomes: Error trying to perform operation. Could not find setting named {settingName}");
                 return false;
         }
-    }
-
-    public static void DoWindowContents(Rect inRect) {
-        Listing_Standard list = new Listing_Standard(GameFont.Small);
-
-        list.Begin(inRect.LeftHalf());
-
-        list.CheckboxLabeled(
-            "NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_Desert.LabelCap),
-            ref allowDesertSaltFlats, tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_Desert.LabelCap));
-        list.CheckboxLabeled(
-            "NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_Oasis.LabelCap),
-            ref allowDesertOasis, tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_Oasis.LabelCap));
-        list.CheckboxLabeled(
-            "NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_RedwoodForest.LabelCap),
-            ref allowRedwood, tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_RedwoodForest.LabelCap));
-        list.CheckboxLabeled(
-            "NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_Grasslands.LabelCap),
-            ref allowTallGrassPrairie, tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_Grasslands.LabelCap));
-        list.CheckboxLabeled(
-            "NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_Savanna.LabelCap),
-            ref allowSavanna, tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_Savanna.LabelCap));
-        list.CheckboxLabeled(
-            "NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_VolcanicFlow.LabelCap),
-            ref allowVolcanicFields, tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_VolcanicFlow.LabelCap));
-        list.Gap();
-        list.CheckboxLabeled(
-            "NPS_ModifyBiome_Title".Translate(BiomeDefOf.AridShrubland.LabelCap),
-            ref modifyAridShrubland, tooltip: "NPS_ModifyBiome_Text".Translate(BiomeDefOf.AridShrubland.LabelCap));
-        list.CheckboxLabeled(
-            "NPS_ModifyBiome_Title".Translate(BiomeDefOf.TemperateForest.LabelCap),
-            ref modifyTemperateForest, tooltip: "NPS_ModifyBiome_Text".Translate(BiomeDefOf.TemperateForest.LabelCap));
-
-        //ToggleablePatches
-        list.Gap();
-        list.CheckboxLabeled(
-            "NPS_Dandelions_Title".Translate(),
-            ref dandelionChanges,
-            "NPS_Dandelions_Text".Translate());
-        
-        list.CheckboxLabeled(
-            "NPS_WildVegetables_Title".Translate(),
-            ref wildVegetables,
-            "NPS_WildVegetables_Text".Translate());
-
-        if (ModsConfig.OdysseyActive) {
-            list.CheckboxLabeled(
-                "NPS_LavaReplace_Title".Translate(),
-                ref lavaReplace,
-                "NPS_LavaReplace_Text".Translate());
-        }
-        
-        list.Gap();
-
-        list.CheckboxLabeled(
-            "NPS_allowLavaEruption_title".Translate(),
-            ref allowLavaEruption,
-            "NPS_allowLavaEruption_text".Translate());
-        list.CheckboxLabeled(
-            "NPS_spawnLavaOnlyInBiome_title".Translate(),
-            ref spawnLavaOnlyInBiome,
-            "NPS_spawnLavaOnlyInBiome_text".Translate());
-
-        if (NPSWeatherActive) {
-            list.CheckboxLabeled(
-                "NPS_SteamVentsDespawn_Title".Translate(),
-                ref steamVentsDespawn,
-                "NPS_SteamVentsDespawn_Text".Translate());
-        }
-
-        list.End();
     }
 
     public override void ExposeData() {

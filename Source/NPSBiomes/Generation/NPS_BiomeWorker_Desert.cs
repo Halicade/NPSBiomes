@@ -15,7 +15,7 @@ public class NPS_BiomeWorker_Desert : BiomeWorker_Desert
             return 0f;
         }
 
-        if (Rand.ValueSeeded(planetTile.tileId ^ 0x1521ff00) > .006) {
+        if (Rand.ValueSeeded(planetTile.tileId ^ 0x1521ff00) > 0.006f) {
             return 0f;
         }
 
