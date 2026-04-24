@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!--
+    Too similar to Odyssey event and too harmful to the user
+    <IncidentDef>
+        <defName>NPS_LavaEruption</defName>
+        <label>Lava Eruption!</label>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>NPSBiomes.IncidentWorker_LavaFlow</workerClass>
+        <baseChance>2</baseChance>
+        <category>ThreatBig</category>
+        <pointsScaleable>true</pointsScaleable>
+        <allowedBiomes>
+            <li>TKKN_VolcanicFlow</li>
+            <li>LavaField</li>
+        </allowedBiomes>
+    </IncidentDef>
+    -->
+</Defs>

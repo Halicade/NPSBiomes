@@ -28,7 +28,6 @@
             <harvestTag>Standard</harvestTag>
             <harvestedThingDef>TKKN_Salt</harvestedThingDef>
             <harvestYield>3</harvestYield>
-            <topWindExposure>999</topWindExposure>
             <wildClusterWeight>60</wildClusterWeight>
             <wildClusterRadius>3</wildClusterRadius>
             <visualSizeRange>0.7~1.2</visualSizeRange>

@@ -23,6 +23,7 @@
             <li>NPS_LavaPathing</li>
             <li>NPS_SpawnSteamVents</li>
         </extraGenSteps>
+        <extraRockTypes/>
         <diseaseMtbDays>35</diseaseMtbDays>
         <diseases>
             <li>

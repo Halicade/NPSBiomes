@@ -14,15 +14,20 @@ public class BiomeSettings : ModSettings
     public static bool allowVolcanicFields = true;
     public static bool modifyAridShrubland = true;
     public static bool modifyTemperateForest = true;
-    public static bool lavaReplace = false;
-    public static bool steamVentsDespawn = true;
-
+    public static bool lavaReplace = true;
+    public static bool spawnLavaOnlyInBiome = true;
+    public static bool allowLavaEruption = true;
+    public static bool basaltLockedToBiome = true;
+    
     //Plant changes
     private static bool dandelionChanges = true;
     private static bool wildVegetables = true;
 
     public static bool MedievalOverhaulActive;
+    
     public static bool NPSWeatherActive;
+    //Requires NPS to function
+    public static bool steamVentsDespawn = true;
 
     public static bool GetActiveSettings(string settingName) {
         switch (settingName) {
@@ -32,6 +37,8 @@ public class BiomeSettings : ModSettings
                 return wildVegetables;
             case "LavaReplace":
                 return lavaReplace;
+            case "BasaltLocked":
+                return basaltLockedToBiome;
             default:
                 Log.Error($"NPSBiomes: Error trying to perform operation. Could not find setting named {settingName}");
                 return false;
@@ -87,6 +94,17 @@ public class BiomeSettings : ModSettings
                 ref lavaReplace,
                 "NPS_LavaReplace_Text".Translate());
         }
+        
+        list.Gap();
+
+        list.CheckboxLabeled(
+            "NPS_allowLavaEruption_title".Translate(),
+            ref allowLavaEruption,
+            "NPS_allowLavaEruption_text".Translate());
+        list.CheckboxLabeled(
+            "NPS_spawnLavaOnlyInBiome_title".Translate(),
+            ref spawnLavaOnlyInBiome,
+            "NPS_spawnLavaOnlyInBiome_text".Translate());
 
         if (NPSWeatherActive) {
             list.CheckboxLabeled(
@@ -111,7 +129,10 @@ public class BiomeSettings : ModSettings
         Scribe_Values.Look(ref modifyTemperateForest, "modifyTemperateForest", true);
         Scribe_Values.Look(ref dandelionChanges, "dandelionChanges", true);
         Scribe_Values.Look(ref wildVegetables, "wildVegetables", true);
-        Scribe_Values.Look(ref lavaReplace, "lavaReplace");
+        Scribe_Values.Look(ref spawnLavaOnlyInBiome, "spawnLavaOnlyInBiome", true);
+        Scribe_Values.Look(ref allowLavaEruption, "allowLavaEruption", true);
+        Scribe_Values.Look(ref basaltLockedToBiome, "basaltLockedToBiome", true);
+        Scribe_Values.Look(ref lavaReplace, "lavaReplace", true);
         Scribe_Values.Look(ref steamVentsDespawn, "steamVentsDespawn", true);
     }
 }

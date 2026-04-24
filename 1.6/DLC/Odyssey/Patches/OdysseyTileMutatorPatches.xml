@@ -247,6 +247,15 @@
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TileMutatorDef[defName="PlantGrove"]/plantKinds</xpath>
+        <value>
+            <li>TKKN_PlantTreeRedwood</li>
+            <li>TKKN_OldGrowth_PlantTreeOak</li>
+            <li>TKKN_OldGrowth_PlantTreeHazelnut</li>
+            <li>TKKN_PlantTreeHazelnut</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
         <xpath>Defs/TileMutatorDef[defName="WildPlants"]/biomeWhitelist</xpath>
         <value>
             <li>TKKN_VolcanicFlow</li>
@@ -255,4 +264,27 @@
             <li>TKKN_Savanna</li>
         </value>
     </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TileMutatorDef[defName="ObsidianDeposits"]/biomeWhitelist</xpath>
+        <value>
+            <li>TKKN_VolcanicFlow</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TileMutatorDef[@Name="BaseLavaLakeMut"]/biomeWhitelist</xpath>
+        <value>
+            <li>TKKN_VolcanicFlow</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TileMutatorDef[defName="LavaFlow"]/biomeWhitelist</xpath>
+        <value>
+            <li>TKKN_VolcanicFlow</li>
+        </value>
+    </Operation>
+
+
 </Patch>

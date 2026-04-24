@@ -164,13 +164,13 @@ public class GenStep_Oasis : GenStep
     private void getWaterCellsAround(IntVec3 start) {
         soilLine.Add(start);
         foreach (var cellsAround in GenSight.PointsOnLineOfSight(start, center)) {
-            this.waterCells.Add(cellsAround);
+            waterCells.Add(cellsAround);
         }
     }
 
     private void getDeepWaterCellsAround(IntVec3 start) {
         foreach (var cellsAround in GenSight.PointsOnLineOfSight(start, center)) {
-            this.deepWaterCells.Add(cellsAround);
+            deepWaterCells.Add(cellsAround);
         }
     }
     

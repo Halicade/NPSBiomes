@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+    
+    
+    <Operation Class="NPSBiomes.Toggleables">
+        <setting>LavaReplace</setting>
+        <patchOp Class="PatchOperationReplace">
+            <xpath>Defs/BiomeDef[defName="TKKN_VolcanicFlow"]/terrainPatchMakers/li/thresholds/li[terrain="TKKN_Lava" or terrain="TKKN_LavaDeep"]</xpath>
+            <value>
+                <li>
+                    <terrain>LavaDeep</terrain>
+                    <min>0.6</min>
+                    <max>999</max>
+                </li>
+            </value>
+        </patchOp>
+        
+    </Operation>
+    
+</Patch>

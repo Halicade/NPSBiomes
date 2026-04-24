@@ -10,7 +10,7 @@
         <pathCost>12</pathCost>
         <scatterType>Rocky</scatterType>
         <statBases>
-            <Beauty>+1</Beauty>
+            <Beauty>1</Beauty>
             <Cleanliness>-2</Cleanliness>
         </statBases>
         <generatedFilth>Filth_Dirt</generatedFilth>
@@ -46,7 +46,7 @@
         <glowRadius>4</glowRadius>
         <glowColor>(239,143,1,0)</glowColor>
         <statBases>
-            <Beauty>+2</Beauty>
+            <Beauty>2</Beauty>
             <Cleanliness>-2</Cleanliness>
         </statBases>
         <tags>
@@ -64,6 +64,10 @@
         </fleckData>
         <extraNonDraftedPerceivedPathCost>200</extraNonDraftedPerceivedPathCost>
         <extraDraftedPerceivedPathCost>30</extraDraftedPerceivedPathCost>
+        <igniteRadius>3</igniteRadius>
+        <burnDamage>5</burnDamage>
+        <burnIntervalTicks>40</burnIntervalTicks>
+        <ignitePawnsIntervalTicks>120</ignitePawnsIntervalTicks>
     </TerrainDef>
 
     <TerrainDef>
@@ -87,7 +91,7 @@
         <glowRadius>5</glowRadius>
         <glowColor>(239,143,1,0)</glowColor>
         <statBases>
-            <Beauty>+2</Beauty>
+            <Beauty>2</Beauty>
             <Cleanliness>-2</Cleanliness>
         </statBases>
         <tags>

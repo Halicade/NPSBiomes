@@ -9,7 +9,7 @@ public class GenStep_LavaPathing : GenStep
     //Makes regular lava deep lava if surrounded by other lava
     public override void Generate(Map map, GenStepParams parms) {
         //Not running if we replace the lava terrain
-        if (BiomeSettings.lavaReplace)
+        if (ModsConfig.OdysseyActive && BiomeSettings.lavaReplace)
             return;
 
         foreach (IntVec3 c in map.AllCells) {
