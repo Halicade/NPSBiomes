@@ -58,6 +58,7 @@
 | [Mythic Ages: Megafauna Bestiary](https://steamcommunity.com/sharedfiles/filedetails/?id=3537788184)                | veterano.mythicages.megafaunabestiary          |
 | [Nexomon](https://steamcommunity.com/sharedfiles/filedetails/?id=2764736074)                                        | nexomon.x                                      |
 | [Parrots](https://steamcommunity.com/sharedfiles/filedetails/?id=2537399407)                                        | zylle.parrots                                  |
+| [Penguin Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3719172734)                              | filippo.penguinexpansion                       |
 | [Pygmy muffalo ](https://steamcommunity.com/sharedfiles/filedetails/?id=1885527800)                                 | dismarzero.vgp.pygmymuffalo                    |
 | [Rare Animals Expanded : The BrainRot Animals](https://steamcommunity.com/sharedfiles/filedetails/?id=3538484053)   | febvre.thebrianrotanimals.core                 |
 | [Rats With Gats](https://steamcommunity.com/sharedfiles/filedetails/?id=3484091653)                                 | shunthewitch.armedrats                         |

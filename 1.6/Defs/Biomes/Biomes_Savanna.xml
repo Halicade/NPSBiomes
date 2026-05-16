@@ -213,6 +213,9 @@
             <ssEFP_DwarfElephant MayRequire="sneezingseal.extinctfaunapack.cenozoic">0.16</ssEFP_DwarfElephant>
             <Basilisk MayRequire="zal.basilisk">0.03</Basilisk>
             <Tukiri MayRequire="zal.galaxylife">0.3</Tukiri>
+            <AfricanPenguin MayRequire="filippo.penguinexpansion">0.6</AfricanPenguin>
+            <HumboldtPenguin MayRequire="filippo.penguinexpansion">0.9</HumboldtPenguin>
+            <GalapagosPenguin MayRequire="filippo.penguinexpansion">0.75</GalapagosPenguin>
         </wildAnimals>
         <pollutionWildAnimals>
             <Rat>1.0</Rat>

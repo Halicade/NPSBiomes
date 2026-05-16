@@ -275,6 +275,7 @@
             <Fluffin MayRequire="zal.galaxylife">0.3</Fluffin>
             <Devilstalker MayRequire="zal.galaxylife">0.01</Devilstalker>
             <Nightstalker MayRequire="zal.galaxylife">0.008</Nightstalker>
+            <MagellanicPenguin MayRequire="filippo.penguinexpansion">0.6</MagellanicPenguin>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>
