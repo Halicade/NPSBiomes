@@ -36,6 +36,7 @@
         <li IfModActive="zal.syntheticanimals">1.6/Mods/SyntheticAnimals</li>
         <li IfModActive="argon.tribalmedicineremake">1.6/Mods/TribalMedicine</li>
         <li IfModActive="vanillaexpanded.vanillaanimalsexpanded">1.6/Mods/VEAnimals</li>
+        <li IfModActive="vector.leonapp.lslimes">1.6/Mods/LSlimes</li>
 
         <!--Version independent-->
         <li IfModActive="zal.wmbp,regrowth.botr.core">WMBPRegrowth</li>

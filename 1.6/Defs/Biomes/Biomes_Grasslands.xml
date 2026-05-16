@@ -232,6 +232,8 @@
             <ssEFP_DwarfElephant MayRequire="sneezingseal.extinctfaunapack.cenozoic">0.1</ssEFP_DwarfElephant>
             <Basilisk MayRequire="zal.basilisk">0.02</Basilisk>
             <Rimmessian_fox MayRequire="hubertdragon.rimmessianfox">0.025</Rimmessian_fox>
+            <Devilstalker MayRequire="zal.galaxylife">0.02</Devilstalker>
+            <Nightstalker MayRequire="zal.galaxylife">0.01</Nightstalker>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.4</Boomalope>

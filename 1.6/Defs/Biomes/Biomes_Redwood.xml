@@ -202,6 +202,7 @@
             <FoxSquirrel MayRequire="erin.foxsquirrel">0.07</FoxSquirrel>
             <VKC_Baharis MayRequire="ellenot.vaelkorrcreatures">0.1</VKC_Baharis>
             <VKC_FenHowler MayRequire="ellenot.vaelkorrcreatures">0.1</VKC_FenHowler>
+            <VKC_Ouborr MayRequire="ellenot.vaelkorrcreatures">0.1</VKC_Ouborr>
             <FEB_Apotheca MayRequire="feb.biopunklivestock">0.3</FEB_Apotheca>
             <FEB_Cottonfoot MayRequire="feb.biopunklivestock">0.04</FEB_Cottonfoot>
             <FEB_CryoToad MayRequire="feb.biopunklivestock">0.1</FEB_CryoToad>
@@ -271,6 +272,9 @@
             <Meowl_Kind MayRequire="tolgrim.meowl.race">0.1</Meowl_Kind>
             <ssEFP_Megaloceros MayRequire="sneezingseal.extinctfaunapack.cenozoic">0.12</ssEFP_Megaloceros>
             <Rimmessian_fox MayRequire="hubertdragon.rimmessianfox">0.04</Rimmessian_fox>
+            <Fluffin MayRequire="zal.galaxylife">0.3</Fluffin>
+            <Devilstalker MayRequire="zal.galaxylife">0.01</Devilstalker>
+            <Nightstalker MayRequire="zal.galaxylife">0.008</Nightstalker>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>

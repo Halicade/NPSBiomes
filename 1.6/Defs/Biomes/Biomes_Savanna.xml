@@ -153,6 +153,7 @@
             <pphhyy_Heronken MayRequire="zal.terroravis">0.01</pphhyy_Heronken>
             <VKC_Baharis MayRequire="ellenot.vaelkorrcreatures">0.1</VKC_Baharis>
             <VKC_FenHowler MayRequire="ellenot.vaelkorrcreatures">0.1</VKC_FenHowler>
+            <VKC_Rottka MayRequire="ellenot.vaelkorrcreatures">0.05</VKC_Rottka> 
             <FEB_Apotheca MayRequire="feb.biopunklivestock">0.12</FEB_Apotheca>
             <FEB_Cottonfoot MayRequire="feb.biopunklivestock">0.08</FEB_Cottonfoot>
             <FEB_Ferrohorn MayRequire="feb.biopunklivestock">0.4</FEB_Ferrohorn>
@@ -211,6 +212,7 @@
             <ZTT_Toughback MayRequire="zylle.turtles">0.03</ZTT_Toughback>
             <ssEFP_DwarfElephant MayRequire="sneezingseal.extinctfaunapack.cenozoic">0.16</ssEFP_DwarfElephant>
             <Basilisk MayRequire="zal.basilisk">0.03</Basilisk>
+            <Tukiri MayRequire="zal.galaxylife">0.3</Tukiri>
         </wildAnimals>
         <pollutionWildAnimals>
             <Rat>1.0</Rat>

@@ -34,6 +34,7 @@
 | [Fox Expansion (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2818483526)                      | zal.fox                                        |
 | [FruitsHornAnimal](https://steamcommunity.com/sharedfiles/filedetails/?id=3693343918&searchtext=)                   | rw.fruithornanimal                             |
 | [GREG](https://steamcommunity.com/sharedfiles/filedetails/?id=3228302152)                                           | tyrannidae.gregnfriends                        |
+| [Galaxy Life (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3727368092)                        | zal.galaxylife                                 |
 | [Giant Toads (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3365223736)                        | zal.gianttoads                                 |
 | [HC Animal Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3238206164)                            | hc.animal.continued                            |
 | [Hamster](https://steamcommunity.com/sharedfiles/filedetails/?id=2848286000)                                        | plaxen.hamster                                 |
@@ -42,6 +43,7 @@
 | [Hyena (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2778544400)                              | zal.hyena                                      |
 | [Jurassic Rimworld (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3541468886)                  | Mlie.JurassicRimworld                          |
 | [Jurassic Rimworld - Dinosaurs Only (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3541510004) | mlie.jurassicrimworlddinosaursonly             |
+| [L-Slimes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3285062246)                           | vector.leonapp.lslimes                         |
 | [Little Critters](https://steamcommunity.com/sharedfiles/filedetails/?id=3331281387)                                | tyrannidae.littlecritters                      |
 | [Mamuffalo ](https://steamcommunity.com/sharedfiles/filedetails/?id=2053120429)                                     | dismarzero.vgp.mamuffalo                       |
 | [Medieval Overhaul dankpyon](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926)                     | .medieval.overhaul                             |
