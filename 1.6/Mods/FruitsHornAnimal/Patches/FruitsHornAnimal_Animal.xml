@@ -12,8 +12,6 @@
         <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
         <value>
             <RWFH_Deer>0.05</RWFH_Deer>
-            <RWFH_Ibex MayRequire="dismarzero.vgp.vgpvegetablegarden">0.05</RWFH_Ibex>
-            <RWFH_Yak MayRequire="dismarzero.vgp.vgpvegetablegarden">0.01</RWFH_Yak>
         </value>
     </Operation>
 
@@ -23,19 +21,24 @@
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
-
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
+                    <value>
+                        <RWFH_Deer>0.05</RWFH_Deer>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
                     <value>
-                        <RWFH_Ibex MayRequire="dismarzero.vgp.vgpvegetablegarden">0.025</RWFH_Ibex>
+                        <RWFH_Ibex>0.025</RWFH_Ibex>
                     </value>
                 </li>
 
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
                     <value>
-                        <RWFH_Elephant MayRequire="dismarzero.vgp.vgpvegetablegarden">0.05</RWFH_Elephant>
-                        <RWFH_Ibex MayRequire="dismarzero.vgp.vgpvegetablegarden">0.05</RWFH_Ibex>
+                        <RWFH_Elephant>0.05</RWFH_Elephant>
+                        <RWFH_Ibex>0.05</RWFH_Ibex>
                     </value>
                 </li>
             </operations>
