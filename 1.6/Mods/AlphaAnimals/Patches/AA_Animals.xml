@@ -33,6 +33,14 @@
             <AA_AuroraSylph>0.05</AA_AuroraSylph>
             <AA_GreyCoatedMouflon>0.05</AA_GreyCoatedMouflon>
             <AA_Radyak>0.001</AA_Radyak>
+            <AA_TeratogenicOriginator>0.01</AA_TeratogenicOriginator>
+            <AA_AngelMothLarva>0.06</AA_AngelMothLarva>
+            <AA_AngelMoth>0.05</AA_AngelMoth>
+            <AA_PedigreedRaptor>0.01</AA_PedigreedRaptor>
+            <AA_PhoenixOwlcat>0.01</AA_PhoenixOwlcat>
+            <AA_RayHound>0.03</AA_RayHound>
+            <AA_Skiphound>0.008</AA_Skiphound>
+            <AA_DarkVandal>0.03</AA_DarkVandal>
         </value>
     </Operation>
 
@@ -71,6 +79,16 @@
             <AA_AcanthamoebaGiganteaSmall>0.01</AA_AcanthamoebaGiganteaSmall>
             <AA_AuroraSylph>0.05</AA_AuroraSylph>
             <AA_GreyCoatedMouflon>0.05</AA_GreyCoatedMouflon>
+            <AA_TeratogenicOriginator>0.01</AA_TeratogenicOriginator>
+            <AA_AngelMothLarva>0.06</AA_AngelMothLarva>
+            <AA_AngelMoth>0.05</AA_AngelMoth>
+            <AA_PedigreedRaptor>0.01</AA_PedigreedRaptor>
+            <AA_PhoenixOwlcat>0.01</AA_PhoenixOwlcat>
+            <AA_RayHound>0.05</AA_RayHound>
+            <AA_Skiphound>0.05</AA_Skiphound>
+            <AA_NightAve>0.03</AA_NightAve>
+            <AA_Murkling>0.3</AA_Murkling>
+            <AA_DarkVandal>0.04</AA_DarkVandal>
         </value>
     </Operation>
 
@@ -93,6 +111,7 @@
             <AA_MeadowAve>0.03</AA_MeadowAve>
             <AA_MegaLouse>0.03</AA_MegaLouse>
             <AA_Needlepost>0.07</AA_Needlepost>
+            <AA_Needleroll>1</AA_Needleroll>
             <AA_Nightling>0.03</AA_Nightling>
             <AA_OcularJelly>0.0025</AA_OcularJelly>
             <AA_PebbleMit>0.07</AA_PebbleMit>
@@ -103,40 +122,43 @@
             <AA_Thermadon>0.01</AA_Thermadon>
             <AA_SandProwler>0.1</AA_SandProwler>
             <AA_Murkling>0.1</AA_Murkling>
+            <AA_TeratogenicOriginator>0.01</AA_TeratogenicOriginator>
+            <AA_WindBeast>0.002</AA_WindBeast>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-    <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
-    <value>
-    <AA_DesertAve>0.2</AA_DesertAve>
-    <AA_Aerofleet>0.05</AA_Aerofleet>
-    <AA_Barbslinger>0.1</AA_Barbslinger>
-    <AA_BloodShrimp>0.01</AA_BloodShrimp>
-    <AA_BoulderMit>0.07</AA_BoulderMit>
-    <AA_Bumbledrone>0.07</AA_Bumbledrone>
-    <AA_Cactipine>0.07</AA_Cactipine>
-    <AA_Dunealisk>0.07</AA_Dunealisk>
-    <AA_FissionMouse>0.01</AA_FissionMouse>
-    <AA_GreatDevourer>0.01</AA_GreatDevourer>
-    <AA_MammothWorm>0.03</AA_MammothWorm>
-    <AA_MeadowAve>0.01</AA_MeadowAve>
-    <AA_MegaLouse>0.03</AA_MegaLouse>
-    <AA_Needlepost>0.1</AA_Needlepost>
-    <AA_Needleroll>1</AA_Needleroll>
-    <AA_Nightling>0.03</AA_Nightling>
-    <AA_PebbleMit>0.07</AA_PebbleMit>
-    <AA_SandSquid>0.05</AA_SandSquid>
-    <AA_Slurrypede>0.01</AA_Slurrypede>
-    <AA_Swarmling>0.01</AA_Swarmling>
-    <AA_TetraSlug>0.001</AA_TetraSlug>
-    <AA_Thermadon>0.01</AA_Thermadon>
-    <AA_Thunderox>0.03</AA_Thunderox>
-    <AA_MatureFleshbeast>0.01</AA_MatureFleshbeast>
-    <AA_SandProwler>0.1</AA_SandProwler>
-    <AA_Erin>0.015</AA_Erin>
-    <AA_Murkling>0.1</AA_Murkling>
-    </value>
+        <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
+        <value>
+            <AA_DesertAve>0.2</AA_DesertAve>
+            <AA_Aerofleet>0.05</AA_Aerofleet>
+            <AA_Barbslinger>0.1</AA_Barbslinger>
+            <AA_BloodShrimp>0.01</AA_BloodShrimp>
+            <AA_BoulderMit>0.07</AA_BoulderMit>
+            <AA_Bumbledrone>0.07</AA_Bumbledrone>
+            <AA_Cactipine>0.07</AA_Cactipine>
+            <AA_Dunealisk>0.07</AA_Dunealisk>
+            <AA_FissionMouse>0.01</AA_FissionMouse>
+            <AA_GreatDevourer>0.01</AA_GreatDevourer>
+            <AA_MammothWorm>0.03</AA_MammothWorm>
+            <AA_MeadowAve>0.01</AA_MeadowAve>
+            <AA_MegaLouse>0.03</AA_MegaLouse>
+            <AA_Needlepost>0.1</AA_Needlepost>
+            <AA_Needleroll>1</AA_Needleroll>
+            <AA_Nightling>0.03</AA_Nightling>
+            <AA_PebbleMit>0.07</AA_PebbleMit>
+            <AA_SandSquid>0.05</AA_SandSquid>
+            <AA_Slurrypede>0.01</AA_Slurrypede>
+            <AA_Swarmling>0.01</AA_Swarmling>
+            <AA_TetraSlug>0.001</AA_TetraSlug>
+            <AA_Thermadon>0.01</AA_Thermadon>
+            <AA_Thunderox>0.03</AA_Thunderox>
+            <AA_MatureFleshbeast>0.01</AA_MatureFleshbeast>
+            <AA_SandProwler>0.1</AA_SandProwler>
+            <AA_Erin>0.015</AA_Erin>
+            <AA_Murkling>0.1</AA_Murkling>
+            <AA_TeratogenicOriginator>0.01</AA_TeratogenicOriginator>
+        </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
@@ -172,6 +194,15 @@
             <AA_ChameleonYak>0.15</AA_ChameleonYak>
             <AA_AcanthamoebaGiganteaSmall>0.01</AA_AcanthamoebaGiganteaSmall>
             <AA_Radyak>0.001</AA_Radyak>
+            <AA_TeratogenicOriginator>0.01</AA_TeratogenicOriginator>
+            <AA_AngelMothLarva>0.06</AA_AngelMothLarva>
+            <AA_AngelMoth>0.05</AA_AngelMoth>
+            <AA_PedigreedRaptor>0.01</AA_PedigreedRaptor>
+            <AA_PhoenixOwlcat>0.01</AA_PhoenixOwlcat>
+            <AA_RayHound>0.05</AA_RayHound>
+            <AA_Skiphound>0.005</AA_Skiphound>
+            <AA_Thunderbeast>0.002</AA_Thunderbeast>
+            <AA_WindBeast>0.002</AA_WindBeast>
         </value>
     </Operation>
 
@@ -197,6 +228,9 @@
             <AA_Thermadon>0.1</AA_Thermadon>
             <AA_Murkling>0.1</AA_Murkling>
             <AA_Radyak>0.001</AA_Radyak>
+            <AA_SpinedGow>0.8</AA_SpinedGow>
+            <AA_TeratogenicOriginator>0.01</AA_TeratogenicOriginator>
+            <AA_Thunderbeast>0.001</AA_Thunderbeast>
         </value>
     </Operation>
 

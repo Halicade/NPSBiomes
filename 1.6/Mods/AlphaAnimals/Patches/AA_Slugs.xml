@@ -13,4 +13,11 @@
             <li Class="NPSBiomes.CompProperties_DeadlySalt"/>
         </value>
     </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AA_Plasmorph"]/comps</xpath>
+        <value>
+            <li Class="NPSBiomes.CompProperties_DeadlySalt"/>
+        </value>
+    </Operation>
 </Patch>
