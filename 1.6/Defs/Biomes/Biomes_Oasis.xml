@@ -210,6 +210,7 @@
             <ZTT_Toughback MayRequire="zylle.turtles">0.15</ZTT_Toughback>
             <ZTT_Steelshell MayRequire="zylle.turtles">0.02</ZTT_Steelshell>
             <Basilisk MayRequire="zal.basilisk">0.05</Basilisk>
+            <Doomalope MayRequire="cucumpear.doomalope">0.02</Doomalope>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>

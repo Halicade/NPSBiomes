@@ -135,6 +135,7 @@
             <ZEle_Appo MayRequire="zylle.elephants">0.08</ZEle_Appo>
             <ZTT_SandshellTurtle MayRequire="zylle.turtles">0.2</ZTT_SandshellTurtle>
             <Basilisk MayRequire="zal.basilisk">0.04</Basilisk>
+            <Doomalope MayRequire="cucumpear.doomalope">0.01</Doomalope>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>

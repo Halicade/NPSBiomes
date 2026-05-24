@@ -276,6 +276,9 @@
             <Devilstalker MayRequire="zal.galaxylife">0.01</Devilstalker>
             <Nightstalker MayRequire="zal.galaxylife">0.008</Nightstalker>
             <MagellanicPenguin MayRequire="filippo.penguinexpansion">0.6</MagellanicPenguin>
+            <ACPUnicorn MayRequire="cucumpear.unicorns">0.04</ACPUnicorn>
+            <CCPBoomalotter MayRequire="cucumpear.doomalope">0.15</CCPBoomalotter>
+            <Doomalope MayRequire="cucumpear.doomalope">0.02</Doomalope>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>

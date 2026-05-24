@@ -234,6 +234,7 @@
             <Rimmessian_fox MayRequire="hubertdragon.rimmessianfox">0.025</Rimmessian_fox>
             <Devilstalker MayRequire="zal.galaxylife">0.02</Devilstalker>
             <Nightstalker MayRequire="zal.galaxylife">0.01</Nightstalker>
+            <CCPBoomalotter MayRequire="cucumpear.doomalope">0.15</CCPBoomalotter>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.4</Boomalope>

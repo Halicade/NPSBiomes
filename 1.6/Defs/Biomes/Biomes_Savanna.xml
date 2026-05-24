@@ -216,6 +216,7 @@
             <AfricanPenguin MayRequire="filippo.penguinexpansion">0.6</AfricanPenguin>
             <HumboldtPenguin MayRequire="filippo.penguinexpansion">0.9</HumboldtPenguin>
             <GalapagosPenguin MayRequire="filippo.penguinexpansion">0.75</GalapagosPenguin>
+            <Doomalope MayRequire="cucumpear.doomalope">0.05</Doomalope>
         </wildAnimals>
         <pollutionWildAnimals>
             <Rat>1.0</Rat>

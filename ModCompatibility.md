@@ -4,12 +4,14 @@
 
 | Mod                                                                                                                 | Package Id                                     |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| [A Cornucopia of Unicorns](https://steamcommunity.com/sharedfiles/filedetails/?id=1788976612)                       | cucumpear.unicorns                             |
 | [AA Vampire Squirrels](https://steamcommunity.com/sharedfiles/filedetails/?id=3137738811)                           | armoredampharos.vampiresquirrels               |
 | [ABF: Synstruct Biomimetics](https://steamcommunity.com/sharedfiles/filedetails/?id=3288479776)                     | killathon.artificialbeings.syncore.biomimetics |
 | [Alpha Animals](https://steamcommunity.com/sharedfiles/filedetails/?id=1541721856)                                  | sarg.alphaanimals                              |
 | [Animal Collab Project Vanilla-Style](https://steamcommunity.com/sharedfiles/filedetails/?id=2208467668)            | acpteam.acpvanillastyle                        |
 | [BIRD UP! Continued dizzy](https://steamcommunity.com/sharedfiles/filedetails/?id=3529627105)                       | .birdup.allinone                               |
 | [BIRD UP!+](https://steamcommunity.com/sharedfiles/filedetails/?id=3529981601)                                      | tyrannidae.birdupplus                          |
+| [Biomes! Caverns](https://steamcommunity.com/sharedfiles/filedetails/?id=2969748433)                                | biomesteam.biomescaverns                       |
 | [Biomes! Polluted Lands](https://steamcommunity.com/sharedfiles/filedetails/?id=3390196656)                         | biomesteam.biomespollutedlands                 |
 | [Biomes! Prehistoric](https://steamcommunity.com/sharedfiles/filedetails/?id=2860715703)                            | biomesteam.biomesprehistoric                   |
 | [Biomes! Oasis](https://steamcommunity.com/sharedfiles/filedetails/?id=2538518381)                                  | biomesteam.oasis                               |
@@ -53,10 +55,13 @@
 | [More Birds - Conures](https://steamcommunity.com/sharedfiles/filedetails/?id=3552132388)                           | 11bullets.conures                              |
 | [More Birds - Doves](https://steamcommunity.com/sharedfiles/filedetails/?id=3557967460)                             | 11bullets.dovesandpigeons                      |
 | [More Birds - Songbirds](https://steamcommunity.com/sharedfiles/filedetails/?id=3555975161)                         | 11bullets.songbirds                            |
+| [More Foxes](https://steamcommunity.com/sharedfiles/filedetails/?id=2633670435)                                     | ellathefoxy.morefoxes                          |
 | [More Rodents](https://steamcommunity.com/sharedfiles/filedetails/?id=3689471153)                                   | ellathefoxy.morerodents                        |
 | [Multilopes Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3513469833)                            | dtf.multilopesexpanded                         |
 | [Mythic Ages: Megafauna Bestiary](https://steamcommunity.com/sharedfiles/filedetails/?id=3537788184)                | veterano.mythicages.megafaunabestiary          |
+| [新スランボ! (New Thrumbos!)](https://steamcommunity.com/sharedfiles/filedetails/?id=3726763999)                         | beckesteamid.newthrumbo                        |
 | [Nexomon](https://steamcommunity.com/sharedfiles/filedetails/?id=2764736074)                                        | nexomon.x                                      |
+| [オリマニマ！ - Orimanima! (original rimworld animal)](https://steamcommunity.com/sharedfiles/filedetails/?id=3730655004) | becke.orim.orimanimamod                        |
 | [Parrots](https://steamcommunity.com/sharedfiles/filedetails/?id=2537399407)                                        | zylle.parrots                                  |
 | [Penguin Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3719172734)                              | filippo.penguinexpansion                       |
 | [Pygmy muffalo ](https://steamcommunity.com/sharedfiles/filedetails/?id=1885527800)                                 | dismarzero.vgp.pygmymuffalo                    |
@@ -119,15 +124,8 @@
 
 ### Mods outside of my control:
 
-- [Combat Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=2890901044) Animals are not patched for
-  Combat extended.
-  Using [Nuff's Auto-Patcher for Combat Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=2972167798) I
-  had no issues.
-- [Clean Textures](https://steamcommunity.com/sharedfiles/filedetails/?id=2865361569) Mod has terrain textures using the
-  old file directory location. I'm unable to reach them through steam comments to let them know.
-- [Greenworld](https://steamcommunity.com/sharedfiles/filedetails/?id=1268832971)
-  and [Greenworld Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=1542284250) Mods have terrain textures
-  using the old file directory location. Left a comment on their page.
-- [Greenworld - ReGrowth](https://steamcommunity.com/sharedfiles/filedetails/?id=2882040405) Mod has terrain textures
-  using the old file directory location. Left a comment on their page.
+- [Combat Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=2890901044) Animals are not patched for Combat extended. Using [Nuff's Auto-Patcher for Combat Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=2972167798) I had no issues.
+- [Clean Textures](https://steamcommunity.com/sharedfiles/filedetails/?id=2865361569) Mod has terrain textures using the old file directory location. I'm unable to reach them through steam comments to let them know.
+- [Greenworld](https://steamcommunity.com/sharedfiles/filedetails/?id=1268832971) and [Greenworld Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=1542284250) Mods have terrain textures using the old file directory location. Left a comment on their page.
+- [Greenworld - ReGrowth](https://steamcommunity.com/sharedfiles/filedetails/?id=2882040405) Mod has terrain textures using the old file directory location. Left a comment on their page.
 

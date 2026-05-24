@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
+        <value>
+            <Fox_Maikong>0.005</Fox_Maikong>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
+        <value>
+            <Fox_Gray>0.001</Fox_Gray>
+            <Fox_Silver>0.07</Fox_Silver>
+            <Fox_Tibetan>0.07</Fox_Tibetan>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
+        <value>
+            <Fox_Maikong>0.005</Fox_Maikong>
+            <Fox_Kit>0.05</Fox_Kit>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
+        <value>
+            <Fox_Sand>0.1</Fox_Sand>
+            <Fox_Kit>0.05</Fox_Kit>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
+        <value>
+            <Fox_Sand>0.14</Fox_Sand>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
+        <value>
+            <Fox_Sand>0.1</Fox_Sand>
+            <Fox_Kit>0.05</Fox_Kit>
+        </value>
+    </Operation>
+
+
+</Patch>
