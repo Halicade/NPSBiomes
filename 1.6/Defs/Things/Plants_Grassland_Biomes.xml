@@ -28,7 +28,7 @@
             <growDays>4</growDays>
             <visualSizeRange>0.2~0.6</visualSizeRange>
             <wildPlantUseDistanceToShore>true</wildPlantUseDistanceToShore>
-            <!--<completelyIgnoreFertility>true</completelyIgnoreFertility>-->
+            <completelyIgnoreFertility>true</completelyIgnoreFertility>
             <destroyedByFlooding>false</destroyedByFlooding>
             <showInFrozenWater>false</showInFrozenWater>
             <wildTerrainTags>
