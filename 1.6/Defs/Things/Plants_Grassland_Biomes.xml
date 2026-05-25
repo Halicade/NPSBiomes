@@ -39,6 +39,8 @@
                 <li>Riverbank</li>
                 <li>Mud</li>
             </wildTerrainTags>
+            <wildClusterRadius>3</wildClusterRadius>
+            <wildClusterWeight>10</wildClusterWeight>
             <wildBiomes />
         </plant>
     </ThingDef>
