@@ -35,6 +35,7 @@
         <li IfModActive="becke.orim.orimanimamod">1.6/Mods/Orimanima</li>
         <li IfModActive="regrowth.botr.core">1.6/Mods/Regrowth</li>
         <li IfModActive="mlie.rc2.core">1.6/Mods/Rimcuisine</li>
+        <li IfModActive="shenix.genshinrimpactsaurians">1.6/Mods/RimpactSaurians</li>
         <li IfModActive="tobyguilmon.pikmin">1.6/Mods/Rimpikmin</li>
         <li IfModActive="mlie.starwarsanimalcollection">1.6/Mods/StarWarsAnimals</li>
         <li IfModActive="zal.syntheticanimals">1.6/Mods/SyntheticAnimals</li>
