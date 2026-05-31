@@ -36,6 +36,8 @@ public class BiomesController : Mod
     }
 
     private static void HarmonyPatches() {
+        TerrainTagUtil.IntializeTerrainTags();
+        
         var harmony = new Harmony("Hali.NPS_BiomeEffects");
 
         if (BiomeSettings.modifyAridShrubland) {
