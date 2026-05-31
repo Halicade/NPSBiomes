@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <!--
+    Need to patch this to appear in every biome AFTER inheritance takes effect
+    -->
+
+    <Operation Class="PostInheritanceOperation.Patch">
+        <operation Class="PatchOperationAdd">
+            <xpath>Defs/BiomeDef/wildPlants[not (TKKN_SaltCrystal)]</xpath>
+            <value>
+                <TKKN_SaltCrystal>1</TKKN_SaltCrystal>
+            </value>
+        </operation>
+    </Operation>
+</Patch>
