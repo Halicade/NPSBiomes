@@ -15,11 +15,13 @@ public class NPS_BiomeWorker_Savanna : BiomeWorker
             return -100f;
         }
 
-        if (tile.temperature is < 24f or > 30f) {
+        if (tile.temperature < BiomeSettings.SavannaMinTemp ||
+            tile.temperature > BiomeSettings.SavannaMaxTemp) {
             return 0f;
         }
 
-        if (tile.rainfall is < 1400f or >= 2000f) {
+        if (tile.rainfall < BiomeSettings.SavannaMinRainfall ||
+            tile.rainfall >= BiomeSettings.SavannaMaxRainfall) {
             return 0f;
         }
 

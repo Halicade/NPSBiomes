@@ -15,7 +15,7 @@ public class NPS_BiomeWorker_Desert : BiomeWorker_Desert
             return 0f;
         }
 
-        if (Rand.ValueSeeded(planetTile.tileId ^ 0x1521ff00) > 0.006f) {
+        if (Rand.ValueSeeded(planetTile.tileId ^ 0x1521ff00) > BiomeSettings.SaltFlatSpawnChance) {
             return 0f;
         }
 

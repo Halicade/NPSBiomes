@@ -15,12 +15,11 @@ public class NPS_BiomeWorker_Redwoods : BiomeWorker
             return -100f;
         }
 
-        if (tile.temperature is < -10f or > 10f) {
+        if (tile.temperature < BiomeSettings.RedwoodMinTemp || tile.temperature > BiomeSettings.RedwoodMaxTemp) {
             return 0f;
         }
 
-
-        if (tile.rainfall < 1100f)
+        if (tile.rainfall < BiomeSettings.RedwoodMaxRainfall)
             return 0f;
 
         //MO uses the same logic for their dark forest biome

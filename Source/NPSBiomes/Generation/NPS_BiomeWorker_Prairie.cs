@@ -14,11 +14,13 @@ public class NPS_BiomeWorker_Prairie : BiomeWorker
             return -100f;
         }
 
-        if (tile.temperature is < -10f or > 22) {
+        if (tile.temperature < BiomeSettings.TallgrassMinTemp || 
+            tile.temperature > BiomeSettings.TallgrassMaxTemp) {
             return 0f;
         }
 
-        if (tile.rainfall is < 900f or >= 1300f) {
+        if (tile.rainfall < BiomeSettings.TallgrassMinRainfall || 
+            tile.rainfall >= BiomeSettings.TallgrassMaxRainfall) {
             return 0f;
         }
 

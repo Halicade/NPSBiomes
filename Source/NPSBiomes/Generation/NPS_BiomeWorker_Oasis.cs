@@ -15,7 +15,7 @@ public class NPS_BiomeWorker_Oasis : BiomeWorker_ExtremeDesert
             return 0f;
         }
 
-        if (Rand.ValueSeeded(planetTile.tileId ^ 0x19dc0563) > .006f) {
+        if (Rand.ValueSeeded(planetTile.tileId ^ 0x19dc0563) > BiomeSettings.OasisSpawnChance) {
             return 0f;
         }
 
