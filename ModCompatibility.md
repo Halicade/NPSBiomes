@@ -86,6 +86,7 @@
 | [Unique Antelopes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2826313713)                   | zal.antelopes                                  |
 | [Vanilla Animals Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948)                       | vanillaexpanded.vanillaanimalsexpanded         |
 | [Vanilla Animals Expanded — Waste Animals](https://steamcommunity.com/sharedfiles/filedetails/?id=2962126499)       | vanillaexpanded.vaewaste                       |
+| Wayward Biomes: Lotus Wilds                                                                                                                   | zylle.waywardbiomes.lotuswilds                                               |
 | [Woolyboe Bugs Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3227401279)                        | eltwofour.woolyboebugs                         |
 | [[RF]Brea animals - 鲃动物](https://steamcommunity.com/sharedfiles/filedetails/?id=2219147939)                         | ricofox233.sunx1983.brea                       |
 | [[Ry]Rimcraft Animals (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3599363187)               | zal.rimcraftanimals                            |

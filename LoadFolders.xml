@@ -25,6 +25,7 @@
         <li IfModActive="rw.fruithornanimal">1.6/Mods/FruitsHornAnimal</li>
         <li IfModActive="mlie.jurassicrimworlddinosaursonly,Mlie.JurassicRimworld">1.6/Mods/JurassicRimworld</li>
         <li IfModActive="vanillaexpanded.vexploratione">1.6/Mods/LandmarksExpanded</li>
+        <li IfModActive="vector.leonapp.lslimes">1.6/Mods/LSlimes</li>
         <li IfModActive="spino.megafauna">1.6/Mods/MegaFauna</li>
         <li IfModActive="ellathefoxy.morefoxes">1.6/Mods/MoreFoxes</li>
         <li IfModActive="ellathefoxy.morerodents">1.6/Mods/MoreRodents</li>
@@ -41,7 +42,7 @@
         <li IfModActive="zal.syntheticanimals">1.6/Mods/SyntheticAnimals</li>
         <li IfModActive="argon.tribalmedicineremake">1.6/Mods/TribalMedicine</li>
         <li IfModActive="vanillaexpanded.vanillaanimalsexpanded">1.6/Mods/VEAnimals</li>
-        <li IfModActive="vector.leonapp.lslimes">1.6/Mods/LSlimes</li>
+        <li IfModActive="zylle.waywardbiomes.lotuswilds">1.6/Mods/WaywardLotus</li>
 
         <!--Version independent-->
         <li IfModActive="zal.wmbp,regrowth.botr.core">WMBPRegrowth</li>
