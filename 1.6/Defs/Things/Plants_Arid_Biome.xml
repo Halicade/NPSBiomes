@@ -193,6 +193,7 @@
         <plant>
             <fertilityMin>0.03</fertilityMin>
             <fertilitySensitivity>0</fertilitySensitivity>
+            <maxMeshCount>4</maxMeshCount>
             <dieIfLeafless>true</dieIfLeafless>
             <harvestTag>Standard</harvestTag>
             <sowWork>400</sowWork>
