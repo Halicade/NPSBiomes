@@ -180,6 +180,8 @@
         <label>red wood floor</label>
         <texturePath>Terrain/Surfaces/WoodFloor</texturePath>
         <color>(102,41,20)</color>
+        <pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
+        <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
         <statBases>
             <Flammability>0.22</Flammability>
         </statBases>
@@ -199,7 +201,7 @@
   -->
     <TerrainDef ParentName="TileMetalBase">
         <defName>TKKN_FloorAmber</defName>
-        <label>amber tile floor</label>
+        <label>amber tile</label>
         <description>Floor tiles made using ancient tree sap.</description>
         <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
         <color>(224,147,4)</color>
@@ -223,6 +225,7 @@
         <edgeType>FadeRough</edgeType>
         <renderPrecedence>70</renderPrecedence>
         <holdSnowOrSand>false</holdSnowOrSand>
+        <avoidWander>true</avoidWander>
         <statBases>
             <Beauty>-1</Beauty>
             <WorkToBuild>100</WorkToBuild>
