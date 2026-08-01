@@ -19,16 +19,16 @@
     -->
 
     <!-- 
-    I apologize for the obscenity I have created.
+    I apologize for the abomination I have created.
     Should only create dandelions (and apply it's respective patches) 
     if nothing else has patched dandelions similarly
     -->
 
-    <Operation Class="PatchOperationConditional">
-        <xpath>Defs/ThingDef[defName = "Plant_Dandelion"]/plant/harvestedThingDef</xpath>
-        <nomatch Class="NPSBiomes.Toggleables">
-            <setting>Dandelions</setting>
-            <patchOp Class="PatchOperationSequence">
+    <Operation Class="NPSBiomes.Toggleables">
+        <setting>Dandelions</setting>
+        <patchOp Class="PatchOperationConditional">
+            <xpath>Defs/ThingDef[defName = "Plant_Dandelion"]/plant/harvestedThingDef</xpath>
+            <nomatch Class="PatchOperationSequence">
                 <operations>
                     <li Class="PatchOperationAdd">
                         <xpath>Defs/ThingDef[defName = "Plant_Dandelion"]/plant</xpath>
@@ -59,10 +59,9 @@
                     </li>
 
                 </operations>
-            </patchOp>
 
-        </nomatch>
-
+            </nomatch>
+        </patchOp>
     </Operation>
 
 

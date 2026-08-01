@@ -28,7 +28,7 @@
             <harvestYield>225</harvestYield>
             <wildClusterWeight>8</wildClusterWeight>
             <wildClusterRadius>10</wildClusterRadius>
-            <visualSizeRange>8~12</visualSizeRange>
+            <visualSizeRange>2~12</visualSizeRange>
             <snowOverlayGraphicPath>TKKN_NPS/Things/Plant/TreeRedwoods_Snowy</snowOverlayGraphicPath>
         </plant>
     </ThingDef>

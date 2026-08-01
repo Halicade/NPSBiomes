@@ -7,11 +7,16 @@
         <defName>NPS_Oasis</defName>
         <order>355</order>
         <genStep Class="NPSBiomes.GenSteps.GenStep_Oasis">
-            <!--These get changed if NPS Wether effects is active-->
+            <!--These get changed if NPS Weather effects is active-->
             <deepWaterTerrain>WaterShallow</deepWaterTerrain>
             <waterTerrain>WaterShallow</waterTerrain>
             <soilTerrain>Riverbank</soilTerrain>
         </genStep>
+        <modExtensions>
+            <li Class="MapPreview.GenStepProperties" MayRequire="m00nl1ght.mappreview">
+                <includeInPreviews>true</includeInPreviews>
+            </li>
+        </modExtensions>
     </GenStepDef>
 
     <!--Needs to run after initial plant generation-->
@@ -38,6 +43,11 @@
         <order>224</order>
         <genStep Class="NPSBiomes.GenSteps.GenStep_LavaPathing">
         </genStep>
+        <modExtensions>
+            <li Class="MapPreview.GenStepProperties" MayRequire="m00nl1ght.mappreview">
+                <includeInPreviews>true</includeInPreviews>
+            </li>
+        </modExtensions>
     </GenStepDef>
 
     <GenStepDef>

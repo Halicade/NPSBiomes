@@ -36,10 +36,11 @@ public class GenStep_Oasis : GenStep
         soilCells.Clear();
         cornerPoints.Clear();
 
-        center = CellFinderLoose.TryFindCentralCell(map, 10, 15, x => !x.Roofed(map));
+        CellFinder.TryFindRandomCellNear(map.Center, map, 40, x => !x.Roofed(map), out center);
 
-        if (!center.IsValid || !center.InBounds(map)) return;
-
+        if (!center.IsValid || !center.InBounds(map)) {
+            return;
+        }
 
         leftCorner = center - new IntVec3(Rand.Range(17, 25), 0, Rand.Range(-13, 13));
         bottomCorner = center - new IntVec3(Rand.Range(-13, 12), 0, Rand.Range(18, 25));
