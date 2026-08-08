@@ -148,6 +148,9 @@
             <VAEWaste_Toxscorpion MayRequire="vanillaexpanded.vaewaste">0.4</VAEWaste_Toxscorpion>
             <VAEWaste_Toxafox MayRequire="vanillaexpanded.vaewaste">0.03</VAEWaste_Toxafox>
         </pollutionWildAnimals>
+        <coastalWildAnimals>
+            
+        </coastalWildAnimals>
         <allowedPackAnimals>
             <li>Muffalo</li>
             <li>Dromedary</li>

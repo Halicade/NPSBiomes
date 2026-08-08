@@ -167,17 +167,6 @@
             <BotchJob_UndeadHorse MayRequire="botchjob.profaned">0.01</BotchJob_UndeadHorse>
             <BotchJob_UndeadWarg MayRequire="botchjob.profaned">0.01</BotchJob_UndeadWarg>
             <SanguineDrake MayRequire="zal.monstermash">0.05</SanguineDrake>
-            <TurquoiseConure MayRequire="11bullets.conures">0.1</TurquoiseConure>
-            <Pigeon MayRequire="11bullets.dovesandpigeons">0.1</Pigeon>
-            <DiamondDove MayRequire="11bullets.dovesandpigeons">0.6</DiamondDove>
-            <MourningDove MayRequire="11bullets.dovesandpigeons">0.3</MourningDove>
-            <RingneckDove MayRequire="11bullets.dovesandpigeons">0.5</RingneckDove>
-            <TurtleDove MayRequire="11bullets.dovesandpigeons">0.2</TurtleDove>
-            <HomingPigeon MayRequire="11bullets.dovesandpigeons">0.1</HomingPigeon>
-            <Goldfinch MayRequire="11bullets.songbirds">0.2</Goldfinch>
-            <HouseFinch MayRequire="11bullets.songbirds">0.5</HouseFinch>
-            <Oriole MayRequire="11bullets.songbirds">0.3</Oriole>
-            <ZebraFinch MayRequire="11bullets.songbirds">0.7</ZebraFinch>
             <SpottedHyena MayRequire="zal.hyena">0.08</SpottedHyena>
             <StripedHyena MayRequire="zal.hyena">0.08</StripedHyena>
             <RW_Devirossy MayRequire="rw.furossy">0.08</RW_Devirossy>
@@ -211,6 +200,8 @@
             <ZTT_Steelshell MayRequire="zylle.turtles">0.02</ZTT_Steelshell>
             <Basilisk MayRequire="zal.basilisk">0.05</Basilisk>
             <Doomalope MayRequire="cucumpear.doomalope">0.02</Doomalope>
+            <JOE_Nautilant MayRequire="Joe.Cephaloids">0.01</JOE_Nautilant>
+            <Plover MayRequire="11bullets.shorebirds">0.35</Plover>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>
@@ -221,6 +212,9 @@
             <WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.25</WasteRat>
             <VAEWaste_Toxiguana MayRequire="vanillaexpanded.vaewaste">0.7</VAEWaste_Toxiguana>
         </pollutionWildAnimals>
+        <coastalWildAnimals>
+            
+        </coastalWildAnimals>
         <allowedPackAnimals>
             <li>Muffalo</li>
             <li>Dromedary</li>

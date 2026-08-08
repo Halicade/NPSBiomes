@@ -23,7 +23,7 @@
             <li>NPS_LavaPathing</li>
             <li>NPS_SpawnSteamVents</li>
         </extraGenSteps>
-        <extraRockTypes/>
+        <extraRockTypes />
         <diseaseMtbDays>35</diseaseMtbDays>
         <diseases>
             <li>
@@ -140,7 +140,7 @@
             <Plant_Rafflesia>0.0008</Plant_Rafflesia>
 
             <Plant_Reeds MayRequire="Ludeon.Rimworld.Odyssey">0.6</Plant_Reeds>
-            
+
             <PlantAnthurium MayRequire="dismarzero.vgp.xtratreesandflowers">0.1</PlantAnthurium>
             <PlantPlumeria MayRequire="dismarzero.vgp.xtratreesandflowers">0.15</PlantPlumeria>
 
@@ -171,10 +171,10 @@
             <Tortoise>0.4</Tortoise>
             <Warg>0.012</Warg>
             <Wolf_Timber>0.04</Wolf_Timber>
-            
+
             <LavaSnail MayRequire="Ludeon.Rimworld.Odyssey">0.2</LavaSnail>
             <Vulture MayRequire="Ludeon.Rimworld.Odyssey">0.45</Vulture>
-            
+
             <WoW_Animal_Direwolf MayRequireAnyOf="zal.rimcraftanimals,rimcraftreborn.betatest">0.03</WoW_Animal_Direwolf>
             <WoW_Animal_Horse MayRequireAnyOf="zal.rimcraftanimals,rimcraftreborn.betatest">0.06</WoW_Animal_Horse>
             <WoW_Animal_Unicorn MayRequireAnyOf="zal.rimcraftanimals,rimcraftreborn.betatest">0.01</WoW_Animal_Unicorn>
@@ -208,15 +208,6 @@
             <ABF_PawnKind_Synstruct_Convoystruct_Newboot MayRequire="killathon.artificialbeings.syncore.biomimetics">0.05</ABF_PawnKind_Synstruct_Convoystruct_Newboot>
             <ABF_PawnKind_Synstruct_Guardstruct_Newboot MayRequire="killathon.artificialbeings.syncore.biomimetics">0.02</ABF_PawnKind_Synstruct_Guardstruct_Newboot>
             <LandKraken MayRequire="zal.monstermash">0.02</LandKraken>
-            <BlackCappedConure MayRequire="11bullets.conures">0.4</BlackCappedConure>
-            <CrimsonBelliedConure MayRequire="11bullets.conures">0.4</CrimsonBelliedConure>
-            <GoldenConure MayRequire="11bullets.conures">0.4</GoldenConure>
-            <NandayConure MayRequire="11bullets.conures">0.4</NandayConure>
-            <PineappleConure MayRequire="11bullets.conures">0.4</PineappleConure>
-            <SunConure MayRequire="11bullets.conures">0.4</SunConure>
-            <TurquoiseConure MayRequire="11bullets.conures">0.4</TurquoiseConure>
-            <CinnamonGroundDove MayRequire="11bullets.dovesandpigeons">0.1</CinnamonGroundDove>
-            <MourningDove MayRequire="11bullets.dovesandpigeons">0.2</MourningDove>
             <DA_BlackScribe MayRequire="van.beasts">0.3</DA_BlackScribe>
             <Bear_Ferocious MayRequire="frcs.bear">0.012</Bear_Ferocious>
             <RW_Devirossy MayRequire="rw.furossy">0.05</RW_Devirossy>
@@ -246,6 +237,9 @@
             <WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.2</WasteRat>
             <VAEWaste_Toxafox MayRequire="vanillaexpanded.vaewaste">0.03</VAEWaste_Toxafox>
         </pollutionWildAnimals>
+        <coastalWildAnimals>
+        </coastalWildAnimals>
+
         <allowedPackAnimals>
             <li>Muffalo</li>
             <li>Elephant</li>

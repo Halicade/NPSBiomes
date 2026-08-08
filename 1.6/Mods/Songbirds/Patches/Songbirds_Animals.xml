@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
+        <value>
+            <BlueJay>0.7</BlueJay>
+            <Cardinal>0.7</Cardinal>
+            <Goldfinch>0.4</Goldfinch>
+            <HouseFinch>0.5</HouseFinch>
+            <Oriole>0.3</Oriole>
+            <ZebraFinch>0.4</ZebraFinch>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
+        <value>
+            <Goldfinch>0.2</Goldfinch>
+            <HouseFinch>0.5</HouseFinch>
+            <Oriole>0.3</Oriole>
+            <ZebraFinch>0.7</ZebraFinch>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
+        <value>
+            <BlueJay>0.3</BlueJay>
+            <Cardinal>0.3</Cardinal>
+            <Goldfinch>0.5</Goldfinch>
+            <HouseFinch>0.5</HouseFinch>
+            <Oriole>0.3</Oriole>
+            <ZebraFinch>0.7</ZebraFinch>
+        </value>
+    </Operation>
+
+</Patch>

@@ -167,23 +167,6 @@
             <BotchJob_UndeadColossus MayRequire="botchjob.profaned">0.002</BotchJob_UndeadColossus>
             <BotchJob_UndeadHorse MayRequire="botchjob.profaned">0.01</BotchJob_UndeadHorse>
             <BotchJob_UndeadWarg MayRequire="botchjob.profaned">0.01</BotchJob_UndeadWarg>
-            <BlackCappedConure MayRequire="11bullets.conures">0.1</BlackCappedConure>
-            <CrimsonBelliedConure MayRequire="11bullets.conures">0.1</CrimsonBelliedConure>
-            <GoldenConure MayRequire="11bullets.conures">0.1</GoldenConure>
-            <NandayConure MayRequire="11bullets.conures">0.1</NandayConure>
-            <PineappleConure MayRequire="11bullets.conures">0.1</PineappleConure>
-            <SunConure MayRequire="11bullets.conures">0.1</SunConure>
-            <TurquoiseConure MayRequire="11bullets.conures">0.1</TurquoiseConure>
-            <DiamondDove MayRequire="11bullets.dovesandpigeons">0.35</DiamondDove>
-            <MourningDove MayRequire="11bullets.dovesandpigeons">0.3</MourningDove>
-            <RingneckDove MayRequire="11bullets.dovesandpigeons">0.6</RingneckDove>
-            <TurtleDove MayRequire="11bullets.dovesandpigeons">0.6</TurtleDove>
-            <BlueJay MayRequire="11bullets.songbirds">0.3</BlueJay>
-            <Cardinal MayRequire="11bullets.songbirds">0.3</Cardinal>
-            <Goldfinch MayRequire="11bullets.songbirds">0.5</Goldfinch>
-            <HouseFinch MayRequire="11bullets.songbirds">0.5</HouseFinch>
-            <Oriole MayRequire="11bullets.songbirds">0.3</Oriole>
-            <ZebraFinch MayRequire="11bullets.songbirds">0.7</ZebraFinch>
             <SpottedHyena MayRequire="zal.hyena">0.08</SpottedHyena>
             <StripedHyena MayRequire="zal.hyena">0.08</StripedHyena>
             <RW_Devirossy MayRequire="rw.furossy">0.08</RW_Devirossy>
@@ -217,6 +200,8 @@
             <HumboldtPenguin MayRequire="filippo.penguinexpansion">0.9</HumboldtPenguin>
             <GalapagosPenguin MayRequire="filippo.penguinexpansion">0.75</GalapagosPenguin>
             <Doomalope MayRequire="cucumpear.doomalope">0.05</Doomalope>
+            <Egret MayRequire="11bullets.shorebirds">0.35</Egret>
+            <Plover MayRequire="11bullets.shorebirds">0.15</Plover>
         </wildAnimals>
         <pollutionWildAnimals>
             <Rat>1.0</Rat>
@@ -231,6 +216,9 @@
             <TuftedSquirrel MayRequire="armoredampharos.vampiresquirrels">0.012</TuftedSquirrel>
             <VampireSquirrel MayRequire="armoredampharos.vampiresquirrels">0.009</VampireSquirrel>
         </pollutionWildAnimals>
+        <coastalWildAnimals>
+
+        </coastalWildAnimals>
         <allowedPackAnimals>
             <li>Muffalo</li>
             <li>Elephant</li>

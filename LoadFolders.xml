@@ -21,7 +21,9 @@
         <li IfModActive="biomesteam.biomesprehistoric">1.6/Mods/BiomesPrehistoric</li>
         <li IfModActive="biomesteam.oasis">1.6/Mods/BiomesOasis</li>
         <li IfModActive="zal.borderlands">1.6/Mods/Borderlands</li>
+        <li IfModActive="11bullets.conures">1.6/Mods/Conures</li>
         <li IfModActive="onyxae.dragonsdescent">1.6/Mods/DragonsDescent</li>
+        <li IfModActive="11bullets.dovesandpigeons">1.6/Mods/DovesAndPigeons</li>
         <li IfModActive="tigerblut.flommel">1.6/Mods/Flommel</li>
         <li IfModActive="rw.fruithornanimal">1.6/Mods/FruitsHornAnimal</li>
         <li IfModActive="mlie.jurassicrimworlddinosaursonly,Mlie.JurassicRimworld">1.6/Mods/JurassicRimworld</li>
@@ -39,6 +41,8 @@
         <li IfModActive="mlie.rc2.core">1.6/Mods/Rimcuisine</li>
         <li IfModActive="shenix.genshinrimpactsaurians">1.6/Mods/RimpactSaurians</li>
         <li IfModActive="tobyguilmon.pikmin">1.6/Mods/Rimpikmin</li>
+        <li IfModActive="11bullets.shorebirds">1.6/Mods/Shorebirds</li>
+        <li IfModActive="11bullets.songbirds">1.6/Mods/Songbirds</li>
         <li IfModActive="mlie.starwarsanimalcollection">1.6/Mods/StarWarsAnimals</li>
         <li IfModActive="zal.syntheticanimals">1.6/Mods/SyntheticAnimals</li>
         <li IfModActive="argon.tribalmedicineremake">1.6/Mods/TribalMedicine</li>

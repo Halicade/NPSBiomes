@@ -18,6 +18,7 @@
 | [Birds Beyond (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3263608515)                       | mlie.birdsbeyond                               |
 | [Birds of the World!](https://steamcommunity.com/sharedfiles/filedetails/?id=3245417989)                            | tyrannidae.birdsoftheworld                     |
 | [Borderlands: The Rim (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3337102401)               | zal.borderlands                                |
+| [Cephaloids](https://steamcommunity.com/sharedfiles/filedetails/?id=3753477123)                                     | Joe.Cephaloids                                               |
 | [Clothpet Animal](https://steamcommunity.com/sharedfiles/filedetails/?id=3596332576)                                | rw.furossy                                     |
 | [Creatures of the Vael](https://steamcommunity.com/sharedfiles/filedetails/?id=3568419088)                          | ellenot.vaelkorrcreatures                      |
 | [Dark Ages : Beasts and Monsters](https://steamcommunity.com/sharedfiles/filedetails/?id=3472275628)                | van.beasts                                     |
@@ -55,12 +56,14 @@
 | [More Birds - Conures](https://steamcommunity.com/sharedfiles/filedetails/?id=3552132388)                           | 11bullets.conures                              |
 | [More Birds - Doves](https://steamcommunity.com/sharedfiles/filedetails/?id=3557967460)                             | 11bullets.dovesandpigeons                      |
 | [More Birds - Songbirds](https://steamcommunity.com/sharedfiles/filedetails/?id=3555975161)                         | 11bullets.songbirds                            |
+| [More Birds - Shorebirds](https://steamcommunity.com/sharedfiles/filedetails/?id=3763588872)                        | 11bullets.shorebirds                                               |
 | [More Foxes](https://steamcommunity.com/sharedfiles/filedetails/?id=2633670435)                                     | ellathefoxy.morefoxes                          |
 | [More Rodents](https://steamcommunity.com/sharedfiles/filedetails/?id=3689471153)                                   | ellathefoxy.morerodents                        |
 | [Multilopes Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3513469833)                            | dtf.multilopesexpanded                         |
 | [Mythic Ages: Megafauna Bestiary](https://steamcommunity.com/sharedfiles/filedetails/?id=3537788184)                | veterano.mythicages.megafaunabestiary          |
 | [新スランボ! (New Thrumbos!)](https://steamcommunity.com/sharedfiles/filedetails/?id=3726763999)                         | beckesteamid.newthrumbo                        |
 | [Nexomon](https://steamcommunity.com/sharedfiles/filedetails/?id=2764736074)                                        | nexomon.x                                      |
+| [Night Heron](https://steamcommunity.com/sharedfiles/filedetails/?id=3755918836)                                    | Antisodium.NightHeron                                               |
 | [オリマニマ！ - Orimanima! (original rimworld animal)](https://steamcommunity.com/sharedfiles/filedetails/?id=3730655004) | becke.orim.orimanimamod                        |
 | [Parrots](https://steamcommunity.com/sharedfiles/filedetails/?id=2537399407)                                        | zylle.parrots                                  |
 | [Penguin Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3719172734)                              | filippo.penguinexpansion                       |
@@ -86,7 +89,9 @@
 | [Unique Antelopes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2826313713)                   | zal.antelopes                                  |
 | [Vanilla Animals Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948)                       | vanillaexpanded.vanillaanimalsexpanded         |
 | [Vanilla Animals Expanded — Waste Animals](https://steamcommunity.com/sharedfiles/filedetails/?id=2962126499)       | vanillaexpanded.vaewaste                       |
-| Wayward Biomes: Lotus Wilds                                                                                                                   | zylle.waywardbiomes.lotuswilds                                               |
+| [Wayward Biomes: Lotus Wilds](https://steamcommunity.com/sharedfiles/filedetails/?id=3751454361)                    | zylle.waywardbiomes.lotuswilds                                               |
+| [Weasels!](https://steamcommunity.com/sharedfiles/filedetails/?id=3735716113)                                       | yourpcisonfire.weasels                                                            |
+| [Wolves Den - Legendary Wolves (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3379367192)      | zal.wolvesden                                               |
 | [Woolyboe Bugs Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3227401279)                        | eltwofour.woolyboebugs                         |
 | [[RF]Brea animals - 鲃动物](https://steamcommunity.com/sharedfiles/filedetails/?id=2219147939)                         | ricofox233.sunx1983.brea                       |
 | [[Ry]Rimcraft Animals (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3599363187)               | zal.rimcraftanimals                            |

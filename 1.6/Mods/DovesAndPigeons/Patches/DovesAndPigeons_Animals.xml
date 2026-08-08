@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
+        <value>
+            <Pigeon>0.1</Pigeon>
+            <DiamondDove>0.45</DiamondDove>
+            <MourningDove>0.4</MourningDove>
+            <RingneckDove>0.6</RingneckDove>
+            <TurtleDove>0.55</TurtleDove>
+            <HomingPigeon>0.1</HomingPigeon>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
+        <value>
+            <TurtleDove>0.3</TurtleDove>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
+        <value>
+            <Pigeon>0.1</Pigeon>
+            <DiamondDove>0.6</DiamondDove>
+            <MourningDove>0.3</MourningDove>
+            <RingneckDove>0.5</RingneckDove>
+            <TurtleDove>0.2</TurtleDove>
+            <HomingPigeon>0.1</HomingPigeon>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
+        <value>
+            <DiamondDove>0.35</DiamondDove>
+            <MourningDove>0.3</MourningDove>
+            <RingneckDove>0.6</RingneckDove>
+            <TurtleDove>0.6</TurtleDove>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
+        <value>
+            <CinnamonGroundDove>0.1</CinnamonGroundDove>
+            <MourningDove>0.2</MourningDove>
+        </value>
+    </Operation>
+
+
+</Patch>

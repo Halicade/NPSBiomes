@@ -227,12 +227,6 @@
             <ABF_PawnKind_Synstruct_Convoystruct_Newboot MayRequire="killathon.artificialbeings.syncore.biomimetics">0.05</ABF_PawnKind_Synstruct_Convoystruct_Newboot>
             <ABF_PawnKind_Synstruct_Guardstruct_Newboot MayRequire="killathon.artificialbeings.syncore.biomimetics">0.02</ABF_PawnKind_Synstruct_Guardstruct_Newboot>
             <InfernoBeetle MayRequire="zal.monstermash">0.05</InfernoBeetle>
-            <TurtleDove MayRequire="11bullets.dovesandpigeons">0.3</TurtleDove>
-            <BlueJay MayRequire="11bullets.songbirds">0.5</BlueJay>
-            <Cardinal MayRequire="11bullets.songbirds">0.5</Cardinal>
-            <Goldfinch MayRequire="11bullets.songbirds">0.5</Goldfinch>
-            <HouseFinch MayRequire="11bullets.songbirds">0.2</HouseFinch>
-            <Oriole MayRequire="11bullets.songbirds">0.1</Oriole>
             <TuftedSquirrel MayRequire="armoredampharos.vampiresquirrels">0.012</TuftedSquirrel>
             <VampireSquirrel MayRequire="armoredampharos.vampiresquirrels">0.009</VampireSquirrel>
             <Bear_Ferocious MayRequire="frcs.bear">0.012</Bear_Ferocious>
@@ -279,6 +273,9 @@
             <ACPUnicorn MayRequire="cucumpear.unicorns">0.04</ACPUnicorn>
             <CCPBoomalotter MayRequire="cucumpear.doomalope">0.15</CCPBoomalotter>
             <Doomalope MayRequire="cucumpear.doomalope">0.02</Doomalope>
+            <DW_Garmr MayRequire="zal.wolvesden">0.1</DW_Garmr>
+            <NightHeron MayRequire="Antisodium.NightHeron">0.15</NightHeron>
+            <JOE_Nautilant MayRequire="Joe.Cephaloids">0.01</JOE_Nautilant>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>

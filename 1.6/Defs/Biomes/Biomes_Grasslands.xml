@@ -176,25 +176,6 @@
             <BotchJob_UndeadColossus MayRequire="botchjob.profaned">0.002</BotchJob_UndeadColossus>
             <BotchJob_UndeadHorse MayRequire="botchjob.profaned">0.01</BotchJob_UndeadHorse>
             <BotchJob_UndeadWarg MayRequire="botchjob.profaned">0.01</BotchJob_UndeadWarg>
-            <BlackCappedConure MayRequire="11bullets.conures">0.1</BlackCappedConure>
-            <CrimsonBelliedConure MayRequire="11bullets.conures">0.1</CrimsonBelliedConure>
-            <GoldenConure MayRequire="11bullets.conures">0.1</GoldenConure>
-            <NandayConure MayRequire="11bullets.conures">0.1</NandayConure>
-            <PineappleConure MayRequire="11bullets.conures">0.1</PineappleConure>
-            <SunConure MayRequire="11bullets.conures">0.1</SunConure>
-            <TurquoiseConure MayRequire="11bullets.conures">0.1</TurquoiseConure>
-            <Pigeon MayRequire="11bullets.dovesandpigeons">0.1</Pigeon>
-            <DiamondDove MayRequire="11bullets.dovesandpigeons">0.45</DiamondDove>
-            <MourningDove MayRequire="11bullets.dovesandpigeons">0.4</MourningDove>
-            <RingneckDove MayRequire="11bullets.dovesandpigeons">0.6</RingneckDove>
-            <TurtleDove MayRequire="11bullets.dovesandpigeons">0.55</TurtleDove>
-            <HomingPigeon MayRequire="11bullets.dovesandpigeons">0.1</HomingPigeon>
-            <BlueJay MayRequire="11bullets.songbirds">0.7</BlueJay>
-            <Cardinal MayRequire="11bullets.songbirds">0.7</Cardinal>
-            <Goldfinch MayRequire="11bullets.songbirds">0.4</Goldfinch>
-            <HouseFinch MayRequire="11bullets.songbirds">0.5</HouseFinch>
-            <Oriole MayRequire="11bullets.songbirds">0.3</Oriole>
-            <ZebraFinch MayRequire="11bullets.songbirds">0.4</ZebraFinch>
             <PearlHamster MayRequire="plaxen.hamster">0.07</PearlHamster>
             <AgoutiHamster MayRequire="plaxen.hamster">0.07</AgoutiHamster>
             <SapphirerHamster MayRequire="plaxen.hamster">0.07</SapphirerHamster>
@@ -235,6 +216,10 @@
             <Devilstalker MayRequire="zal.galaxylife">0.02</Devilstalker>
             <Nightstalker MayRequire="zal.galaxylife">0.01</Nightstalker>
             <CCPBoomalotter MayRequire="cucumpear.doomalope">0.15</CCPBoomalotter>
+            <JOE_Landopus MayRequire="Joe.Cephaloids">0.1</JOE_Landopus>
+            <JOE_Cephalope MayRequire="Joe.Cephaloids">0.2</JOE_Cephalope>
+            <JOE_Nautilant MayRequire="Joe.Cephaloids">0.01</JOE_Nautilant>
+            <Weasel MayRequire="yourpcisonfire.weasels">0.4</Weasel>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.4</Boomalope>
