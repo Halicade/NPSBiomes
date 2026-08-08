@@ -17,6 +17,7 @@
             <Bursa>0.01</Bursa>
             <CanCell>0.01</CanCell>
             <Cannok>0.06</Cannok>
+            <Clodhopper>0.05</Clodhopper>
             <Dactillion>0.02</Dactillion>
             <Dalgo>0.08</Dalgo>
             <Dewback>0.01</Dewback>
@@ -33,12 +34,14 @@
             <Gundark>0.02</Gundark>
             <Gutkurr>0.08</Gutkurr>
             <Hawkbat>0.01</Hawkbat>
+            <Hrumph>0.6</Hrumph>
             <Insectomorph>0.08</Insectomorph>
             <Iriaz>0.08</Iriaz>
             <IridonianReek>0.01</IridonianReek>
             <IthorianReek>0.08</IthorianReek>
             <Jakobeast>0.08</Jakobeast>
             <Jamel>0.08</Jamel>
+            <Jimvu>0.7</Jimvu>
             <Kaadu>0.01</Kaadu>
             <Katarn>0.01</Katarn>
             <Kinrath>0.04</Kinrath>
@@ -59,6 +62,7 @@
             <Mott>0.01</Mott>
             <Mynock>0.08</Mynock>
             <Narglatch>0.06</Narglatch>
+            <Neebray>0.1</Neebray>
             <Nexu>0.08</Nexu>
             <Nuna>0.06</Nuna>
             <Orray>0.04</Orray>
@@ -76,9 +80,13 @@
             <Shaak>0.08</Shaak>
             <Shiro>0.01</Shiro>
             <Skalder>0.02</Skalder>
+            <Sketto>0.2</Sketto>
+            <Snoruuk>0.07</Snoruuk>
             <Strill>0.01</Strill>
             <TeeMuss>0.04</TeeMuss>
             <Thranta>0.01</Thranta>
+            <Tooke>0.07</Tooke>
+            <TuskCat>0.15</TuskCat>
             <Vapaad>0.01</Vapaad>
             <Varactyl>0.02</Varactyl>
             <Veermok>0.06</Veermok>
@@ -96,74 +104,80 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
         <value>
-            <Dewback>0.04</Dewback>
-            <Rancor>0.01</Rancor>
-            <Bantha>0.01</Bantha>
-            <Nexu>0.04</Nexu>
             <Acklay>0.008</Acklay>
-            <Tauntaun>0.08</Tauntaun>
-            <Reek>0.04</Reek>
-            <Nerf>0.01</Nerf>
-            <Porg>0.04</Porg>
-            <Vulptex>0.01</Vulptex>
-            <Wampa>0.04</Wampa>
-            <Akk>0.03</Akk>
             <Aiwha>0.04</Aiwha>
+            <Akk>0.03</Akk>
             <Anooba>0.08</Anooba>
+            <Bantha>0.01</Bantha>
             <Behemoth>0.4</Behemoth>
             <Beldon>0.01</Beldon>
-            <Boarwolf>0.16</Boarwolf>
             <Blurrg>0.04</Blurrg>
-            <Bordok>0.8</Bordok>
+            <Boarwolf>0.16</Boarwolf>
             <Borcatu>0.04</Borcatu>
+            <Bordok>0.8</Bordok>
             <Bursa>0.04</Bursa>
             <Cannok>0.04</Cannok>
+            <Clodhopper>0.04</Clodhopper>
             <Convor>0.4</Convor>
             <Corinathoth>0.01</Corinathoth>
+            <Dewback>0.04</Dewback>
             <Falumpaset>0.08</Falumpaset>
             <FeralGrazer>0.8</FeralGrazer>
             <FeralNerf>0.15</FeralNerf>
-            <Grank>0.1</Grank>
             <GraniteSlug>0.1</GraniteSlug>
+            <Grank>0.1</Grank>
             <Gualaar>0.8</Gualaar>
             <Gundark>0.01</Gundark>
             <HarvesterBeetle>0.02</HarvesterBeetle>
             <Hawkbat>0.03</Hawkbat>
+            <Hrumph>0.03</Hrumph>
             <Insectomorph>0.04</Insectomorph>
+            <Iriaz>0.04</Iriaz>
             <IridonianReek>0.04</IridonianReek>
             <IthorianReek>0.2</IthorianReek>
-            <Iriaz>0.04</Iriaz>
             <Jakobeast>0.8</Jakobeast>
             <Kaadu>0.04</Kaadu>
             <Katarn>0.01</Katarn>
-            <KowakianMonkeyLizard>0.01</KowakianMonkeyLizard>
             <Kinrath>0.01</Kinrath>
-            <Krykna>0.1</Krykna>
+            <KowakianMonkeyLizard>0.01</KowakianMonkeyLizard>
             <Kreetle>0.01</Kreetle>
+            <Krykna>0.1</Krykna>
             <Kybuck>0.6</Kybuck>
             <Leaftail>0.4</Leaftail>
             <LongtailGorg>0.02</LongtailGorg>
-            <Lothcat>0.04</Lothcat>
             <LothWolf>0.01</LothWolf>
+            <Lothcat>0.04</Lothcat>
             <Maalraas>0.8</Maalraas>
             <Manka>0.4</Manka>
             <Mastmot>0.8</Mastmot>
             <Mott>0.04</Mott>
             <Mynock>0.1</Mynock>
             <Narglatch>0.08</Narglatch>
+            <Neebray>0.1</Neebray>
+            <Nerf>0.01</Nerf>
+            <Nexu>0.04</Nexu>
             <Nuna>0.04</Nuna>
             <Pikobis>0.01</Pikobis>
+            <Porg>0.04</Porg>
             <Qormot>0.4</Qormot>
+            <Rancor>0.01</Rancor>
+            <Raxshir>0.7</Raxshir>
+            <Reek>0.04</Reek>
             <Runyip>0.01</Runyip>
             <Scavrat>0.4</Scavrat>
             <Scurrier>0.01</Scurrier>
             <Shaak>0.04</Shaak>
             <Skalder>0.01</Skalder>
             <Stintaril>0.2</Stintaril>
+            <Tauntaun>0.08</Tauntaun>
             <TeeMuss>0.8</TeeMuss>
             <Thranta>0.01</Thranta>
+            <Tibidee>0.01</Tibidee>
+            <Tooke>0.01</Tooke>
             <Voorpak>0.8</Voorpak>
             <Vornskyr>0.4</Vornskyr>
+            <Vulptex>0.01</Vulptex>
+            <Wampa>0.04</Wampa>
             <Warbird>0.8</Warbird>
             <Woolamander>0.04</Woolamander>
         </value>
@@ -183,6 +197,7 @@
             <Brezak>0.04</Brezak>
             <CanCell>0.01</CanCell>
             <Cannok>0.01</Cannok>
+            <Clodhopper>0.02</Clodhopper>
             <Corinathoth>0.01</Corinathoth>
             <Dactillion>0.01</Dactillion>
             <Dalgo>0.04</Dalgo>
@@ -192,12 +207,14 @@
             <Gizka>0.01</Gizka>
             <Gorg>0.08</Gorg>
             <GraniteSlug>0.01</GraniteSlug>
+            <GreaterKraytDragon>0.01</GreaterKraytDragon>
             <Gundark>0.01</Gundark>
             <Gutkurr>0.06</Gutkurr>
             <Hssiss>0.08</Hssiss>
             <Insectomorph>0.02</Insectomorph>
             <IridonianReek>0.08</IridonianReek>
             <Jamel>0.08</Jamel>
+            <KellDragon>0.05</KellDragon>
             <Kinrath>0.01</Kinrath>
             <KraytDragon>0.01</KraytDragon>
             <Kreetle>0.06</Kreetle>
@@ -205,7 +222,9 @@
             <Lylek>0.01</Lylek>
             <Manka>0.01</Manka>
             <Massiff>0.02</Massiff>
+            <Mudhorn>0.3</Mudhorn>
             <Mynock>0.01</Mynock>
+            <Neebray>0.1</Neebray>
             <Nexu>0.01</Nexu>
             <Orray>0.04</Orray>
             <PaintedSpat>0.02</PaintedSpat>
@@ -219,9 +238,13 @@
             <Shyrack>0.01</Shyrack>
             <Silooth>0.01</Silooth>
             <Skalder>0.08</Skalder>
+            <Sketto>0.3</Sketto>
             <TeeMuss>0.01</TeeMuss>
             <Thranta>0.02</Thranta>
+            <Tooke>0.07</Tooke>
             <Tukata>0.01</Tukata>
+            <Urusai>0.3</Urusai>
+            <Uvak>0.02</Uvak>
             <Vapaad>0.01</Vapaad>
             <Vulptex>0.04</Vulptex>
             <WompRat>0.06</WompRat>
@@ -234,9 +257,6 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
         <value>
-            <KraytDragon>0.15</KraytDragon>
-            <Gizka>0.01</Gizka>
-            <Vulptex>0.08</Vulptex>
             <Anooba>0.01</Anooba>
             <Beldon>0.01</Beldon>
             <Brezak>0.01</Brezak>
@@ -244,20 +264,25 @@
             <Drexl>0.01</Drexl>
             <EnergySpider>0.01</EnergySpider>
             <Eopie>0.04</Eopie>
+            <Gizka>0.01</Gizka>
             <Gorg>0.2</Gorg>
             <GraniteSlug>0.1</GraniteSlug>
+            <GreaterKraytDragon>0.01</GreaterKraytDragon>
             <Gutkurr>0.04</Gutkurr>
-            <IridonianReek>0.01</IridonianReek>
             <Iriaz>0.01</Iriaz>
+            <IridonianReek>0.01</IridonianReek>
             <Jamel>0.08</Jamel>
+            <KellDragon>0.03</KellDragon>
             <Kinrath>0.01</Kinrath>
-            <Krykna>0.01</Krykna>
+            <KraytDragon>0.15</KraytDragon>
             <Kreetle>0.2</Kreetle>
+            <Krykna>0.01</Krykna>
             <LavaFlea>0.8</LavaFlea>
             <LongtailGorg>0.2</LongtailGorg>
             <Lylek>0.8</Lylek>
             <Massiff>0.08</Massiff>
             <Mynock>0.1</Mynock>
+            <Neebray>0.1</Neebray>
             <Orray>0.04</Orray>
             <PaintedSpat>0.02</PaintedSpat>
             <Roggwart>0.01</Roggwart>
@@ -269,8 +294,11 @@
             <Skalder>0.02</Skalder>
             <Thranta>0.01</Thranta>
             <Tukata>0.01</Tukata>
+            <Urusai>0.1</Urusai>
+            <Uvak>0.01</Uvak>
             <Vapaad>0.01</Vapaad>
             <Varactyl>0.02</Varactyl>
+            <Vulptex>0.08</Vulptex>
             <WompRat>0.3</WompRat>
             <Wraid>0.4</Wraid>
         </value>
@@ -279,26 +307,32 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
         <value>
-            <MastiffPhalone>0.6</MastiffPhalone>
+            <Blurrg>0.12</Blurrg>
+            <Boarwolf>0.1</Boarwolf>
+            <Bordok>0.3</Bordok>
+            <Clodhopper>0.03</Clodhopper>
             <Corinathoth>0.04</Corinathoth>
             <Dactillion>0.2</Dactillion>
             <Jamel>0.3</Jamel>
+            <MastiffPhalone>0.6</MastiffPhalone>
+            <Neebray>0.1</Neebray>
             <Skalder>0.03</Skalder>
+            <Uvak>0.6</Uvak>
             <Varactyl>0.04</Varactyl>
             <Veermok>0.3</Veermok>
-            <Boarwolf>0.1</Boarwolf>
-            <Blurrg>0.12</Blurrg>
-            <Bordok>0.3</Bordok>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
         <value>
-            <LavaFlea>0.8</LavaFlea>
-            <Nexu>0.8</Nexu>
-            <KowakianMonkeyLizard>0.8</KowakianMonkeyLizard>
+            <Devourers>0.4</Devourers>
+            <Dragonsnake>0.15</Dragonsnake>
             <Drexl>0.01</Drexl>
+            <KowakianMonkeyLizard>0.8</KowakianMonkeyLizard>
+            <LavaFlea>0.8</LavaFlea>
+            <Neebray>0.1</Neebray>
+            <Nexu>0.8</Nexu>
             <Roggwart>0.1</Roggwart>
         </value>
     </Operation>

@@ -5,6 +5,7 @@
         <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
         <value>
             <MA_Duskhorn>0.45</MA_Duskhorn>
+            <MA_Manehound>0.04</MA_Manehound>
             <MA_Scarodon>0.15</MA_Scarodon>
             <MA_Simbakub>0.3</MA_Simbakub>
             <MA_SimbakubAlpha>0.03</MA_SimbakubAlpha>
@@ -14,13 +15,16 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
         <value>
+            <MA_Aminox>0.07</MA_Aminox>
+            <MA_Capryak>0.1</MA_Capryak>
             <MA_Deermoss>0.13</MA_Deermoss>
             <MA_Direhorse>0.1</MA_Direhorse>
             <MA_Dunbear>0.03</MA_Dunbear>
             <MA_Duskhorn>0.27</MA_Duskhorn>
+            <MA_Gnaut>0.3</MA_Gnaut>
             <MA_Harpeagle>0.08 </MA_Harpeagle>
             <MA_Hellboar>0.1</MA_Hellboar>
-            <MA_Gnaut>0.3</MA_Gnaut>
+            <MA_Manehound>0.04</MA_Manehound>
             <MA_Scarodon>0.06</MA_Scarodon>
             <MA_Sivatherium>0.05</MA_Sivatherium>
             <MA_Sporemole>0.015</MA_Sporemole>

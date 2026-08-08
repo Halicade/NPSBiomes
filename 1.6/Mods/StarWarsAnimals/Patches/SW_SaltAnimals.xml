@@ -6,4 +6,10 @@
             <li Class="NPSBiomes.CompProperties_DeadlySalt"/>
         </value>
     </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Klorslug"]/comps</xpath>
+        <value>
+            <li Class="NPSBiomes.CompProperties_DeadlySalt"/>
+        </value>
+    </Operation>
 </Patch>
