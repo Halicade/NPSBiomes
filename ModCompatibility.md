@@ -103,6 +103,7 @@
 | [Biomes! Polluted Lands](https://steamcommunity.com/sharedfiles/filedetails/?id=3390196656)            | biomesteam.biomespollutedlands     |
 | [Biomes! Prehistoric](https://steamcommunity.com/sharedfiles/filedetails/?id=2860715703)               | biomesteam.biomesprehistoric       |
 | [Biomes! Oasis](https://steamcommunity.com/sharedfiles/filedetails/?id=2538518381)                     | biomesteam.oasis                   |
+| [Fantastic Flora(continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2504647479)                                                                         | velcroboy333.fantasticfloracont                                   |
 | [Flowers (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2025555200)               | mlie.flowers                       |
 | [RimCuisine 2 Core (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366)     | mlie.rc2.core                      |
 | [Kit's Brazilian Crops (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401) | zal.braziliancrops                 |
