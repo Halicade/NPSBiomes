@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AA_TetraSlug"]/comps</xpath>
+        <value>
+            <li Class="NPSBiomes.CompProperties_DeadlySalt"/>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AA_Helixien"]/comps</xpath>
+        <value>
+            <li Class="NPSBiomes.CompProperties_DeadlySalt"/>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AA_Plasmorph"]/comps</xpath>
+        <value>
+            <li Class="NPSBiomes.CompProperties_DeadlySalt"/>
+        </value>
+    </Operation>
+</Patch>

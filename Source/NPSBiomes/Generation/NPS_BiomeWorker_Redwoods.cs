@@ -7,7 +7,7 @@ namespace NPSBiomes;
 public class NPS_BiomeWorker_Redwoods : BiomeWorker
 {
     public override float GetScore(BiomeDef biome, Tile tile, PlanetTile planetTile) {
-        if (!BiomeSettings.allowRedwood) {
+        if (!BiomeSettings.AllowRedwood) {
             return -100f;
         }
 

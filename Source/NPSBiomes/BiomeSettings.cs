@@ -1,34 +1,33 @@
-﻿using UnityEngine;
-using Verse;
+﻿using Verse;
 
 namespace NPSBiomes;
 
 public class BiomeSettings : ModSettings
 {
     //Biomes
-    public static bool allowDesertSaltFlats = true;
-    public static bool allowDesertOasis = true;
-    public static bool allowRedwood = true;
-    public static bool allowTallGrassPrairie = true;
-    public static bool allowSavanna = true;
-    public static bool allowVolcanicFields = true;
-    public static bool modifyAridShrubland = true;
-    public static bool modifyTemperateForest = true;
-    public static bool lavaReplace = true;
-    public static bool spawnLavaOnlyInBiome = true;
-    public static bool allowLavaEruption = true;
-    public static bool basaltLockedToBiome = true;
+    public static bool AllowDesertSaltFlats = true;
+    public static bool AllowDesertOasis = true;
+    public static bool AllowRedwood = true;
+    public static bool AllowTallGrassPrairie = true;
+    public static bool AllowSavanna = true;
+    public static bool AllowVolcanicFields = true;
+    public static bool ModifyAridShrubland = true;
+    public static bool ModifyTemperateForest = true;
+    public static bool LavaReplace = true;
+    public static bool SpawnLavaOnlyInBiome = true;
+    public static bool AllowLavaEruption = true;
+    public static bool BasaltLockedToBiome = true;
 
     //Plant changes
-    public static bool dandelionChanges = true;
-    public static bool wildVegetables = true;
+    public static bool DandelionChanges = true;
+    public static bool WildVegetables = true;
 
     public static bool MedievalOverhaulActive;
 
-    public static bool NPSWeatherActive;
+    public static bool NpsWeatherActive;
 
     //Requires NPS to function
-    public static bool steamVentsDespawn = true;
+    public static bool SteamVentsDespawn = true;
 
     public static float OasisSpawnChance = 0.006f;
     public static float SaltFlatSpawnChance = 0.006f;
@@ -54,13 +53,13 @@ public class BiomeSettings : ModSettings
     public static bool GetActiveSettings(string settingName) {
         switch (settingName) {
             case "Dandelions":
-                return dandelionChanges;
+                return DandelionChanges;
             case "WildVegetables":
-                return wildVegetables;
+                return WildVegetables;
             case "LavaReplace":
-                return lavaReplace;
+                return LavaReplace;
             case "BasaltLocked":
-                return basaltLockedToBiome;
+                return BasaltLockedToBiome;
             default:
                 Log.Error($"NPSBiomes: Error trying to perform operation. Could not find setting named {settingName}");
                 return false;
@@ -70,21 +69,21 @@ public class BiomeSettings : ModSettings
     public override void ExposeData() {
         base.ExposeData();
 
-        Scribe_Values.Look(ref allowDesertSaltFlats, "allowDesertSaltFlats", true);
-        Scribe_Values.Look(ref allowDesertOasis, "allowDesertOasis", true);
-        Scribe_Values.Look(ref allowRedwood, "allowRedwood", true);
-        Scribe_Values.Look(ref allowTallGrassPrairie, "allowTallGrassPrairie", true);
-        Scribe_Values.Look(ref allowSavanna, "allowSavanna", true);
-        Scribe_Values.Look(ref allowVolcanicFields, "allowVolcanicFields", true);
-        Scribe_Values.Look(ref modifyAridShrubland, "modifyAridShrubland", true);
-        Scribe_Values.Look(ref modifyTemperateForest, "modifyTemperateForest", true);
-        Scribe_Values.Look(ref dandelionChanges, "dandelionChanges", true);
-        Scribe_Values.Look(ref wildVegetables, "wildVegetables", true);
-        Scribe_Values.Look(ref spawnLavaOnlyInBiome, "spawnLavaOnlyInBiome", true);
-        Scribe_Values.Look(ref allowLavaEruption, "allowLavaEruption", true);
-        Scribe_Values.Look(ref basaltLockedToBiome, "basaltLockedToBiome", true);
-        Scribe_Values.Look(ref lavaReplace, "lavaReplace", true);
-        Scribe_Values.Look(ref steamVentsDespawn, "steamVentsDespawn", true);
+        Scribe_Values.Look(ref AllowDesertSaltFlats, "allowDesertSaltFlats", true);
+        Scribe_Values.Look(ref AllowDesertOasis, "allowDesertOasis", true);
+        Scribe_Values.Look(ref AllowRedwood, "allowRedwood", true);
+        Scribe_Values.Look(ref AllowTallGrassPrairie, "allowTallGrassPrairie", true);
+        Scribe_Values.Look(ref AllowSavanna, "allowSavanna", true);
+        Scribe_Values.Look(ref AllowVolcanicFields, "allowVolcanicFields", true);
+        Scribe_Values.Look(ref ModifyAridShrubland, "modifyAridShrubland", true);
+        Scribe_Values.Look(ref ModifyTemperateForest, "modifyTemperateForest", true);
+        Scribe_Values.Look(ref DandelionChanges, "dandelionChanges", true);
+        Scribe_Values.Look(ref WildVegetables, "wildVegetables", true);
+        Scribe_Values.Look(ref SpawnLavaOnlyInBiome, "spawnLavaOnlyInBiome", true);
+        Scribe_Values.Look(ref AllowLavaEruption, "allowLavaEruption", true);
+        Scribe_Values.Look(ref BasaltLockedToBiome, "basaltLockedToBiome", true);
+        Scribe_Values.Look(ref LavaReplace, "lavaReplace", true);
+        Scribe_Values.Look(ref SteamVentsDespawn, "steamVentsDespawn", true);
 
         Scribe_Values.Look(ref OasisSpawnChance, "oasisSpawnChance", 0.006f);
         Scribe_Values.Look(ref SaltFlatSpawnChance, "saltFlatSpawnChance", 0.006f);

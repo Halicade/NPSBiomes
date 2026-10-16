@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
+        <value>
+            <Orim_PatapataRat>0.1</Orim_PatapataRat>
+            <Orim_Praedapteressen>0.08</Orim_Praedapteressen>
+            <Orim_BatDog>0.09</Orim_BatDog>
+            <Orim_Jegopteron>0.008</Orim_Jegopteron>
+            <Orim_PapillonavisApteron>0.05</Orim_PapillonavisApteron>
+            <Orim_Belladonake>0.1</Orim_Belladonake>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
+        <value>
+            <Orim_PatapataRat>0.2</Orim_PatapataRat>
+            <Orim_BatDog>0.07</Orim_BatDog>
+            <Orim_Jegopteron>0.08</Orim_Jegopteron>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
+        <value>
+            <Orim_Praedapteressen>0.1</Orim_Praedapteressen>
+            <Orim_PatapataRat>0.2</Orim_PatapataRat>
+            <Orim_RossorsLizarvis>0.18</Orim_RossorsLizarvis>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
+        <value>
+            <Orim_Praedapteressen>0.05</Orim_Praedapteressen>
+            <Orim_PatapataRat>0.1</Orim_PatapataRat>
+            <Orim_RossorsLizarvis>0.1</Orim_RossorsLizarvis>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
+        <value>
+            <Orim_PatapataRat>0.1</Orim_PatapataRat>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
+        <value>
+            <Orim_RossorsLizarvis>0.15</Orim_RossorsLizarvis>
+        </value>
+    </Operation>
+
+
+</Patch>

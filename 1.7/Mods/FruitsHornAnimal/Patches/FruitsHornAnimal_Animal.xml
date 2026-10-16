@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
+        <value>
+            <RWFH_Deer>0.05</RWFH_Deer>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
+        <value>
+            <RWFH_Deer>0.05</RWFH_Deer>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
+        <value>
+            <RWFH_Ibex MayRequire="dismarzero.vgp.vgpvegetablegarden">0.025</RWFH_Ibex>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
+        <value>
+            <RWFH_Elephant MayRequire="dismarzero.vgp.vgpvegetablegarden">0.05</RWFH_Elephant>
+            <RWFH_Ibex MayRequire="dismarzero.vgp.vgpvegetablegarden">0.05</RWFH_Ibex>
+        </value>
+    </Operation>
+
+</Patch>

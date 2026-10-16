@@ -8,7 +8,7 @@ public static class SaltWoundsForPawn
 {
     public static void SaltWounds(Pawn injuredPawn) {
         
-        var pawnhealth = injuredPawn.health.hediffSet.hediffs;
+        List<Hediff> pawnhealth = injuredPawn.health.hediffSet.hediffs;
 
         List<Hediff> hediffsToReplace = [];
 

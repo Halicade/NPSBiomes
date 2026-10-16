@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_VolcanicFlow"]/wildPlants</xpath>
+        <value>
+            <PlantFauxberry>0.01</PlantFauxberry>
+            <PlantGammalions>0.01</PlantGammalions>
+            <PlantMern>0.01</PlantMern>
+            <PlantTreeGreenwood>0.02</PlantTreeGreenwood>
+            <PlantTreeBroach>0.02</PlantTreeBroach>
+            <PlantTreeTruffula>0.03</PlantTreeTruffula>
+            <wildswisshroom>0.02</wildswisshroom>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_RedwoodForest"]/wildPlants</xpath>
+        <value>
+            <PlantConeyums>0.01</PlantConeyums>
+            <PlantFauxberry>0.01</PlantFauxberry>
+            <PlantGammalions>0.01</PlantGammalions>
+            <PlantMoonLily>0.01</PlantMoonLily>
+            <PlantPopzee>0.01</PlantPopzee>
+            <PlantTreeMuhly>0.02</PlantTreeMuhly>
+            <PlantTreeStarlet>0.05</PlantTreeStarlet>
+            <wildbleaktree>0.01</wildbleaktree>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_Grasslands"]/wildPlants</xpath>
+        <value>
+            <PlantConeyums>0.01</PlantConeyums>
+            <PlantGammalions>0.01</PlantGammalions>
+            <PlantHyfflesia>0.01</PlantHyfflesia>
+            <PlantMern>0.01</PlantMern>
+            <PlantMoonLily>0.01</PlantMoonLily>
+            <PlantTroupis>0.01</PlantTroupis>
+            <PlantYllarius>0.01</PlantYllarius>
+            <wildmooshems>0.01</wildmooshems>
+            <wildsquerry>0.01</wildsquerry>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_Savanna"]/wildPlants</xpath>
+        <value>
+            <PlantBronzeleaf>0.02</PlantBronzeleaf>
+            <PlantGammalions>0.01</PlantGammalions>
+            <PlantMern>0.01</PlantMern>
+            <PlantMoonLily>0.01</PlantMoonLily>
+            <PlantOylicia>0.01</PlantOylicia>
+            <PlantPopzee>0.01</PlantPopzee>
+            <PlantTroupis>0.01</PlantTroupis>
+            <PlantTreeBroach>0.02</PlantTreeBroach>
+            <PlantTreeStarlet>0.03</PlantTreeStarlet>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_Oasis"]/wildPlants</xpath>
+        <value>
+            <PlantEloverna>0.01</PlantEloverna>
+            <PlantGammalions>0.01</PlantGammalions>
+            <PlantHapisgradzuli>0.03</PlantHapisgradzuli>
+            <PlantHyfflesia>0.02</PlantHyfflesia>
+            <PlantMoonLily>0.01</PlantMoonLily>
+            <Plant_OpuntioCactus>0.03</Plant_OpuntioCactus>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef [defName = "TKKN_Desert"]/wildPlants</xpath>
+        <value>
+            <Plant_OpuntioCactus>0.02</Plant_OpuntioCactus>
+        </value>
+    </Operation>
+
+
+</Patch>

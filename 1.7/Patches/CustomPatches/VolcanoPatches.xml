@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="NPSBiomes.Toggleables">
+        <setting>BasaltLocked</setting>
+        <patchOp Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="TKKN_LavaRock"]/building</xpath>
+            <value>
+                <biomeSpecific>True</biomeSpecific>
+            </value>
+
+        </patchOp>
+    </Operation>
+
+    <Operation Class="NPSBiomes.Toggleables">
+        <setting>BasaltLocked</setting>
+        <patchOp Class="PatchOperationAdd">
+            <xpath>Defs/BiomeDef[defName="TKKN_VolcanicFlow"]/extraRockTypes</xpath>
+            <value>
+                <li>TKKN_LavaRock</li>
+            </value>
+        </patchOp>
+    </Operation>
+
+
+</Patch>

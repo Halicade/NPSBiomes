@@ -1,6 +1,4 @@
-﻿using HarmonyLib;
-using RimWorld;
-using RimWorld.Planet;
+﻿using RimWorld.Planet;
 
 namespace NPSBiomes;
 
@@ -20,8 +18,8 @@ public static class BiomeWorker_AridShrubland_GetScore
         }
         else
         {
-            __result = (float)(22.5 + ((tile.temperature - 20.0) * 2.2000000476837158) +
-                               ((tile.rainfall - 600.0) / 100.0));
+            __result = (float)(22.5 + (tile.temperature - 20.0) * 2.2000000476837158 +
+                               (tile.rainfall - 600.0) / 100.0);
         }
     }
 }

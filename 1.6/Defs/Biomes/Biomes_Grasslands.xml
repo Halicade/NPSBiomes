@@ -220,6 +220,7 @@
             <JOE_Cephalope MayRequire="Joe.Cephaloids">0.2</JOE_Cephalope>
             <JOE_Nautilant MayRequire="Joe.Cephaloids">0.01</JOE_Nautilant>
             <Weasel MayRequire="yourpcisonfire.weasels">0.4</Weasel>
+            <Monster_Bullsquid MayRequire="zal.hlvrmonsters">0.04</Monster_Bullsquid>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.4</Boomalope>

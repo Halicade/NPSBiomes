@@ -39,6 +39,7 @@
 | [GREG](https://steamcommunity.com/sharedfiles/filedetails/?id=3228302152)                                           | tyrannidae.gregnfriends                        |
 | [Galaxy Life (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3727368092)                        | zal.galaxylife                                 |
 | [Giant Toads (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3365223736)                        | zal.gianttoads                                 |
+| [Half-Life Creatures (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3796490864)                | zal.hlvrmonsters                                               |
 | [HC Animal Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3238206164)                            | hc.animal.continued                            |
 | [Hamster](https://steamcommunity.com/sharedfiles/filedetails/?id=2848286000)                                        | plaxen.hamster                                 |
 | [Hilda's Creatures - Deerfox (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2818484342)        | zal.deerfox                                    |

@@ -6,7 +6,7 @@ namespace NPSBiomes;
 public class NPS_BiomeWorker_Prairie : BiomeWorker
 {
     public override float GetScore(BiomeDef biome, Tile tile, PlanetTile planetTile) {
-        if (!BiomeSettings.allowTallGrassPrairie) {
+        if (!BiomeSettings.AllowTallGrassPrairie) {
             return -100f;
         }
 

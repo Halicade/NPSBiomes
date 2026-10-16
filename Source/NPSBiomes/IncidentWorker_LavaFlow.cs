@@ -27,12 +27,12 @@ public class IncidentWorkerLavaFlow : IncidentWorker
     private readonly List<IntVec3> cornerPoints = [];
     //Event doesn't run. Too similar to Odyssey events. Keeping it cause I have nowhere else to put it
     protected override bool CanFireNowSub(IncidentParms parms) {
-        if (!BiomeSettings.allowLavaEruption) {
+        if (!BiomeSettings.AllowLavaEruption) {
             return false;
         }
 
         var map = (Map)parms.target;
-        if (BiomeSettings.spawnLavaOnlyInBiome && map.Biome != BiomeDefOf.TKKN_VolcanicFlow) {
+        if (BiomeSettings.SpawnLavaOnlyInBiome && map.Biome != BiomeDefOf.TKKN_VolcanicFlow) {
             return false;
         }
 
@@ -42,15 +42,15 @@ public class IncidentWorkerLavaFlow : IncidentWorker
     protected override bool TryExecuteWorker(IncidentParms parms) {
         var map = (Map)parms.target;
 
-        if (!BiomeSettings.allowLavaEruption) {
+        if (!BiomeSettings.AllowLavaEruption) {
             return false;
         }
 
-        if (BiomeSettings.spawnLavaOnlyInBiome && map.Biome != BiomeDefOf.TKKN_VolcanicFlow) {
+        if (BiomeSettings.SpawnLavaOnlyInBiome && map.Biome != BiomeDefOf.TKKN_VolcanicFlow) {
             return false;
         }
 
-        if (ModsConfig.OdysseyActive && BiomeSettings.lavaReplace) {
+        if (ModsConfig.OdysseyActive && BiomeSettings.LavaReplace) {
             shallowLava = RimWorld.TerrainDefOf.LavaDeep;
             deepLava = RimWorld.TerrainDefOf.LavaDeep;
         }

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <HediffDef>
+        <defName>NPS_SaltedWound</defName>
+        <label>salted wound</label>
+        <labelNoun>a cut</labelNoun>
+        <hediffClass>Hediff_Injury</hediffClass>
+        <description>A cut that had salt applied to stop bleeding.</description>
+        <comps>
+            <!--
+            <li Class="HediffCompProperties_TendDuration">
+                <labelTendedWell>bandaged</labelTendedWell>
+                <labelTendedWellInner>sutured</labelTendedWellInner>
+                <labelSolidTendedWell>set</labelSolidTendedWell>
+            </li>-->
+            <li Class="HediffCompProperties_Infecter">
+                <infectionChance>0.2</infectionChance>
+            </li>
+            <!--
+            <li Class="HediffCompProperties_GetsPermanent">
+                <permanentLabel>cut scar</permanentLabel>
+            </li>-->
+        </comps>
+        <injuryProps>
+            <painPerSeverity>0.025</painPerSeverity>
+            <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+            <canMerge>false</canMerge>
+            <destroyedLabel>Cut off</destroyedLabel>
+            <destroyedOutLabel>Cut out</destroyedOutLabel>
+        </injuryProps>
+    </HediffDef>
+
+    <JobDef>
+        <defName>NPS_SaltWounds</defName>
+        <driverClass>NPSBiomes.JobDriver_SaltWounds</driverClass>
+        <reportString>applying salt TargetA.</reportString>
+        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    </JobDef>
+
+
+</Defs>

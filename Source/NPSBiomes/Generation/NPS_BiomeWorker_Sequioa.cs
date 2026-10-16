@@ -1,8 +1,4 @@
-﻿using RimWorld;
-using RimWorld.Planet;
-using Verse;
-
-namespace NPSBiomes;
+﻿namespace NPSBiomes;
 /*
  //Biome was never implemented
 public class NPS_BiomeWorker_Sequioa : BiomeWorker

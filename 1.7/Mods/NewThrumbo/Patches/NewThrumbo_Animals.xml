@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
+        <value>
+            <NT_PrairieThrumbo>0.01</NT_PrairieThrumbo>
+            
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
+        <value>
+            <NT_AuroraThrumbo>0.015</NT_AuroraThrumbo>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
+        <value>
+            <NT_DesertThrumbo>0.01</NT_DesertThrumbo>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
+        <value>
+            <NT_DesertThrumbo>0.01</NT_DesertThrumbo>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
+        <value>
+            <NT_PrairieThrumbo>0.005</NT_PrairieThrumbo>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
+        <value>
+            <NT_FireThrumbo>0.012</NT_FireThrumbo>
+        </value>
+    </Operation>
+
+
+</Patch>

@@ -53,4 +53,57 @@
         <!--Version independent-->
         <li IfModActive="zal.wmbp,regrowth.botr.core">WMBPRegrowth</li>
     </v1.6>
+
+    <v1.7>
+        <li>/</li>
+        <li>1.7</li>
+        
+        <li>Source/Assets</li>
+        
+
+        <!--DLC-->
+        <li IfModActive="Ludeon.Rimworld.Odyssey">1.7/DLC/Odyssey</li>
+        <li IfModActive="Ludeon.Rimworld.Biotech">1.7/DLC/Biotech</li>
+
+        <!--Mods-->
+        <li IfModActive="sarg.alphaanimals">1.7/Mods/AlphaAnimals</li>
+        <li IfModActiveAll="sarg.alphabiomes,Ludeon.Rimworld.Odyssey">1.7/Mods/AlphaBiomesOdyssey</li>
+        <li IfModActive="acpteam.acpvanillastyle" IfModNotActive="Ludeon.Rimworld.Odyssey">1.7/Mods/AnimalCollabProjectNoOdyssey</li>
+        <li IfModActive="biomesteam.biomescaverns">1.7/Mods/BiomesCaverns</li>
+        <li IfModActive="BiomesTeam.BiomesPollutedLands">1.7/Mods/BiomesPollutedLands</li>
+        <li IfModActive="biomesteam.biomesprehistoric">1.7/Mods/BiomesPrehistoric</li>
+        <li IfModActive="biomesteam.oasis">1.7/Mods/BiomesOasis</li>
+        <li IfModActive="zal.borderlands">1.7/Mods/Borderlands</li>
+        <li IfModActive="11bullets.conures">1.7/Mods/Conures</li>
+        <li IfModActive="onyxae.dragonsdescent">1.7/Mods/DragonsDescent</li>
+        <li IfModActive="11bullets.dovesandpigeons">1.7/Mods/DovesAndPigeons</li>
+        <li IfModActive="velcroboy333.fantasticfloracont">1.7/Mods/FantasticFlora</li>
+        <li IfModActive="tigerblut.flommel">1.7/Mods/Flommel</li>
+        <li IfModActive="rw.fruithornanimal">1.7/Mods/FruitsHornAnimal</li>
+        <li IfModActive="mlie.jurassicrimworlddinosaursonly,Mlie.JurassicRimworld">1.7/Mods/JurassicRimworld</li>
+        <li IfModActive="vanillaexpanded.vexploratione">1.7/Mods/LandmarksExpanded</li>
+        <li IfModActive="vector.leonapp.lslimes">1.7/Mods/LSlimes</li>
+        <li IfModActive="spino.megafauna">1.7/Mods/MegaFauna</li>
+        <li IfModActive="ellathefoxy.morefoxes">1.7/Mods/MoreFoxes</li>
+        <li IfModActive="ellathefoxy.morerodents">1.7/Mods/MoreRodents</li>
+        <li IfModActive="dtf.multilopesexpanded">1.7/Mods/Multilopes</li>
+        <li IfModActive="veterano.mythicages.megafaunabestiary">1.7/Mods/MythicAges</li>
+        <li IfModActive="beckesteamid.newthrumbo">1.7/Mods/NewThrumbo</li>
+        <li IfModActive="nexomon.x">1.7/Mods/Nexomon</li>
+        <li IfModActive="becke.orim.orimanimamod">1.7/Mods/Orimanima</li>
+        <li IfModActive="regrowth.botr.core">1.7/Mods/Regrowth</li>
+        <li IfModActive="mlie.rc2.core">1.7/Mods/Rimcuisine</li>
+        <li IfModActive="shenix.genshinrimpactsaurians">1.7/Mods/RimpactSaurians</li>
+        <li IfModActive="tobyguilmon.pikmin">1.7/Mods/Rimpikmin</li>
+        <li IfModActive="11bullets.shorebirds">1.7/Mods/Shorebirds</li>
+        <li IfModActive="11bullets.songbirds">1.7/Mods/Songbirds</li>
+        <li IfModActive="mlie.starwarsanimalcollection">1.7/Mods/StarWarsAnimals</li>
+        <li IfModActive="zal.syntheticanimals">1.7/Mods/SyntheticAnimals</li>
+        <li IfModActive="argon.tribalmedicineremake">1.7/Mods/TribalMedicine</li>
+        <li IfModActive="vanillaexpanded.vanillaanimalsexpanded">1.7/Mods/VEAnimals</li>
+        <li IfModActive="zylle.waywardbiomes.lotuswilds">1.7/Mods/WaywardLotus</li>
+
+        <!--Version independent-->
+        <li IfModActive="zal.wmbp,regrowth.botr.core">WMBPRegrowth</li>
+    </v1.7>
 </loadFolders>

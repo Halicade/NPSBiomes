@@ -228,6 +228,7 @@
             <ZSL_ChemfuelSlime MayRequire="zylle.slimes">0.05</ZSL_ChemfuelSlime>
             <ZSL_FireSlime MayRequire="zylle.slimes">0.05</ZSL_FireSlime>
             <Doomalope MayRequire="cucumpear.doomalope">0.02</Doomalope>
+            <Monster_Bullsquid MayRequire="zal.hlvrmonsters">0.02</Monster_Bullsquid>
         </wildAnimals>
         <pollutionWildAnimals>
             <Rat>0.8</Rat>

@@ -1,6 +1,4 @@
-﻿using HarmonyLib;
-using RimWorld;
-using RimWorld.Planet;
+﻿using RimWorld.Planet;
 
 namespace NPSBiomes;
 
@@ -20,6 +18,6 @@ public static class BiomeWorker_TemperateForest_GetScore
             return;
         }
 
-        __result = (float)(15.0 + (tile.temperature - 7.0) + ((tile.rainfall - 600.0) / 180.0));
+        __result = (float)(15.0 + (tile.temperature - 7.0) + (tile.rainfall - 600.0) / 180.0);
     }
 }

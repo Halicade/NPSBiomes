@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BMT_AcidSlug"]/comps</xpath>
+        <value>
+            <li Class="NPSBiomes.CompProperties_DeadlySalt"/>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BMT_GiantSlug"]/comps</xpath>
+        <value>
+            <li Class="NPSBiomes.CompProperties_DeadlySalt"/>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BMT_GiantSnail"]/comps</xpath>
+        <value>
+            <li Class="NPSBiomes.CompProperties_DeadlySalt"/>
+        </value>
+    </Operation>
+
+
+</Patch>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
+        <value>
+            <Drugslime>0.1</Drugslime>
+            <Electroslime>0.1</Electroslime>
+            <Hellslime>0.05</Hellslime>
+            <Hyperslime>0.1</Hyperslime>
+            <Lavaslime>0.25</Lavaslime>
+            <Neutroslime>0.1</Neutroslime>
+            <Rageslime>0.05</Rageslime>
+            <Slime>0.2</Slime>
+            <Slimemech>0.05</Slimemech>
+            <Granislime>0.15</Granislime>
+            <Limeslime>0.15</Limeslime>
+            <Slateslime>0.15</Slateslime>
+            <Marbleslime>0.15</Marbleslime>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
+        <value>
+            <Drugslime>0.1</Drugslime>
+            <Electroslime>0.1</Electroslime>
+            <Hellslime>0.05</Hellslime>
+            <Hyperslime>0.15</Hyperslime>
+            <Iceslime>0.1</Iceslime>
+            <Neutroslime>0.15</Neutroslime>
+            <Rageslime>0.05</Rageslime>
+            <Slime>0.2</Slime>
+            <Slimemech>0.05</Slimemech>
+            <Granislime>0.15</Granislime>
+            <Limeslime>0.15</Limeslime>
+            <Slateslime>0.15</Slateslime>
+            <Marbleslime>0.15</Marbleslime>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
+        <value>
+            <Drugslime>0.1</Drugslime>
+            <Electroslime>0.1</Electroslime>
+            <Hellslime>0.05</Hellslime>
+            <Hyperslime>0.1</Hyperslime>
+            <Neutroslime>0.1</Neutroslime>
+            <Rageslime>0.05</Rageslime>
+            <Slime>0.2</Slime>
+            <Slimemech>0.05</Slimemech>
+            <Granislime>0.15</Granislime>
+            <Limeslime>0.15</Limeslime>
+            <Slateslime>0.15</Slateslime>
+            <Marbleslime>0.15</Marbleslime>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
+        <value>
+            <Drugslime>0.1</Drugslime>
+            <Electroslime>0.1</Electroslime>
+            <Hellslime>0.05</Hellslime>
+            <Hyperslime>0.1</Hyperslime>
+            <Neutroslime>0.1</Neutroslime>
+            <Rageslime>0.05</Rageslime>
+            <Slime>0.2</Slime>
+            <Slimemech>0.05</Slimemech>
+            <Granislime>0.15</Granislime>
+            <Limeslime>0.15</Limeslime>
+            <Slateslime>0.15</Slateslime>
+            <Marbleslime>0.15</Marbleslime>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
+        <value>
+            <Drugslime>0.1</Drugslime>
+            <Electroslime>0.1</Electroslime>
+            <Hellslime>0.05</Hellslime>
+            <Hyperslime>0.1</Hyperslime>
+            <Neutroslime>0.1</Neutroslime>
+            <Rageslime>0.05</Rageslime>
+            <Slime>0.2</Slime>
+            <Slimemech>0.05</Slimemech>
+            <Granislime>0.1</Granislime>
+            <Limeslime>0.1</Limeslime>
+            <Slateslime>0.1</Slateslime>
+            <Marbleslime>0.1</Marbleslime>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
+        <value>
+            <Drugslime>0.1</Drugslime>
+            <Electroslime>0.1</Electroslime>
+            <Hellslime>0.05</Hellslime>
+            <Hyperslime>0.1</Hyperslime>
+            <Neutroslime>0.1</Neutroslime>
+            <Rageslime>0.05</Rageslime>
+            <Slime>0.2</Slime>
+            <Slimemech>0.05</Slimemech>
+            <Granislime>0.1</Granislime>
+            <Limeslime>0.1</Limeslime>
+            <Slateslime>0.1</Slateslime>
+            <Marbleslime>0.1</Marbleslime>
+        </value>
+    </Operation>
+
+
+</Patch>

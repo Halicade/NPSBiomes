@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
+        <value>
+            <Iktomi>0.04</Iktomi>
+            <Qucu>0.04</Qucu>
+            <Yumka>0.07</Yumka>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_RedwoodForest"]/wildAnimals</xpath>
+        <value>
+            <Iktomi>0.05</Iktomi>
+            <Tepetli>0.04</Tepetli>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
+        <value>
+            <Kohola>0.025</Kohola>
+            <Qucu>0.07</Qucu>
+            <Tatanka>0.4</Tatanka>
+            <Yumka>0.03</Yumka>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Desert"]/wildAnimals</xpath>
+        <value>
+            <Kohola>0.005</Kohola>
+            <Qucu>0.03</Qucu>
+            <Tatanka>0.01</Tatanka>
+            <Tepetli>0.07</Tepetli>
+            <Yumka>0.01</Yumka>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
+        <value>
+            <Qucu>0.04</Qucu>
+            <Tepetli>0.03</Tepetli>
+            <Yumka>0.035</Yumka>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
+        <value>
+            <Kohola>0.1</Kohola>
+            <Qucu>0.08</Qucu>
+            <Tatanka>0.1</Tatanka>
+            <Tepetli>0.07</Tepetli>
+            <Yumka>0.08</Yumka>
+        </value>
+    </Operation>
+
+
+</Patch>

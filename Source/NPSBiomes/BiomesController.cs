@@ -16,10 +16,10 @@ public class BiomesController : Mod
             ModLister.GetActiveModWithIdentifier("dankpyon.medieval.overhaul") != null;
 
         if (ModLister.GetActiveModWithIdentifier("hali.npsweathereffects") != null) {
-            BiomeSettings.NPSWeatherActive = true;
+            BiomeSettings.NpsWeatherActive = true;
         }
         else {
-            BiomeSettings.steamVentsDespawn = false;
+            BiomeSettings.SteamVentsDespawn = false;
         }
 
         LongEventHandler.QueueLongEvent(action: HarmonyPatches,
@@ -42,14 +42,14 @@ public class BiomesController : Mod
 
         var harmony = new Harmony("Hali.NPS_BiomeEffects");
 
-        if (BiomeSettings.modifyAridShrubland) {
+        if (BiomeSettings.ModifyAridShrubland) {
             harmony.Patch(
                 AccessTools.Method(typeof(BiomeWorker_AridShrubland), nameof(BiomeWorker_AridShrubland.GetScore)),
                 postfix: new HarmonyMethod(typeof(BiomeWorker_AridShrubland_GetScore),
                     nameof(BiomeWorker_AridShrubland_GetScore.Postfix)));
         }
 
-        if (BiomeSettings.modifyTemperateForest) {
+        if (BiomeSettings.ModifyTemperateForest) {
             harmony.Patch(
                 AccessTools.Method(typeof(BiomeWorker_TemperateForest), nameof(BiomeWorker_TemperateForest.GetScore)),
                 postfix: new HarmonyMethod(typeof(BiomeWorker_TemperateForest_GetScore),
@@ -98,11 +98,11 @@ public class BiomesController : Mod
 
         list.CheckboxLabeled(
             "NPS_ModifyBiome_Title".Translate(BiomeDefOf.AridShrubland.LabelCap),
-            ref BiomeSettings.modifyAridShrubland,
+            ref BiomeSettings.ModifyAridShrubland,
             tooltip: "NPS_ModifyBiome_Text".Translate(BiomeDefOf.AridShrubland.LabelCap));
         list.CheckboxLabeled(
             "NPS_ModifyBiome_Title".Translate(BiomeDefOf.TemperateForest.LabelCap),
-            ref BiomeSettings.modifyTemperateForest,
+            ref BiomeSettings.ModifyTemperateForest,
             tooltip: "NPS_ModifyBiome_Text".Translate(BiomeDefOf.TemperateForest.LabelCap));
 
         //ToggleablePatches
@@ -113,18 +113,18 @@ public class BiomesController : Mod
 
         list.CheckboxLabeled(
             "NPS_Dandelions_Title".Translate(),
-            ref BiomeSettings.dandelionChanges,
+            ref BiomeSettings.DandelionChanges,
             "NPS_Dandelions_Text".Translate());
 
         list.CheckboxLabeled(
             "NPS_WildVegetables_Title".Translate(),
-            ref BiomeSettings.wildVegetables,
+            ref BiomeSettings.WildVegetables,
             "NPS_WildVegetables_Text".Translate());
 
         if (ModsConfig.OdysseyActive) {
             list.CheckboxLabeled(
                 "NPS_LavaReplace_Title".Translate(),
-                ref BiomeSettings.lavaReplace,
+                ref BiomeSettings.LavaReplace,
                 "NPS_LavaReplace_Text".Translate());
         }
 
@@ -139,20 +139,17 @@ public class BiomesController : Mod
             ref BiomeSettings.spawnLavaOnlyInBiome,
             "NPS_spawnLavaOnlyInBiome_text".Translate());
 */
-        if (BiomeSettings.NPSWeatherActive) {
+        if (BiomeSettings.NpsWeatherActive) {
             list.CheckboxLabeled(
                 "NPS_SteamVentsDespawn_Title".Translate(),
-                ref BiomeSettings.steamVentsDespawn,
+                ref BiomeSettings.SteamVentsDespawn,
                 "NPS_SteamVentsDespawn_Text".Translate());
         }
 
         list.End();
 
         Rect outRect = inRect.RightPart(0.49f);
-        Rect viewRect = new(outRect.x + 20, outRect.y,
-            width: outRect.width - 30f,
-            height: 1400
-        );
+        Rect viewRect = new Rect(outRect.x + 20, outRect.y, width: outRect.width - 30f, height: 1400);
         Widgets.BeginScrollView(outRect, ref scrollPosition, viewRect);
 
         list.Begin(viewRect);
@@ -169,10 +166,10 @@ public class BiomesController : Mod
         list.Label(BiomeDefOf.TKKN_Oasis.LabelCap);
         Text.Font = GameFont.Small;
         list.CheckboxLabeled("NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_Oasis.LabelCap),
-            ref BiomeSettings.allowDesertOasis,
+            ref BiomeSettings.AllowDesertOasis,
             tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_Oasis.LabelCap));
 
-        if (BiomeSettings.allowDesertOasis) {
+        if (BiomeSettings.AllowDesertOasis) {
             if (list.ButtonText("NPS_ResetSettings".Translate(), widthPct: 0.4f)) {
                 BiomeSettings.OasisSpawnChance = 0.006f;
             }
@@ -188,10 +185,10 @@ public class BiomesController : Mod
         list.Label(BiomeDefOf.TKKN_Desert.LabelCap);
         Text.Font = GameFont.Small;
         list.CheckboxLabeled("NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_Desert.LabelCap),
-            ref BiomeSettings.allowDesertSaltFlats,
+            ref BiomeSettings.AllowDesertSaltFlats,
             tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_Desert.LabelCap));
 
-        if (BiomeSettings.allowDesertSaltFlats) {
+        if (BiomeSettings.AllowDesertSaltFlats) {
             if (list.ButtonText("NPS_ResetSettings".Translate(), widthPct: 0.4f)) {
                 BiomeSettings.SaltFlatSpawnChance = 0.006f;
             }
@@ -207,10 +204,10 @@ public class BiomesController : Mod
         list.Label(BiomeDefOf.TKKN_RedwoodForest.LabelCap);
         Text.Font = GameFont.Small;
         list.CheckboxLabeled("NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_RedwoodForest.LabelCap),
-            ref BiomeSettings.allowRedwood,
+            ref BiomeSettings.AllowRedwood,
             tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_RedwoodForest.LabelCap));
 
-        if (BiomeSettings.allowRedwood) {
+        if (BiomeSettings.AllowRedwood) {
             if (list.ButtonText("NPS_ResetSettings".Translate(), widthPct: 0.4f)) {
                 BiomeSettings.RedwoodMinTemp = -10f;
                 BiomeSettings.RedwoodMaxTemp = 10f;
@@ -233,10 +230,10 @@ public class BiomesController : Mod
         list.Label(BiomeDefOf.TKKN_Savanna.LabelCap);
         Text.Font = GameFont.Small;
         list.CheckboxLabeled("NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_Savanna.LabelCap),
-            ref BiomeSettings.allowSavanna,
+            ref BiomeSettings.AllowSavanna,
             tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_Savanna.LabelCap));
 
-        if (BiomeSettings.allowSavanna) {
+        if (BiomeSettings.AllowSavanna) {
             if (list.ButtonText("NPS_ResetSettings".Translate(), widthPct: 0.4f)) {
                 BiomeSettings.SavannaMinTemp = 24;
                 BiomeSettings.SavannaMaxTemp = 30;
@@ -261,10 +258,10 @@ public class BiomesController : Mod
         list.Label(BiomeDefOf.TKKN_Grasslands.LabelCap);
         Text.Font = GameFont.Small;
         list.CheckboxLabeled("NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_Grasslands.LabelCap),
-            ref BiomeSettings.allowTallGrassPrairie,
+            ref BiomeSettings.AllowTallGrassPrairie,
             tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_Grasslands.LabelCap));
 
-        if (BiomeSettings.allowTallGrassPrairie) {
+        if (BiomeSettings.AllowTallGrassPrairie) {
             if (list.ButtonText("NPS_ResetSettings".Translate(), widthPct: 0.4f)) {
                 BiomeSettings.TallgrassMinTemp = -10;
                 BiomeSettings.TallgrassMaxTemp = 22;
@@ -289,10 +286,10 @@ public class BiomesController : Mod
         list.Label(BiomeDefOf.TKKN_VolcanicFlow.LabelCap);
         Text.Font = GameFont.Small;
         list.CheckboxLabeled("NPS_AllowBiome_Title".Translate(BiomeDefOf.TKKN_VolcanicFlow.LabelCap),
-            ref BiomeSettings.allowVolcanicFields,
+            ref BiomeSettings.AllowVolcanicFields,
             tooltip: "NPS_AllowBiomes_Text".Translate(BiomeDefOf.TKKN_VolcanicFlow.LabelCap));
 
-        if (BiomeSettings.allowVolcanicFields) {
+        if (BiomeSettings.AllowVolcanicFields) {
             if (list.ButtonText("NPS_ResetSettings".Translate(), widthPct: 0.4f)) {
                 BiomeSettings.VolcanicSpawnChance = 0.009f;
             }

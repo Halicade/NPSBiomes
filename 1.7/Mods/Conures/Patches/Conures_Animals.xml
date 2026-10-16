@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Grasslands"]/wildAnimals</xpath>
+        <value>
+            <BlackCappedConure>0.1</BlackCappedConure>
+            <CrimsonBelliedConure>0.1</CrimsonBelliedConure>
+            <GoldenConure>0.1</GoldenConure>
+            <NandayConure>0.1</NandayConure>
+            <PineappleConure>0.1</PineappleConure>
+            <SunConure>0.1</SunConure>
+            <TurquoiseConure>0.1</TurquoiseConure>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Oasis"]/wildAnimals</xpath>
+        <value>
+            <TurquoiseConure>0.1</TurquoiseConure>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_Savanna"]/wildAnimals</xpath>
+        <value>
+            <BlackCappedConure>0.1</BlackCappedConure>
+            <CrimsonBelliedConure>0.1</CrimsonBelliedConure>
+            <GoldenConure>0.1</GoldenConure>
+            <NandayConure>0.1</NandayConure>
+            <PineappleConure>0.1</PineappleConure>
+            <SunConure>0.1</SunConure>
+            <TurquoiseConure>0.1</TurquoiseConure>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName = "TKKN_VolcanicFlow"]/wildAnimals</xpath>
+        <value>
+            <GoldenConure>0.4</GoldenConure>
+            <NandayConure>0.4</NandayConure>
+            <PineappleConure>0.4</PineappleConure>
+            <SunConure>0.4</SunConure>
+            <TurquoiseConure>0.4</TurquoiseConure>
+            <BlackCappedConure>0.4</BlackCappedConure>
+            <CrimsonBelliedConure>0.4</CrimsonBelliedConure>
+        </value>
+    </Operation>
+
+
+</Patch>

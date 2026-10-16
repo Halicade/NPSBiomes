@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+
+    <GenStepDef>
+        <defName>NPS_Oasis</defName>
+        <order>355</order>
+        <genStep Class="NPSBiomes.GenSteps.Oasis">
+            <!--These get changed if NPS Weather effects is active-->
+            <deepWaterTerrain>WaterShallow</deepWaterTerrain>
+            <waterTerrain>WaterShallow</waterTerrain>
+            <soilTerrain>Riverbank</soilTerrain>
+        </genStep>
+        <modExtensions>
+            <li Class="MapPreview.GenStepProperties" MayRequire="m00nl1ght.mappreview">
+                <includeInPreviews>true</includeInPreviews>
+            </li>
+        </modExtensions>
+    </GenStepDef>
+
+    <!--Needs to run after initial plant generation-->
+    <GenStepDef>
+        <defName>NPS_PostOasisPlants</defName>
+        <order>907</order>
+        <genStep Class="NPSBiomes.GenSteps.PostOasis">
+            <soilTerrain>Riverbank</soilTerrain>
+        </genStep>
+    </GenStepDef>
+
+    <!--Needs to run after FindPlayerStartSpot-->
+    <GenStepDef>
+        <defName>NPS_LavaLanding</defName>
+        <order>851</order>
+        <genStep Class="NPSBiomes.GenSteps.PostLava">
+            <terrainOverwrite>TKKN_LavaRock_RoughHewn</terrainOverwrite>
+        </genStep>
+    </GenStepDef>
+
+    <!--Needs to run after FindPlayerStartSpot-->
+    <GenStepDef>
+        <defName>NPS_LavaPathing</defName>
+        <order>224</order>
+        <genStep Class="NPSBiomes.GenSteps.LavaPathing">
+        </genStep>
+        <modExtensions>
+            <li Class="MapPreview.GenStepProperties" MayRequire="m00nl1ght.mappreview">
+                <includeInPreviews>true</includeInPreviews>
+            </li>
+        </modExtensions>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>NPS_SpawnSteamVents</defName>
+        <order>951</order>
+        <genStep Class="GenStep_ScatterThings">
+            <thingDef>TKKN_SteamVent</thingDef>
+            <allowInWaterBiome>false</allowInWaterBiome>
+            <minSpacing>10</minSpacing>
+            <extraNoBuildEdgeDist>4</extraNoBuildEdgeDist>
+            <countPer10kCellsRange>0.7~1.3</countPer10kCellsRange>
+            <clearSpaceSize>15</clearSpaceSize>
+            <terrainValidationRadius>3</terrainValidationRadius>
+            <terrainValidationDisallowed>
+                <li>Road</li>
+            </terrainValidationDisallowed>
+            <validators>
+                <li Class="ScattererValidator_Buildable">
+                    <radius>4</radius>
+                    <affordance>Heavy</affordance>
+                </li>
+                <li Class="ScattererValidator_NoNonNaturalEdifices">
+                    <radius>4</radius>
+                </li>
+                <li Class="ScattererValidator_AvoidSpecialThings" />
+                <li Class="ScatterValidator_AvoidUsedRects">
+                    <size>(4, 4)</size> <!-- For geothermal generators -->
+                </li>
+            </validators>
+        </genStep>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>NPS_SpawnDeadRedwoods</defName>
+        <order>751</order> <!-- after quarry (mutator final) -->
+        <genStep Class="GenStep_ScatterThings">
+            <terrainValidationRadius>1</terrainValidationRadius>
+            <countPer10kCellsRange>0~2</countPer10kCellsRange>
+            <thingDef>TKKN_RedwoodDead</thingDef>
+            <terrainValidationDisallowed>
+                <li>NaturalRock</li>
+            </terrainValidationDisallowed>
+        </genStep>
+    </GenStepDef>
+
+
+</Defs>
