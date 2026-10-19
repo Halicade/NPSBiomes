@@ -25,8 +25,8 @@
     <NPS_LavaReplace_Text>Replace the lava that spawns on the Volcanic fields biome with its Odyssey counterpart</NPS_LavaReplace_Text>
 
     <!--NPS Weather Effects Only-->
-    <NPS_SteamVentsDespawn_Title>Steam vents can despawn</NPS_SteamVentsDespawn_Title>
-    <NPS_SteamVentsDespawn_Text>Steam vents can despawn. These will occasionally respawn as well</NPS_SteamVentsDespawn_Text>
+    <NPS_SteamVentsDespawn_Title>Steam vents can spawn/despawn</NPS_SteamVentsDespawn_Title>
+    <NPS_SteamVentsDespawn_Text>Steam vents can spawn and despawn on basalt tile</NPS_SteamVentsDespawn_Text>
     
     <NPS_SpawnChances>Spawn chances</NPS_SpawnChances>
     <NPS_SpawnNote>Although these affect the spawn chances, the actual calculations can not be modified. This can cause adverse effects. Try using a mod like "Choose Biome Commonality" for more fine-tuning.</NPS_SpawnNote>

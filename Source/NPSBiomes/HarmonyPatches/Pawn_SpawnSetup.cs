@@ -1,9 +1,10 @@
-﻿using RimWorld;
+﻿using HarmonyLib;
+using RimWorld;
 using Verse;
 
 namespace NPSBiomes;
 
-//[HarmonyPatch(typeof(Pawn), nameof(Pawn.SpawnSetup))]
+[HarmonyPatch(typeof(Pawn), nameof(Pawn.SpawnSetup))]
 internal class Pawn_SpawnSetup
 {
     public static void Postfix(Pawn __instance)

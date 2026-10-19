@@ -12,15 +12,7 @@ public class BiomesController : Mod
     public BiomesController(ModContentPack content)
         : base(content) {
         GetSettings<BiomeSettings>();
-        BiomeSettings.MedievalOverhaulActive =
-            ModLister.GetActiveModWithIdentifier("dankpyon.medieval.overhaul") != null;
-
-        if (ModLister.GetActiveModWithIdentifier("hali.npsweathereffects") != null) {
-            BiomeSettings.NpsWeatherActive = true;
-        }
-        else {
-            BiomeSettings.SteamVentsDespawn = false;
-        }
+        BiomeSettings.MedievalOverhaulActive = ModLister.GetActiveModWithIdentifier("dankpyon.medieval.overhaul") != null;
 
         LongEventHandler.QueueLongEvent(action: HarmonyPatches,
             textKey: null,
@@ -41,30 +33,8 @@ public class BiomesController : Mod
         TerrainTagUtil.IntializeTerrainTags();
 
         var harmony = new Harmony("Hali.NPS_BiomeEffects");
+        harmony.PatchAll();
 
-        if (BiomeSettings.ModifyAridShrubland) {
-            harmony.Patch(
-                AccessTools.Method(typeof(BiomeWorker_AridShrubland), nameof(BiomeWorker_AridShrubland.GetScore)),
-                postfix: new HarmonyMethod(typeof(BiomeWorker_AridShrubland_GetScore),
-                    nameof(BiomeWorker_AridShrubland_GetScore.Postfix)));
-        }
-
-        if (BiomeSettings.ModifyTemperateForest) {
-            harmony.Patch(
-                AccessTools.Method(typeof(BiomeWorker_TemperateForest), nameof(BiomeWorker_TemperateForest.GetScore)),
-                postfix: new HarmonyMethod(typeof(BiomeWorker_TemperateForest_GetScore),
-                    nameof(BiomeWorker_TemperateForest_GetScore.Postfix)));
-        }
-
-        harmony.Patch(AccessTools.Method(typeof(GenSpawn), nameof(GenSpawn.Spawn),
-            [
-                typeof(Thing), typeof(IntVec3), typeof(Map), typeof(Rot4), typeof(WipeMode), typeof(bool), typeof(bool)
-            ]),
-            postfix: new HarmonyMethod(typeof(GenSpawn_Spawn), nameof(GenSpawn_Spawn.Postfix)));
-
-        harmony.Patch(AccessTools.Method(typeof(Pawn), nameof(Pawn.SpawnSetup)),
-            postfix: new HarmonyMethod(typeof(Pawn_SpawnSetup),
-                nameof(Pawn_SpawnSetup.Postfix)));
     }
 
 
@@ -139,12 +109,11 @@ public class BiomesController : Mod
             ref BiomeSettings.spawnLavaOnlyInBiome,
             "NPS_spawnLavaOnlyInBiome_text".Translate());
 */
-        if (BiomeSettings.NpsWeatherActive) {
-            list.CheckboxLabeled(
-                "NPS_SteamVentsDespawn_Title".Translate(),
-                ref BiomeSettings.SteamVentsDespawn,
-                "NPS_SteamVentsDespawn_Text".Translate());
-        }
+
+        list.CheckboxLabeled(
+            "NPS_SteamVentsDespawn_Title".Translate(),
+            ref BiomeSettings.SteamVentsDespawn,
+            "NPS_SteamVentsDespawn_Text".Translate());
 
         list.End();
 

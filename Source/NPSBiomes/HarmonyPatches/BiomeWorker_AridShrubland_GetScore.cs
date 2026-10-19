@@ -1,10 +1,14 @@
-﻿using RimWorld.Planet;
+﻿using HarmonyLib;
+using RimWorld;
+using RimWorld.Planet;
 
 namespace NPSBiomes;
 
-//[HarmonyPatch(typeof(BiomeWorker_AridShrubland), nameof(BiomeWorker_AridShrubland.GetScore))]
+[HarmonyPatch(typeof(BiomeWorker_AridShrubland), nameof(BiomeWorker_AridShrubland.GetScore))]
 public static class BiomeWorker_AridShrubland_GetScore
 {
+    static bool Prepare() => BiomeSettings.ModifyAridShrubland;
+    
     public static void Postfix(Tile tile, ref float __result)
     {
         if (__result is -100f or 0f)

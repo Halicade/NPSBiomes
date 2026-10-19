@@ -1,10 +1,14 @@
-﻿using RimWorld.Planet;
+﻿using HarmonyLib;
+using RimWorld;
+using RimWorld.Planet;
 
 namespace NPSBiomes;
 
-//[HarmonyPatch(typeof(BiomeWorker_TemperateForest), nameof(BiomeWorker_TemperateForest.GetScore))]
+[HarmonyPatch(typeof(BiomeWorker_TemperateForest), nameof(BiomeWorker_TemperateForest.GetScore))]
 public static class BiomeWorker_TemperateForest_GetScore
 {
+    static bool Prepare() => BiomeSettings.ModifyTemperateForest;
+    
     public static void Postfix(Tile tile, ref float __result)
     {
         if (__result is -100f or 0f)

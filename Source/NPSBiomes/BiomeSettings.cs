@@ -24,9 +24,6 @@ public class BiomeSettings : ModSettings
 
     public static bool MedievalOverhaulActive;
 
-    public static bool NpsWeatherActive;
-
-    //Requires NPS to function
     public static bool SteamVentsDespawn = true;
 
     public static float OasisSpawnChance = 0.006f;
