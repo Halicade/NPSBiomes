@@ -9,7 +9,7 @@
 | [ABF: Synstruct Biomimetics](https://steamcommunity.com/sharedfiles/filedetails/?id=3288479776)                           | killathon.artificialbeings.syncore.biomimetics |
 | [Alpha Animals](https://steamcommunity.com/sharedfiles/filedetails/?id=1541721856)                                        | sarg.alphaanimals                              |
 | [Animal Collab Project Vanilla-Style](https://steamcommunity.com/sharedfiles/filedetails/?id=2208467668)                  | acpteam.acpvanillastyle                        |
-| [BIRD UP! Continued dizzy](https://steamcommunity.com/sharedfiles/filedetails/?id=3529627105)                             | .birdup.allinone                               |
+| [BIRD UP! Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3529627105)                                   | dizzy.birdup.allinone                          |
 | [BIRD UP!+](https://steamcommunity.com/sharedfiles/filedetails/?id=3529981601)                                            | tyrannidae.birdupplus                          |
 | [Biomes! Caverns](https://steamcommunity.com/sharedfiles/filedetails/?id=2969748433)                                      | biomesteam.biomescaverns                       |
 | [Biomes! Polluted Lands](https://steamcommunity.com/sharedfiles/filedetails/?id=3390196656)                               | biomesteam.biomespollutedlands                 |
