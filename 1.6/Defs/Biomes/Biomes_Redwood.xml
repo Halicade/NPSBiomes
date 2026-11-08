@@ -276,6 +276,9 @@
             <DW_Garmr MayRequire="zal.wolvesden">0.1</DW_Garmr>
             <NightHeron MayRequire="Antisodium.NightHeron">0.15</NightHeron>
             <JOE_Nautilant MayRequire="Joe.Cephaloids">0.01</JOE_Nautilant>
+            <ATK_Devilbex MayRequire="ATK.DevilstrandAnimals">0.2</ATK_Devilbex>
+            <ATK_Devilhare MayRequire="ATK.DevilstrandAnimals">0.4</ATK_Devilhare>
+            <ATK_Devilyak MayRequire="ATK.DevilstrandAnimals">0.05</ATK_Devilyak>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>

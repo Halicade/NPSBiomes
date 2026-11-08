@@ -1,5 +1,5 @@
-﻿using HarmonyLib;
-using RimWorld;
+﻿using System.Reflection;
+using HarmonyLib;
 using UnityEngine;
 using Verse;
 
@@ -33,7 +33,7 @@ public class BiomesController : Mod
         TerrainTagUtil.IntializeTerrainTags();
 
         var harmony = new Harmony("Hali.NPS_BiomeEffects");
-        harmony.PatchAll();
+        harmony.PatchAll(Assembly.GetExecutingAssembly());
 
     }
 

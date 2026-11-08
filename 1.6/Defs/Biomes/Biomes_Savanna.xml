@@ -202,6 +202,8 @@
             <Doomalope MayRequire="cucumpear.doomalope">0.05</Doomalope>
             <Egret MayRequire="11bullets.shorebirds">0.35</Egret>
             <Plover MayRequire="11bullets.shorebirds">0.15</Plover>
+            <ATK_Devilbex MayRequire="ATK.DevilstrandAnimals">0.2</ATK_Devilbex>
+            <ATK_Devilhare MayRequire="ATK.DevilstrandAnimals">0.4</ATK_Devilhare>
         </wildAnimals>
         <pollutionWildAnimals>
             <Rat>1.0</Rat>
