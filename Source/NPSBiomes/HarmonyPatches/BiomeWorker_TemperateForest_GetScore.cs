@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using System;
+using HarmonyLib;
 using RimWorld;
 using RimWorld.Planet;
 
@@ -8,20 +9,20 @@ namespace NPSBiomes;
 public static class BiomeWorker_TemperateForest_GetScore
 {
     static bool Prepare() => BiomeSettings.ModifyTemperateForest;
-    
-    public static void Postfix(Tile tile, ref float __result)
-    {
-        if (__result is -100f or 0f)
-        {
+
+    public static void Postfix(Tile tile, ref float __result) {
+        if (Math.Abs(__result - -100f) < 0.001f) {
+            return;
+        }
+        if (__result == 0) {
             return;
         }
 
-        if (tile.rainfall < 1200f)
-        {
+        if (tile.rainfall < 1200f) {
             __result = 0f;
             return;
         }
 
-        __result = (float)(15.0 + (tile.temperature - 7.0) + (tile.rainfall - 600.0) / 180.0);
+        __result = 15f + (tile.temperature - 7f) + (tile.rainfall - 600f) / 180f;
     }
 }

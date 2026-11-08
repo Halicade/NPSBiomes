@@ -90,6 +90,7 @@
 | [The Profaned](https://steamcommunity.com/sharedfiles/filedetails/?id=3202008037)                                         | botchjob.profaned                              |
 | [Turtles](https://steamcommunity.com/sharedfiles/filedetails/?id=2832804475)                                              | zylle.turtles                                  |
 | [Unique Antelopes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2826313713)                         | zal.antelopes                                  |
+| [Uranium Beaver](https://steamcommunity.com/sharedfiles/filedetails/?id=3583783172)                                       | Trouperton.UraniumBeaver                       |
 | [Vanilla Animals Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948)                             | vanillaexpanded.vanillaanimalsexpanded         |
 | [Vanilla Animals Expanded — Waste Animals](https://steamcommunity.com/sharedfiles/filedetails/?id=2962126499)             | vanillaexpanded.vaewaste                       |
 | [Wayward Biomes: Lotus Wilds](https://steamcommunity.com/sharedfiles/filedetails/?id=3751454361)                          | zylle.waywardbiomes.lotuswilds                 |

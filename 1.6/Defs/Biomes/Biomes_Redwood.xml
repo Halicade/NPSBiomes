@@ -279,6 +279,7 @@
             <ATK_Devilbex MayRequire="ATK.DevilstrandAnimals">0.2</ATK_Devilbex>
             <ATK_Devilhare MayRequire="ATK.DevilstrandAnimals">0.4</ATK_Devilhare>
             <ATK_Devilyak MayRequire="ATK.DevilstrandAnimals">0.05</ATK_Devilyak>
+            <UB_UraniumBeaver MayRequire="Trouperton.UraniumBeaver">0.05</UB_UraniumBeaver>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>

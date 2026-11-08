@@ -1,0 +1,31 @@
+This is an update and rework of the mod Natures Pretty Sweet. Split up into multiple mods for convenience.
+Originally created by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1211694919]tkkntkkns[/url]
+Then continued by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3542949511]Mlie[/url]
+
+When I first found this mod a year ago I fell in love with it. Downloaded it, opened up a quicktest, and watched the terrain slowly transform from the usual dryness to a density that made the dense forest feel like a forest when it rained.
+
+The overall performance of the mod was not great. So I embarked on a multi-month journey to rewrite and optimize the heck out of this mod. Many months and a couple mental breaks later, I think it's ready for release.
+This mod has been split into three parts, Weather Effects, [b]Biomes[/b], Snow textures.
+[h1]Biomes[/h1][list]
+    [*] Desert Oasis - found in extreme deserts. A spring surrounded by a lot of rich soil. Inspired by big bend national Park
+    [*] Desert and Salt Fields - A very dry area which supports little life. Salt weed can be found here. Inspired by Death Valley California.
+    [*] Redwood Forest - Forests of large, slow growing redwood trees and old growth oaks. Very rainy and overcast. Many species of animals move around in the trees and on the plains. Travel is more difficult than other areas. Inspired by Redwood National Park, California.
+    [*] Savanna - Extensive grasslands with scattered trees. It has the most trees of the grasslands. The soil is rich but there is little protection from the elements. Seasonal droughts, wildfires and animal migrations occur.
+    [*] Tallgrass Prairie - Extensive grasslands, high winds and bright sun. The soil is incredibly fertile but there is little protection from the elements. Seasonal droughts, fires, and storms are punishing. Inspired by Great Plains, Central US.
+    [*] Volcanic Fields - Tropical, lava, rich soil, and steam vents. This is a dangerous biome with active volcanos. Expect eruptions as well as dangerous animals. Inspired by Hawaiʻi Volcanoes National Park.
+[/list][h1]Extras[/h1][list]
+    [*] Tons of new plants. Grass variants, wildflowers, cacti, trees, and water plants.
+    [*] New rock type, basalt - Strong and beautiful but a lot of work to builod with Normally exclusive to Volcanic Fields.
+    [*] Minerals - Can find Amber and Petrified Wood in within rock formations.
+    [*] Salt - Salt can be found off of salt weed. Normally on Desert and Salt field biomes and beaches as well. Can be applied to pawns to stop bleeding on cuts, bites, and stabs.
+    [*] Salted earth - Can also place salted earth to hsve salt weed grow naturally. Snails and other slug-like animals will die if they touch this terrain.
+    [*] Reworked Biomes - Base game biomes get new plants, as well as some animals.
+[/list][h1]Compatibility[/h1]For specific compatibility please see https://github.com/Halicade/NPSBiomes/blob/Main/ModCompatibility.md If a mod is not listed, it either means that it is compatible, or it was not tested with it.
+Added support for over 150 animal and plant mods. Over 1500 animals!
+This might be save compatible with the original Natures pretty sweet. However, I did not aim to make compatibility. You will require both this and the NPS: Biomes mod if you choose to swap. Make a copy of your save first in case.
+Obviously, don't add or remove biome mods mid-save.
+[h2]Credits[/h2]tkkntkkn - Original creator of this mod
+mlie - Continued this mod so I was able to find it
+Paradox, Roque The Rogue, & Feb - Helped with bugs, testing, general balance, and features
+Rimworld discord - Helped with general balance, optimizations, and watched my descent into madness
+[h1]Bug reports[/h1]Please supply a log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Publisher[/url] for any bugs that may occur.
