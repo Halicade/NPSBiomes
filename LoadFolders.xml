@@ -60,6 +60,8 @@
         
         <li>Source/Assets</li>
 
+        <!--Tests, loaded only while DevTools is active. See Source/NPSBiomes.Tests/README.md-->
+        <li IfModActive="SmashPhil.DevTools">Tests</li>
 
         <!--DLC-->
         <li IfModActive="Ludeon.Rimworld.Odyssey">1.7/DLC/Odyssey</li>

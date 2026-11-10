@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- NPS Biomes' tests, run inside the game by SmashPhil's DevTools
+       (https://github.com/SmashPhil/DevTools), which is 1.7 only.
+
+       The build puts one dll, NPSBiomes.Tests.dll, in Tests/Assemblies/.
+       LoadFolders.xml loads Tests/ under 1.7 only while DevTools is active,
+       so a game without DevTools never loads it. Building this project also
+       builds ../NPSBiomes first, into 1.7/Assemblies/.
+
+         dotnet build Source/NPSBiomes.Tests/NPSBiomes.Tests.csproj -c Release
+
+       GameDir is the folder that holds Assembly-CSharp.dll. With the repo
+       inside the game's Mods folder on Windows, the default finds it, as the
+       mod's own project does. The mod's project has no such setting and
+       builds only there, so anywhere else the build fails in ../NPSBiomes
+       first, whatever GameDir says.
+       DevToolsDll is DevTools' own dll, found beside this mod in Mods/;
+       otherwise pass -p:DevToolsDll=<path>/DevTools.dll. -->
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>NPSBiomes.Tests</AssemblyName>
+    <RootNamespace>NPSBiomes.Tests</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputPath>..\..\Tests\Assemblies</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <DebugType>embedded</DebugType>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GameDir Condition="'$(GameDir)' == '' AND Exists('$(MSBuildThisFileDirectory)..\..\..\..\Assembly-CSharp.dll')">$(MSBuildThisFileDirectory)..\..\..\..\</GameDir>
+    <DevToolsDll Condition="'$(DevToolsDll)' == '' AND Exists('$(MSBuildThisFileDirectory)..\..\..\DevTools\1.7\Assemblies\DevTools.dll')">$(MSBuildThisFileDirectory)..\..\..\DevTools\1.7\Assemblies\DevTools.dll</DevToolsDll>
+  </PropertyGroup>
+
+  <Target Name="CheckReferences" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="'$(GameDir)' == '' OR !Exists('$(GameDir)Assembly-CSharp.dll')" Text="No RimWorld 1.7 found; pass -p:GameDir=&lt;folder holding Assembly-CSharp.dll&gt;/" />
+    <Error Condition="'$(DevToolsDll)' == '' OR !Exists('$(DevToolsDll)')" Text="No DevTools found; pass -p:DevToolsDll=&lt;path to DevTools.dll&gt;" />
+  </Target>
+
+  <ItemGroup>
+    <!-- Compile-time references only (Private=false), so Tests/Assemblies/
+         holds this one dll. -->
+    <Reference Include="Assembly-CSharp" HintPath="$(GameDir)Assembly-CSharp.dll" Private="false" />
+    <Reference Include="UnityStubs" HintPath="$(GameDir)UnityStubs.dll" Private="false" />
+    <Reference Include="Waylith" HintPath="$(GameDir)Waylith.dll" Private="false" />
+    <Reference Include="DevTools" HintPath="$(DevToolsDll)" Private="false" />
+    <ProjectReference Include="..\NPSBiomes\NPSBiomes.csproj" Private="false" />
+  </ItemGroup>
+
+</Project>
