@@ -64,6 +64,14 @@ the value each field starts at with the value loading falls back to:
 `TallgrassMaxTemp` starts at 30 and loads as 22. The Reset buttons in the
 settings window hold a third copy of each default, which no test reaches.
 
+By the time a test runs, the game has loaded the player's settings over the
+fields, so this test and `BiomeTests` find each setting's starting value by
+reading the field initializers out of the compiled `BiomeSettings` class
+(`SettingsFile.StartingValues`). That reader is a stopgap. Once each default
+lives in one named constant that the field, the settings file and the Reset
+button all use, which is also the fix for `TallgrassMaxTemp`, the tests can
+read those constants and the reader can be deleted.
+
 **BiomeTests** picks a biome for the same tile twice: once from the official
 biomes, scored as the game scores them without this mod, and once from the
 official biomes plus this mod's, scored with it loaded. The tiles are a fixed

@@ -50,6 +50,10 @@ internal static class SettingsFile
     /// initializer starts at false or 0. Other statics may start at anything;
     /// a setting that starts at something other than a constant throws.
     /// Changes nothing.
+    ///
+    /// The IL reader is a stopgap. Once each default lives in one named
+    /// constant that the field, the settings file and the Reset button all
+    /// use, this can return those constants and the reader can be deleted.
     /// </summary>
     public static Dictionary<FieldInfo, object> StartingValues() {
         ConstructorInfo init = typeof(BiomeSettings).TypeInitializer;
