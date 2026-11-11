@@ -46,7 +46,7 @@ public class BiomesController : Mod
         string saltFlatSpawnChanceBuff = BiomeSettings.SaltFlatSpawnChance.ToString();
         string redwoodMinTempBuff = BiomeSettings.RedwoodMinTemp.ToString();
         string redwoodMaxTempBuff = BiomeSettings.RedwoodMaxTemp.ToString();
-        string redwoodMaxRainfallBuff = BiomeSettings.RedwoodMaxRainfall.ToString();
+        string redwoodMinRainfallBuff = BiomeSettings.RedwoodMinRainfall.ToString();
         string savannaMinTempBuff = BiomeSettings.SavannaMinTemp.ToString();
         string savannaMaxTempBuff = BiomeSettings.SavannaMaxTemp.ToString();
         string savannaMinRainfallBuff = BiomeSettings.SavannaMinRainfall.ToString();
@@ -111,9 +111,13 @@ public class BiomesController : Mod
 */
 
         list.CheckboxLabeled(
-            "NPS_SteamVentsDespawn_Title".Translate(),
-            ref BiomeSettings.SteamVentsDespawn,
-            "NPS_SteamVentsDespawn_Text".Translate());
+            "NPS_SteamVentsRespawn_Title".Translate(),
+            ref BiomeSettings.SteamVentsRespawn,
+            "NPS_SteamVentsRespawn_Text".Translate());
+        
+        list.CheckboxLabeled("NPS_BasaltLockedToBiome_Title".Translate(),
+            ref BiomeSettings.BasaltLockedToBiome,
+            "NPS_BasaltLockedToBiome_Text".Translate());
 
         list.End();
 
@@ -180,7 +184,7 @@ public class BiomesController : Mod
             if (list.ButtonText("NPS_ResetSettings".Translate(), widthPct: 0.4f)) {
                 BiomeSettings.RedwoodMinTemp = -10f;
                 BiomeSettings.RedwoodMaxTemp = 10f;
-                BiomeSettings.RedwoodMaxRainfall = 1100;
+                BiomeSettings.RedwoodMinRainfall = 1100;
             }
 
             list.Gap();
@@ -188,8 +192,8 @@ public class BiomesController : Mod
                 ref redwoodMinTempBuff, min: float.MinValue);
             list.TextFieldNumericLabeled("NPS_MaxTemperature".Translate(), ref BiomeSettings.RedwoodMaxTemp,
                 ref redwoodMaxTempBuff);
-            list.TextFieldNumericLabeled("NPS_MaxRainfall".Translate(), ref BiomeSettings.RedwoodMaxRainfall,
-                ref redwoodMaxRainfallBuff);
+            list.TextFieldNumericLabeled("NPS_MinRainfall".Translate(), ref BiomeSettings.RedwoodMinRainfall,
+                ref redwoodMinRainfallBuff);
         }
 
 

@@ -54,7 +54,7 @@ internal class Building_SteamVent : Building
             spraySustainer = null;
         }
 
-        if (BiomeSettings.SteamVentsDespawn) {
+        if (BiomeSettings.SteamVentsRespawn) {
             if (Rand.Value < .000001f) {
                 DeSpawn();
             }

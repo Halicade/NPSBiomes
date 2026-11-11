@@ -2,6 +2,7 @@
 using HarmonyLib;
 using RimWorld;
 using RimWorld.Planet;
+using UnityEngine;
 
 namespace NPSBiomes;
 
@@ -11,10 +12,10 @@ public static class BiomeWorker_TemperateForest_GetScore
     static bool Prepare() => BiomeSettings.ModifyTemperateForest;
 
     public static void Postfix(Tile tile, ref float __result) {
-        if (Math.Abs(__result - -100f) < 0.001f) {
+        if (Math.Abs(__result + 100f) < 0.001f) {
             return;
         }
-        if (__result == 0) {
+        if (Mathf.Approximately(__result, 0)) {
             return;
         }
 

@@ -52,7 +52,7 @@
 | [L-Slimes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3285062246)                                 | vector.leonapp.lslimes                         |
 | [Little Critters](https://steamcommunity.com/sharedfiles/filedetails/?id=3331281387)                                      | tyrannidae.littlecritters                      |
 | [Mamuffalo ](https://steamcommunity.com/sharedfiles/filedetails/?id=2053120429)                                           | dismarzero.vgp.mamuffalo                       |
-| [Medieval Overhaul dankpyon](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926)                           | .medieval.overhaul                             |
+| [Medieval Overhaul dankpyon](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926)                           | dankpyon.medieval.overhaul                     |
 | [Megafauna](https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938)                                            | spino.megafauna                                |
 | [Meowl (喵枭) [EN/ES/ZH/JA/KO/FR/RU]](https://steamcommunity.com/sharedfiles/filedetails/?id=3663445759)                  | tolgrim.meowl.race                             |
 | [Monster Mash (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3175345611)                             | zal.monstermash                                |
@@ -107,7 +107,7 @@
 | [Biomes! Polluted Lands](https://steamcommunity.com/sharedfiles/filedetails/?id=3390196656)            | biomesteam.biomespollutedlands     |
 | [Biomes! Prehistoric](https://steamcommunity.com/sharedfiles/filedetails/?id=2860715703)               | biomesteam.biomesprehistoric       |
 | [Biomes! Oasis](https://steamcommunity.com/sharedfiles/filedetails/?id=2538518381)                     | biomesteam.oasis                   |
-| [Fantastic Flora(continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2504647479)                                                                         | velcroboy333.fantasticfloracont                                   |
+| [Fantastic Flora(continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2504647479)        | velcroboy333.fantasticfloracont    |
 | [Flowers (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2025555200)               | mlie.flowers                       |
 | [RimCuisine 2 Core (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366)     | mlie.rc2.core                      |
 | [Kit's Brazilian Crops (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2886512401) | zal.braziliancrops                 |
@@ -122,7 +122,7 @@
 | [Aqued Subnautica Fishes](https://steamcommunity.com/sharedfiles/filedetails/?id=3551489303)                      | aqued.fishes                  | Odyssey Fish                                                                                                                            |
 | [FirefliesTwo](https://steamcommunity.com/sharedfiles/filedetails/?id=3347026598)                                 | scurvyez.firefliestwo         | Fireflies                                                                                                                               |
 | [Geological Landforms](https://steamcommunity.com/sharedfiles/filedetails/?id=2773943594)                         | m00nl1ght.GeologicalLandforms | prevents oasis on oasis biome                                                                                                           |
-| [Map Preview](https://steamcommunity.com/sharedfiles/filedetails/?id=2800857642)                                                                                                   | m00nl1ght.mappreview                              | Oasis will appear on map previews                                                                                                       |
+| [Map Preview](https://steamcommunity.com/sharedfiles/filedetails/?id=2800857642)                                  | m00nl1ght.mappreview          | Oasis will appear on map previews                                                                                                       |
 | [Medieval Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926)                            | dankpyon.medieval.overhaul    | Dark forest and Redwood forest have the same biome worker. Changes score generation of Redwood forest to randomly overtake dark forest. |
 | [ReGrowth 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2260097569)                                   | regrowth.botr.core            | Boulders, Map beautification                                                                                                            |
 | [Rimpikmin](https://steamcommunity.com/sharedfiles/filedetails/?id=3464571012)                                    | tobyguilmon.pikmin            | Red pikmin seeds can appear in Volcanic Fields biome                                                                                    |

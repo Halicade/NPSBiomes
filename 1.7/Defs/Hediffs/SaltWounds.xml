@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
     
-    <HediffDef>
+    <HediffDef ParentName="InjuryBase">
         <defName>NPS_SaltedWound</defName>
         <label>salted wound</label>
         <labelNoun>a cut</labelNoun>
-        <hediffClass>Hediff_Injury</hediffClass>
         <description>A cut that had salt applied to stop bleeding.</description>
         <comps>
             <!--

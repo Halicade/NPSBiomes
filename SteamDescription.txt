@@ -22,10 +22,10 @@ This mod has been split into three parts, Weather Effects, [b]Biomes[/b], Snow t
     [*] Reworked Biomes - Base game biomes get new plants, as well as some animals.
 [/list][h1]Compatibility[/h1]For specific compatibility please see https://github.com/Halicade/NPSBiomes/blob/Main/ModCompatibility.md If a mod is not listed, it either means that it is compatible, or it was not tested with it.
 Added support for over 150 animal and plant mods. Over 1500 animals!
-This might be save compatible with the original Natures pretty sweet. However, I did not aim to make compatibility. You will require both this and the NPS: Biomes mod if you choose to swap. Make a copy of your save first in case.
+This might be save compatible with the original Natures pretty sweet. However, I did not aim to make compatibility. You will require both this and the NPS: Weather effects mod if you choose to swap. Make a copy of your save first in case.
 Obviously, don't add or remove biome mods mid-save.
 [h2]Credits[/h2]tkkntkkn - Original creator of this mod
 mlie - Continued this mod so I was able to find it
-Paradox, Roque The Rogue, & Feb - Helped with bugs, testing, general balance, and features
+Paradox, Roque The Rogue, Feb, & MrBeverage - Helped with bugs, testing, general balance, and features
 Rimworld discord - Helped with general balance, optimizations, and watched my descent into madness
 [h1]Bug reports[/h1]Please supply a log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Publisher[/url] for any bugs that may occur.

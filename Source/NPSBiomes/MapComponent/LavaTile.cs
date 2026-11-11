@@ -22,7 +22,7 @@ public class LavaTile(Map map) : MapComponent(map)
 
     public override void MapComponentTick() {
         base.MapComponentTick();
-        if (!anyLavaTerrain || !BiomeSettings.SteamVentsDespawn) {
+        if (!anyLavaTerrain || !BiomeSettings.SteamVentsRespawn) {
             return;
         }
 
@@ -41,13 +41,20 @@ public class LavaTile(Map map) : MapComponent(map)
     private void LavaCellChecks(IntVec3 activeCell) {
 
         if (Rand.Value < 0.00001f) {
+
             var currentTerrain = activeCell.GetTerrain(map);
             if (currentTerrain == TerrainDefOf.TKKN_Lava || currentTerrain == RimWorld.TerrainDefOf.LavaShallow) {
                 var thing = ThingMaker.MakeThing(ThingDefOf.TKKN_LavaRock);
                 GenSpawn.Spawn(thing, activeCell, map);
+                return;
             }
-            else if (currentTerrain == TerrainDefOf.TKKN_LavaRock_RoughHewn &&
-                     map.listerThings.ThingsOfDef(ThingDefOf.TKKN_SteamVent).Count < 10) {
+
+            if (currentTerrain == TerrainDefOf.TKKN_LavaRock_RoughHewn &&
+                map.listerThings.ThingsOfDef(ThingDefOf.TKKN_SteamVent).Count < 10 &&
+                activeCell.GetEdifice(map) == null &&
+                activeCell.InNoBuildEdgeArea(map) &&
+                activeCell.GetFirstBuilding(map) == null) {
+
                 var thing = ThingMaker.MakeThing(ThingDefOf.TKKN_SteamVent);
                 GenSpawn.Spawn(thing, activeCell, map);
             }

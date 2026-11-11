@@ -47,6 +47,10 @@ public class JobDriver_SaltWounds : JobDriver
     }
 
     private void TendWounds() {
-        SaltWoundsForPawn.SaltWounds(InjuredPawn);
+        if (SaltWoundsForPawn.SaltWounds(InjuredPawn)) {
+            Item.SplitOff(1).Destroy();
+            Messages.Message("NPS_PawnWoundsSalted".Translate(InjuredPawn), InjuredPawn, MessageTypeDefOf.PositiveEvent);
+        }
     }
+
 }

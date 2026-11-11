@@ -15,6 +15,16 @@ public class CompTargetEffect_SaltWounds : CompTargetEffect
 {
     public CompProperties_TargetEffectResurrect Props => (CompProperties_TargetEffectResurrect)props;
 
+    public override bool CanApplyOn(Thing target) {
+        if (!base.CanApplyOn(target)) {
+            return false;
+        }
+        Pawn pawn = (Pawn)target;
+        return pawn != null && SaltWoundsForPawn.HasWoundForSalting(pawn);
+
+    }
+    
+
     public override void DoEffectOn(Pawn user, Thing target) {
         if (user.IsColonistPlayerControlled) {
             Job job = JobMaker.MakeJob(SaltDefOfs.NPS_SaltWounds, target, parent);

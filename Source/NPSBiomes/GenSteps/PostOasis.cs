@@ -15,10 +15,11 @@ public class PostOasis : GenStep
 
     public override void Generate(Map map, GenStepParams parms) {
         foreach (IntVec3 item in map.cellsInRandomOrder.GetAll()) {
-            if (!Rand.Chance(0.001f)) {
+            if (Rand.Chance(0.98f)) {
                 genPlants(item, map);
             }
         }
+        validPlants.Clear();
     }
 
 
@@ -26,9 +27,6 @@ public class PostOasis : GenStep
         if (c.GetEdifice(map) != null || c.GetCover(map) != null || c.GetTerrain(map) != soilTerrain) {
             return;
         }
-
-        if (Rand.Chance(0.1f))
-            return;
 
         if (validPlants.NullOrEmpty()) {
             foreach (var wildPlant in map.Biome.AllWildPlants) {

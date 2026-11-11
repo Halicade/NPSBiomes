@@ -48,24 +48,24 @@ public class Oasis : GenStep
         rightCorner = center + new IntVec3(Rand.Range(20, 24), 0, Rand.Range(-12, 13));
 
         cornerPoints.Add(leftCorner);
-        cornerPoints.Add(getMidpoint(leftCorner, topCorner));
+        cornerPoints.Add(GetMidpoint(leftCorner, topCorner));
         cornerPoints.Add(topCorner);
-        cornerPoints.Add(getMidpoint(topCorner, rightCorner));
+        cornerPoints.Add(GetMidpoint(topCorner, rightCorner));
         cornerPoints.Add(rightCorner);
-        cornerPoints.Add(getMidpoint(rightCorner, bottomCorner));
+        cornerPoints.Add(GetMidpoint(rightCorner, bottomCorner));
         cornerPoints.Add(bottomCorner);
-        cornerPoints.Add(getMidpoint(bottomCorner, leftCorner));
+        cornerPoints.Add(GetMidpoint(bottomCorner, leftCorner));
         // Adding left corner again so we don't accidentally loop ourselves into  oblivion
         cornerPoints.Add(leftCorner);
         cornerPoints.Add(cornerPoints[1]);
 
         for (int i = 0; i < cornerPoints.Count - 2; i++) {
-            getWaterCells(cornerPoints[i], cornerPoints[i + 1], cornerPoints[i + 2]);
-            getDeepWaterCells(cornerPoints[i], cornerPoints[i + 1], cornerPoints[i + 2]);
+            GetWaterCells(cornerPoints[i], cornerPoints[i + 1], cornerPoints[i + 2]);
+            GetDeepWaterCells(cornerPoints[i], cornerPoints[i + 1], cornerPoints[i + 2]);
             
         }
 
-        encircleSoilCells();
+        EncircleSoilCells();
 
 
         foreach (var water in waterCells) {
@@ -93,10 +93,14 @@ public class Oasis : GenStep
                 continue;
             map.terrainGrid.SetTerrain(soil, soilTerrain);
         }
-        
+        waterCells.Clear();
+        deepWaterCells.Clear();
+        soilLine.Clear();
+        soilCells.Clear();
+        cornerPoints.Clear();
     }
 
-    private void encircleSoilCells() {
+    private void EncircleSoilCells() {
         foreach (var cell in soilLine) {
             if (Rand.Chance(0.45f)) {
                 foreach (var circledCell in GenRadial.RadialCellsAround(cell, Rand.Range(0, 15), true)) {
@@ -106,7 +110,7 @@ public class Oasis : GenStep
         }
     }
 
-    private static IntVec3 getMidpoint(IntVec3 start, IntVec3 end) {
+    private static IntVec3 GetMidpoint(IntVec3 start, IntVec3 end) {
         //RandomX = min(x1, x2) + Math.random() * Math.abs(x2 - x1)
 
         //RandomY = min(y1, y2) + Math.random() * Math.abs(y2 - y1)
@@ -117,59 +121,59 @@ public class Oasis : GenStep
         return randomMid;
     }
 
-    private void getDeepWaterCells(IntVec3 start, IntVec3 mid, IntVec3 end) {
+    private void GetDeepWaterCells(IntVec3 start, IntVec3 mid, IntVec3 end) {
         IntVec3 randOffset = new IntVec3(Rand.Range(-5, 5), 0, Rand.Range(-5, 5));
-        var halfStart = getDivCenterPoint(start) + randOffset;
-        var halfMid = getDivCenterPoint(mid) + randOffset;
-        var halfEnd = getDivCenterPoint(end) + randOffset;
+        var halfStart = GetDivCenterPoint(start) + randOffset;
+        var halfMid = GetDivCenterPoint(mid) + randOffset;
+        var halfEnd = GetDivCenterPoint(end) + randOffset;
 
 
         var dist = halfStart.DistanceTo(halfEnd);
         var interval = 1 / (dist * 20);
 
         for (float i = 0; i < dist; i += interval)
-            getDeepWaterCellsAround(getCurve(halfStart, halfMid, halfEnd, i));
+            GetDeepWaterCellsAround(GetCurve(halfStart, halfMid, halfEnd, i));
     }
 
 
-    private void getWaterCells(IntVec3 start, IntVec3 mid, IntVec3 end) {
+    private void GetWaterCells(IntVec3 start, IntVec3 mid, IntVec3 end) {
         var dist = start.DistanceTo(end);
         var interval = 1 / (dist * 20);
 
         var multiMid = (mid - center) * 2 + center;
 
-        var divStart = getDivCenterPoint(start);
-        var divMid = getDivCenterPoint(mid);
-        var divEnd = getDivCenterPoint(end);
+        var divStart = GetDivCenterPoint(start);
+        var divMid = GetDivCenterPoint(mid);
+        var divEnd = GetDivCenterPoint(end);
 
         for (float i = 0; i < dist; i += interval) {
-            var curve = getCurve(start, multiMid, end, i);
+            var curve = GetCurve(start, multiMid, end, i);
 
-            var deepCurve = getCurve(divStart, divMid, divEnd, i);
+            var deepCurve = GetCurve(divStart, divMid, divEnd, i);
 
-            getWaterCellsAround(curve);
-            getDeepWaterCellsAround(deepCurve);
+            GetWaterCellsAround(curve);
+            GetDeepWaterCellsAround(deepCurve);
         }
     }
 
-    private IntVec3 getDivCenterPoint(IntVec3 cell) {
+    private IntVec3 GetDivCenterPoint(IntVec3 cell) {
         return (cell - center) / 3 + center;
     }
     
-    private static IntVec3 getCurve(IntVec3 start, IntVec3 mid, IntVec3 end, float t) {
+    private static IntVec3 GetCurve(IntVec3 start, IntVec3 mid, IntVec3 end, float t) {
         var firstHalf = Vector3.Lerp(start.ToVector3(), mid.ToVector3(), t);
         var secondHalf = Vector3.Lerp(mid.ToVector3(), end.ToVector3(), t);
         return IntVec3.FromVector3(Vector3.Lerp(firstHalf, secondHalf, t));
     }
 
-    private void getWaterCellsAround(IntVec3 start) {
+    private void GetWaterCellsAround(IntVec3 start) {
         soilLine.Add(start);
         foreach (var cellsAround in GenSight.PointsOnLineOfSight(start, center)) {
             waterCells.Add(cellsAround);
         }
     }
 
-    private void getDeepWaterCellsAround(IntVec3 start) {
+    private void GetDeepWaterCellsAround(IntVec3 start) {
         foreach (var cellsAround in GenSight.PointsOnLineOfSight(start, center)) {
             deepWaterCells.Add(cellsAround);
         }

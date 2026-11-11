@@ -19,7 +19,7 @@ public class NPS_BiomeWorker_Redwoods : BiomeWorker
             return 0f;
         }
 
-        if (tile.rainfall < BiomeSettings.RedwoodMaxRainfall)
+        if (tile.rainfall < BiomeSettings.RedwoodMinRainfall)
             return 0f;
 
         //MO uses the same logic for their dark forest biome

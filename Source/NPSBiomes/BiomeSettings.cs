@@ -24,14 +24,14 @@ public class BiomeSettings : ModSettings
 
     public static bool MedievalOverhaulActive;
 
-    public static bool SteamVentsDespawn = true;
+    public static bool SteamVentsRespawn = true;
 
     public static float OasisSpawnChance = 0.006f;
     public static float SaltFlatSpawnChance = 0.006f;
 
     public static float RedwoodMinTemp = -10;
     public static float RedwoodMaxTemp = 10;
-    public static float RedwoodMaxRainfall = 1100;
+    public static float RedwoodMinRainfall = 1100;
 
     public static float SavannaMinTemp = 24;
     public static float SavannaMaxTemp = 30;
@@ -39,7 +39,7 @@ public class BiomeSettings : ModSettings
     public static float SavannaMaxRainfall = 2000;
     
     public static float TallgrassMinTemp = -10;
-    public static float TallgrassMaxTemp = 30f;
+    public static float TallgrassMaxTemp = 22f;
     public static float TallgrassMinRainfall = 900;
     public static float TallgrassMaxRainfall = 1300;
 
@@ -80,21 +80,21 @@ public class BiomeSettings : ModSettings
         Scribe_Values.Look(ref AllowLavaEruption, "allowLavaEruption", true);
         Scribe_Values.Look(ref BasaltLockedToBiome, "basaltLockedToBiome", true);
         Scribe_Values.Look(ref LavaReplace, "lavaReplace", true);
-        Scribe_Values.Look(ref SteamVentsDespawn, "steamVentsDespawn", true);
+        Scribe_Values.Look(ref SteamVentsRespawn, "steamVentsDespawn", true);
 
         Scribe_Values.Look(ref OasisSpawnChance, "oasisSpawnChance", 0.006f);
         Scribe_Values.Look(ref SaltFlatSpawnChance, "saltFlatSpawnChance", 0.006f);
         
         Scribe_Values.Look(ref RedwoodMinTemp, "RedwoodMinTemp", -10);
         Scribe_Values.Look(ref RedwoodMaxTemp, "RedwoodMaxTemp", 10);
-        Scribe_Values.Look(ref RedwoodMaxRainfall, "RedwoodMaxRainfall", 1100);
+        Scribe_Values.Look(ref RedwoodMinRainfall, "RedwoodMaxRainfall", 1100);
         
-        Scribe_Values.Look(ref SavannaMinTemp , "SavannaMinTemp ", 24);
+        Scribe_Values.Look(ref SavannaMinTemp , "SavannaMinTemp", 24);
         Scribe_Values.Look(ref SavannaMaxTemp, "SavannaMaxTemp", 30);
         Scribe_Values.Look(ref SavannaMinRainfall, "SavannaMinRainfall", 1400);
         Scribe_Values.Look(ref SavannaMaxRainfall, "SavannaMaxRainfall", 2000);
         
-        Scribe_Values.Look(ref TallgrassMinTemp , "TallgrassMinTemp ", -10);
+        Scribe_Values.Look(ref TallgrassMinTemp , "TallgrassMinTemp", -10);
         Scribe_Values.Look(ref TallgrassMaxTemp, "TallgrassMaxTemp", 22);
         Scribe_Values.Look(ref TallgrassMinRainfall, "TallgrassMinRainfall", 900);
         Scribe_Values.Look(ref TallgrassMaxRainfall, "TallgrassMaxRainfall", 1300);

@@ -5,12 +5,12 @@
     <NPS_Biomes>NPS: Biomes</NPS_Biomes>
     <!-- Error Messages -->
     <TKKN_NPS_MustPlaceOnSteamVent>You must place this on a steam vent</TKKN_NPS_MustPlaceOnSteamVent>
-    <NPS_AllowBiomes_Text>Allow {0} to spawn during world generation</NPS_AllowBiomes_Text>
     <NPS_AllowBiome_Title>Allow {0}</NPS_AllowBiome_Title>
+    <NPS_AllowBiomes_Text>Allow {0} to spawn during world generation.</NPS_AllowBiomes_Text>
     
     <NPS_BaseGame>Base game biomes</NPS_BaseGame>
     <NPS_ModifyBiome_Title>Modify {0}</NPS_ModifyBiome_Title>
-    <NPS_ModifyBiome_Text>Modifies generation of the {0} biome to use different logic</NPS_ModifyBiome_Text>
+    <NPS_ModifyBiome_Text>Modifies generation of the {0} biome to use different logic.\n\nRequires restart</NPS_ModifyBiome_Text>
 
     <NPS_PlantEffects>Plant effects</NPS_PlantEffects>
     <NPS_Dandelions_Title>Dandelions generate resources</NPS_Dandelions_Title>
@@ -23,10 +23,11 @@
     <!--Odyssey Only-->
     <NPS_LavaReplace_Title>Replace lava with Odyssey Variant</NPS_LavaReplace_Title>
     <NPS_LavaReplace_Text>Replace the lava that spawns on the Volcanic fields biome with its Odyssey counterpart</NPS_LavaReplace_Text>
-
-    <!--NPS Weather Effects Only-->
-    <NPS_SteamVentsDespawn_Title>Steam vents can spawn/despawn</NPS_SteamVentsDespawn_Title>
-    <NPS_SteamVentsDespawn_Text>Steam vents can spawn and despawn on basalt tile</NPS_SteamVentsDespawn_Text>
+    
+    <NPS_SteamVentsRespawn_Title>Steam vents can despawn/respawn</NPS_SteamVentsRespawn_Title>
+    <NPS_SteamVentsRespawn_Text>Steam vents can despawn and respawn on the Volcanic fields biome.</NPS_SteamVentsRespawn_Text>
+    <NPS_BasaltLockedToBiome_Title>Basalt only on Volcanic fields.</NPS_BasaltLockedToBiome_Title>
+    <NPS_BasaltLockedToBiome_Text>Basalt will only appear on the Volcanic fields biome. It will not appear on other biomes.</NPS_BasaltLockedToBiome_Text>
     
     <NPS_SpawnChances>Spawn chances</NPS_SpawnChances>
     <NPS_SpawnNote>Although these affect the spawn chances, the actual calculations can not be modified. This can cause adverse effects. Try using a mod like "Choose Biome Commonality" for more fine-tuning.</NPS_SpawnNote>

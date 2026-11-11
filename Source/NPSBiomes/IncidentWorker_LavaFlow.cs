@@ -5,7 +5,7 @@ using UnityEngine;
 using Verse;
 
 namespace NPSBiomes;
-
+/*
 public class IncidentWorkerLavaFlow : IncidentWorker
 {
     private const float FogClearRadius = 4.5f;
@@ -183,3 +183,4 @@ public class IncidentWorkerLavaFlow : IncidentWorker
         }
     }
 }
+*/

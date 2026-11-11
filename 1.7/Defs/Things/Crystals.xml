@@ -66,7 +66,7 @@
             <ingestReportString>Applying {0}.</ingestReportString>
 
             <outcomeDoers>
-                <li Class="NPSBiomes.IngestionOutcomeDoer_saltWounds"/>
+                <li Class="NPSBiomes.IngestionOutcomeDoer_SaltWounds" />
             </outcomeDoers>
         </ingestible>
         <comps>
@@ -74,7 +74,7 @@
                 <listOrder>1000</listOrder>
             </li>
             <li Class="CompProperties_Targetable">
-                <compClass>CompTargetable_SinglePawn</compClass>
+                <compClass>NPSBiomes.CompTargetable_CanBeSalted</compClass>
             </li>
 
             <li Class="CompProperties_Usable">
@@ -84,11 +84,8 @@
                 <warmupMote>Mote_ResurrectAbility</warmupMote>
                 <showUseGizmo>true</showUseGizmo>
             </li>
-            <li Class="NPSBiomes.CompProperties_SaltWounds"/>
+            <li Class="NPSBiomes.CompProperties_SaltWounds" />
         </comps>
-        <thingCategories>
-            <li>AnimalProductRaw</li>
-        </thingCategories>
 
 
     </ThingDef>
