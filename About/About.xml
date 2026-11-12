@@ -24,7 +24,8 @@
         <li>ludeon.Rimworld.Ideology</li>
     </loadAfter>
     <loadBefore>
-        <!-- Has a patch that removes the HerdMigration allowedBiomes field -->
+        <!-- Has a patch that removes the HerdMigration allowedBiomes field
+        https://steamcommunity.com/sharedfiles/filedetails/?id=2893432492 -->
         <li>FrozenSnowFox.FrozenSnowFoxTweaks</li>
     </loadBefore>
     <description>
