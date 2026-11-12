@@ -1,6 +1,4 @@
-# [Nature's Pretty Sweet: Biomes](https://steamcommunity.com/sharedfiles/filedetails/?id=3542949511)
-
-TODO update link
+# [Nature's Pretty Sweet: Biomes](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151757)
 
 This is an update and rework of the mod Natures Pretty Sweet
 
