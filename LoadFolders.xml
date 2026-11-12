@@ -47,7 +47,7 @@
         <li IfModActive="zal.syntheticanimals">1.6/Mods/SyntheticAnimals</li>
         <li IfModActive="argon.tribalmedicineremake">1.6/Mods/TribalMedicine</li>
         <li IfModActive="vanillaexpanded.vanillaanimalsexpanded">1.6/Mods/VEAnimals</li>
-        <li IfModActive="zylle.waywardbiomes.lotuswilds">1.6/Mods/WaywardLotus</li>
+        <li IfModActive="zylle.waywardbiomes.lotuswilds">1.6/Mods/WayWardLotus</li>
 
         <!--Version independent-->
         <li IfModActive="zal.wmbp,regrowth.botr.core">WMBPRegrowth</li>
@@ -100,7 +100,6 @@
         <li IfModActive="argon.tribalmedicineremake">1.7/Mods/TribalMedicine</li>
         <li IfModActive="vanillaexpanded.vanillaanimalsexpanded">1.7/Mods/VEAnimals</li>
         <li IfModActive="zylle.waywardbiomes.lotuswilds">1.7/Mods/WaywardLotus</li>
-        <li IfModActive="zylle.waywardbiomes.TangledHollows">1.7/Mods/WaywardTangled</li>
 
         <!--Version independent-->
         <li IfModActive="zal.wmbp,regrowth.botr.core">WMBPRegrowth</li>
