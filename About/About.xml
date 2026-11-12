@@ -23,6 +23,11 @@
         <li>ludeon.Rimworld.Royalty</li>
         <li>ludeon.Rimworld.Ideology</li>
     </loadAfter>
-    <description>A continued version of Nature's Pretty Sweet. Reworked and split up into only the biomes portion of the mod.
+    <loadBefore>
+        <!-- Has a patch that removes the HerdMigration allowedBiomes field -->
+        <li>FrozenSnowFox.FrozenSnowFoxTweaks</li>
+    </loadBefore>
+    <description>
+        A continued version of Nature's Pretty Sweet. Reworked and split up into only the biomes portion of the mod.
     </description>
 </ModMetaData>
