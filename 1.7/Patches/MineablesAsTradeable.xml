@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <!--
+    Amber is similar to Jade
+    Petrified wood is similar to gold
+    
+    Going to make both available from traders because I don't really like it being difficult to get 
+    -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingSetMakerDef[defName="TribeRaidLootMaker"]/root/fixedParams/filter/thingDefs</xpath>
+        <value>
+            <li>TKKN_Amber</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GenStepDef[defName="PreciousLump"]/genStep/mineables</xpath>
+        <value>
+            <li>TKKN_MinableAmber</li>
+            <li>TKKN_MinablePetrifiedWood</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="Base_Neolithic_Standard"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_Amber</thingDef>
+                <countRange>-20~80</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_PetrifiedWood</thingDef>
+                <countRange>-40~120</countRange>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_Amber</thingDef>
+                <countRange>60~120</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_PetrifiedWood</thingDef>
+                <countRange>80~140</countRange>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="Caravan_Neolithic_ShamanMerchant"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_Amber</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_PetrifiedWood</thingDef>
+                <countRange>20~45</countRange>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_Amber</thingDef>
+                <countRange>5~20</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_PetrifiedWood</thingDef>
+                <countRange>30~60</countRange>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="Orbital_BulkGoods"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_Amber</thingDef>
+                <countRange>30~140</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_PetrifiedWood</thingDef>
+                <countRange>40~170</countRange>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_Amber</thingDef>
+                <countRange>120~200</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>TKKN_PetrifiedWood</thingDef>
+                <countRange>160~280</countRange>
+            </li>
+        </value>
+    </Operation>
+
+
+
+
+</Patch>

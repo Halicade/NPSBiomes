@@ -140,9 +140,6 @@
             <Vulture MayRequire="Ludeon.Rimworld.Odyssey">0.5</Vulture>
             
             <HC_Pangolin MayRequire="hc.animal.continued">0.6</HC_Pangolin>
-            <ERN_Ferret MayRequire="erin.fluffyfauna">0.3</ERN_Ferret>
-            <ERN_Gartersnake MayRequire="Erin.FluffyFauna">0.2</ERN_Gartersnake>
-            <ERN_Armadillo MayRequire="Erin.FluffyFauna">0.3</ERN_Armadillo>
             <ZHY_Elenole MayRequire="zylle.hybridanimals">0.2</ZHY_Elenole>
             <Deerfox MayRequire="zal.deerfox">0.1</Deerfox>
             <TYR_Mouse MayRequire="tyrannidae.littlecritters">0.8</TYR_Mouse>

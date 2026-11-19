@@ -136,8 +136,6 @@
 
             <PrairieDog MayRequire="Ludeon.Rimworld.Odyssey">0.3</PrairieDog>
             
-            <ERN_Ferret MayRequire="erin.fluffyfauna">0.3</ERN_Ferret>
-            <ERN_Hedgehog MayRequire="erin.fluffyfauna">0.3</ERN_Hedgehog>
             <HC_Pangolin MayRequire="hc.animal.continued">0.6</HC_Pangolin>
             <HC_Serval MayRequire="hc.animal.continued">0.3</HC_Serval>
             <ZHY_Snabbit MayRequire="zylle.hybridanimals">0.4</ZHY_Snabbit>

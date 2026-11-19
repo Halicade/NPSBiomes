@@ -201,7 +201,6 @@
             <Basilisk MayRequire="zal.basilisk">0.05</Basilisk>
             <Doomalope MayRequire="cucumpear.doomalope">0.02</Doomalope>
             <JOE_Nautilant MayRequire="Joe.Cephaloids">0.01</JOE_Nautilant>
-            <Plover MayRequire="11bullets.shorebirds">0.35</Plover>
         </wildAnimals>
         <pollutionWildAnimals>
             <Boomalope>0.1</Boomalope>
@@ -239,6 +238,9 @@
                     <li>CoveWithIsland</li>
                     <li>Fjord</li>
                     <li>SecludedCove</li>
+                    <li>LoneMountain</li>
+                    <li>Caldera</li>
+                    <li>Rift</li>
                 </disallowedLandforms>
                 <isWaterCovered>false</isWaterCovered>
             </li>

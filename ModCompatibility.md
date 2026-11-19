@@ -26,10 +26,6 @@
 | [Dragons Descent](https://steamcommunity.com/sharedfiles/filedetails/?id=2026992161)                                      | onyxae.dragonsdescent                          |
 | [Ducks](https://steamcommunity.com/sharedfiles/filedetails/?id=2377069366)                                                | zylle.ducks                                    |
 | [Elephants](https://steamcommunity.com/sharedfiles/filedetails/?id=2389095025)                                            | zylle.elephants                                |
-| [Erin's Azaphrae - Biotech Ver.](https://steamcommunity.com/sharedfiles/filedetails/?id=3035240271)                       | erin.azaphraebiotech                           |
-| [Erin's Fluffy Fauna](https://steamcommunity.com/sharedfiles/filedetails/?id=3521909777)                                  | erin.fluffyfauna                               |
-| [Erin's Fox Squirrel](https://steamcommunity.com/sharedfiles/filedetails/?id=2092951979)                                  | erin.foxsquirrel                               |
-| [Erin's Shisune](https://steamcommunity.com/sharedfiles/filedetails/?id=2974138931)                                       | erin.shisune                                   |
 | [Extinct Fauna Pack - Cenozoic](https://steamcommunity.com/sharedfiles/filedetails/?id=3663622769)                        | sneezingseal.extinctfaunapack.cenozoic         |
 | [FEB's Biopunk Livestock](https://steamcommunity.com/sharedfiles/filedetails/?id=3556058978)                              | feb.biopunklivestock                           |
 | [Fabled Cervidae](https://steamcommunity.com/sharedfiles/filedetails/?id=3400548142)                                      | scurvyez.fabledcervidae                        |

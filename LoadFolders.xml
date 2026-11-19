@@ -61,6 +61,7 @@
 
 
         <!--DLC-->
+        <li IfModActive="Ludeon.Rimworld.Ideology">1.7/DLC/Ideology</li>
         <li IfModActive="Ludeon.Rimworld.Odyssey">1.7/DLC/Odyssey</li>
 
         <!--Mods-->

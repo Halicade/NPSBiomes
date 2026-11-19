@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/SitePartDef[defName="WorkSite_Mining"]/lootTable</xpath>
+        <value>
+            <li>
+                <thing>TKKN_Amber</thing>
+                <weight>0.2</weight>
+            </li>
+        </value>
+    </Operation>
+</Patch>

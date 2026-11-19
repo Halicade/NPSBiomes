@@ -5,7 +5,7 @@ Then continued by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=35
 When I first found this mod a year ago I fell in love with it. Downloaded it, opened up a quicktest, and watched the terrain slowly transform from the usual dryness to a density that made the dense forest feel like a forest when it rained.
 
 The overall performance of the mod was not great. So I embarked on a multi-month journey to rewrite and optimize the heck out of this mod. Many months and a couple mental breaks later, I think it's ready for release.
-This mod has been split into three parts, Weather Effects, [b]Biomes[/b], Snow textures.
+This mod has been split into three parts, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838152996]Weather Effects[/url], [b]Biomes[/b], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838153201]Snow textures[/url].
 [h1]Biomes[/h1][list]
     [*] Desert Oasis - found in extreme deserts. A spring surrounded by a lot of rich soil. Inspired by big bend national Park
     [*] Desert and Salt Fields - A very dry area which supports little life. Salt weed can be found here. Inspired by Death Valley California.
@@ -24,6 +24,7 @@ This mod has been split into three parts, Weather Effects, [b]Biomes[/b], Snow t
 Added support for over 150 animal and plant mods. Over 1500 animals!
 This might be save compatible with the original Natures pretty sweet. However, I did not aim to make compatibility. You will require both this and the NPS: Weather effects mod if you choose to swap. Make a copy of your save first in case.
 Obviously, don't add or remove biome mods mid-save.
+Github: https://github.com/Halicade/NPSBiomes
 [h2]Credits[/h2]tkkntkkn - Original creator of this mod
 mlie - Continued this mod so I was able to find it
 Paradox, Roque The Rogue, Feb, & MrBeverage - Helped with bugs, testing, general balance, and features

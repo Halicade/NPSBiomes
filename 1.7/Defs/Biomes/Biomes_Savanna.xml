@@ -136,8 +136,6 @@
 
             <PrairieDog MayRequire="Ludeon.Rimworld.Odyssey">0.3</PrairieDog>
             
-            <ERN_Ferret MayRequire="erin.fluffyfauna">0.3</ERN_Ferret>
-            <ERN_Hedgehog MayRequire="erin.fluffyfauna">0.3</ERN_Hedgehog>
             <HC_Pangolin MayRequire="hc.animal.continued">0.6</HC_Pangolin>
             <HC_Serval MayRequire="hc.animal.continued">0.3</HC_Serval>
             <ZHY_Snabbit MayRequire="zylle.hybridanimals">0.4</ZHY_Snabbit>
@@ -200,8 +198,6 @@
             <HumboldtPenguin MayRequire="filippo.penguinexpansion">0.9</HumboldtPenguin>
             <GalapagosPenguin MayRequire="filippo.penguinexpansion">0.75</GalapagosPenguin>
             <Doomalope MayRequire="cucumpear.doomalope">0.05</Doomalope>
-            <Egret MayRequire="11bullets.shorebirds">0.35</Egret>
-            <Plover MayRequire="11bullets.shorebirds">0.15</Plover>
         </wildAnimals>
         <pollutionWildAnimals>
             <Rat>1.0</Rat>

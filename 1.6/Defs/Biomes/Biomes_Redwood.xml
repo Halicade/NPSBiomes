@@ -199,7 +199,6 @@
             <ACPBlackbear MayRequire="acpteam.acpvanillastyle">0.4</ACPBlackbear>
             <ACPDuckBilledPlatypus MayRequire="acpteam.acpvanillastyle">0.4</ACPDuckBilledPlatypus>
             <ACPRedPanda MayRequire="acpteam.acpvanillastyle">0.08</ACPRedPanda>
-            <FoxSquirrel MayRequire="erin.foxsquirrel">0.07</FoxSquirrel>
             <VKC_Baharis MayRequire="ellenot.vaelkorrcreatures">0.1</VKC_Baharis>
             <VKC_FenHowler MayRequire="ellenot.vaelkorrcreatures">0.1</VKC_FenHowler>
             <VKC_Ouborr MayRequire="ellenot.vaelkorrcreatures">0.1</VKC_Ouborr>
@@ -211,8 +210,6 @@
             <DA_Crestel MayRequire="van.beasts">0.1</DA_Crestel>
             <DA_DwarvenMuffton MayRequire="van.beasts">0.4</DA_DwarvenMuffton>
             <CVN_GlockRat MayRequire="shunthewitch.armedrats">0.3</CVN_GlockRat>
-            <ERN_Nuzox MayRequire="erin.azaphraebiotech">0.07</ERN_Nuzox>
-            <ERN_Kimori MayRequire="erin.shisune">0.01</ERN_Kimori>
             <PygmyMuffalo MayRequire="dismarzero.vgp.pygmymuffalo">0.15</PygmyMuffalo>
             <FC_Auravine MayRequire="scurvyez.fabledcervidae">0.5</FC_Auravine>
             <FC_Scire MayRequire="scurvyez.fabledcervidae">0.5</FC_Scire>
